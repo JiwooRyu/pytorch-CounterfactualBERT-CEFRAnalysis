@@ -85,7 +85,7 @@ def create_data_loaders(train_df, valid_df, test_df, tokenizer, batch_size=16):
     
     return train_loader, valid_loader, test_loader
 
-def train_model(model, train_loader, valid_loader, device, epochs=3, learning_rate=2e-5):
+def train_model(model, train_loader, valid_loader, device, tokenizer, epochs=3, learning_rate=2e-5):
     """모델 훈련"""
     print("모델 훈련 시작...")
     
@@ -149,7 +149,8 @@ def train_model(model, train_loader, valid_loader, device, epochs=3, learning_ra
             best_valid_loss = avg_valid_loss
             os.makedirs('models/baseline_distilbert', exist_ok=True)
             model.save_pretrained('models/baseline_distilbert')
-            print("모델 저장됨!")
+            tokenizer.save_pretrained('models/baseline_distilbert')
+            print("모델 및 토크나이저 저장됨!")
     
     return train_losses, valid_losses
 
@@ -224,7 +225,7 @@ def main():
     
     # 모델 훈련
     train_losses, valid_losses = train_model(
-        model, train_loader, valid_loader, device, epochs=3
+        model, train_loader, valid_loader, device, tokenizer, epochs=3
     )
     
     # 모델 평가
