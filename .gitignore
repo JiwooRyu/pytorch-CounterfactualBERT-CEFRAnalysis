@@ -1,0 +1,23 @@
+# 모델, 로그, 캐시 제외
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Huggingface 캐시 등
+cache/
+checkpoints/
+*.log
+wandb/
+logs/
+
+# Jupyter 자동 파일
+.ipynb_checkpoints/
+
+# 모델 디렉토리 통째로
+models/
+output/
+runs/
+
+# 가상환경 폴더
+.venv/
