@@ -1,0 +1,54 @@
+You are given a sentence written by a language learner.
+
+Your task is to generate **counterfactual examples** of this sentence.  
+A counterfactual example is a minimally edited version of the original sentence, designed to explore how slight changes in linguistic form can affect difficulty.
+
+You should rewrite the sentence in 8 different ways, each reflecting one of the following **control codes**. Keep the overall meaning as similar as possible, but modify the sentence according to each transformation type.
+
+Here are the control codes with brief explanations and examples:
+
+- **lexical**: Replace a word or phrase with a more advanced or rare synonym.  
+  Example: "She is happy." → "She is elated."
+
+- **shuffle**: Reorder the words in a grammatically acceptable way.  
+  Example: "I often eat sushi in Tokyo." → "In Tokyo, I often eat sushi."
+
+- **restructure**: Change the sentence structure (e.g., from active to passive voice, or simple to complex).  
+  Example: "The dog chased the cat." → "The cat was chased by the dog."
+
+- **negation**: Add a negation to the sentence while preserving its original meaning.  
+  Example: "I agree with this opinion." → "I don't disagree with this opinion."
+
+- **quantifier**: Add or change quantifiers (e.g., some, most, all, many).  
+  Example: "Students study hard." → "Most students study hard."
+
+- **resemantic**: Replace a phrase with a semantically similar one that changes the nuance.  
+  Example: "He finished the project." → "He completed the assignment."
+
+- **insert**: Add a modifier, adverb, or phrase that increases complexity.  
+  Example: "She went to school." → "She quickly went to the local school."
+
+- **delete**: Remove a non-essential word or phrase to simplify the sentence.  
+  Example: "She went to the local school." → "She went to school."
+
+---
+
+**Original sentence:**  
+"{original_text}"
+
+---
+
+**Output format (in JSON):**
+
+```json
+{
+  "original": "{original_text}",
+  "lexical": "...",
+  "shuffle": "...",
+  "restructure": "...",
+  "negation": "...",
+  "quantifier": "...",
+  "resemantic": "...",
+  "insert": "...",
+  "delete": "..."
+}
