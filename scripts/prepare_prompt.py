@@ -25,7 +25,7 @@ def main():
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as fout:
         for _, row in df.iterrows():
             original_id = row['Unnamed: 0']
-            original_text = row['text']
+            original_text = str(row['text'])
             prompt = template.replace('{original_text}', original_text)
             out = {
                 'original_id': original_id,
@@ -34,6 +34,20 @@ def main():
             }
             fout.write(json.dumps(out, ensure_ascii=False) + '\n')
     print(f'프롬프트 300개가 {OUTPUT_PATH}에 저장되었습니다.')
+
+    # original_id, original_text만 추출해서 json 저장
+    minimal_list = []
+    with open(OUTPUT_PATH, 'r', encoding='utf-8') as fin:
+        for line in fin:
+            item = json.loads(line)
+            minimal_list.append({
+                'original_id': item['original_id'],
+                'original_text': item['original_text']
+            })
+    minimal_output_path = 'outputs/errors/low_confidence_300.json'
+    with open(minimal_output_path, 'w', encoding='utf-8') as fout:
+        json.dump(minimal_list, fout, ensure_ascii=False, indent=2)
+    print(f'original_id, original_text만 저장된 파일이 {minimal_output_path}에 저장되었습니다.')
 
     print(df.columns)
 
