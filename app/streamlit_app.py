@@ -47,7 +47,7 @@ def diff_highlight(a, b, highlight_color):
     return ' '.join(b_out)
 
 # 데이터 로드
-with open('counterfactual_predictions.json', 'r', encoding='utf-8') as f:
+with open('app/counterfactual_predictions.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 st.title('Counterfactual Example Selector')
