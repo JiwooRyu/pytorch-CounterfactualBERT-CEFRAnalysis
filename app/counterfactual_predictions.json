@@ -1,0 +1,552 @@
+[
+  {
+    "original_id": 2285,
+    "original_sentence": "Blankets may be spread on the ground for a picnic or where people want to sit in a grassy or muddy area without soiling their clothing.",
+    "original_prediction": 1,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "Blankets may be unfurled on the ground for a picnic or where individuals want to sit in a verdant or sludgy area without soiling their attire.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "shuffle",
+        "sentence": "For a picnic or in a grassy or muddy area where people want to sit without soiling their clothing, blankets may be spread on the ground.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "restructure",
+        "sentence": "To avoid getting their clothes dirty, people may spread blankets on the ground for a picnic or in grassy or muddy areas.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "Blankets are not unlikely to be spread on the ground for a picnic or where people don’t want to dirty their clothing in grassy or muddy areas.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "quantifier",
+        "sentence": "Several blankets may be spread on the ground for a picnic or where many people want to sit in a grassy or muddy area without soiling their clothing.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "resemantic",
+        "sentence": "People use blankets to sit on grass or mud during picnics so their clothes stay clean.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "insert",
+        "sentence": "Blankets may be neatly spread on the ground for a picnic or where people want to sit in a grassy or particularly muddy area without soiling their clothing.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "delete",
+        "sentence": "Blankets may be spread on the ground for a picnic or where people want to sit without soiling their clothing.",
+        "prediction": 0,
+        "is_label_flipped": true
+      }
+    ]
+  },
+  {
+    "original_id": 1912,
+    "original_sentence": "As with all other cricket statistics, batting statistics and records are given much attention and provide a measure of a player's effectiveness.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "As with all other cricket metrics, batting statistics and records receive considerable scrutiny and offer a gauge of a player's proficiency.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Batting statistics and records, as with all other cricket statistics, are given much attention and provide a measure of a player's effectiveness.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "restructure",
+        "sentence": "Batting statistics and records are used to assess a player's effectiveness and, like all cricket statistics, are highly regarded.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "Batting statistics and records are not ignored, just like other cricket statistics, as they help gauge a player's effectiveness.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "quantifier",
+        "sentence": "Most batting statistics and records are given much attention, similar to all other cricket statistics, as they reflect a player's effectiveness.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Batting records are closely analyzed in cricket because they show how well a player performs.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "insert",
+        "sentence": "As with virtually all other cricket statistics, detailed batting statistics and records are given much attention and provide a good measure of a player’s effectiveness.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "Batting statistics and records are given attention and provide a measure of a player's effectiveness.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  },
+  {
+    "original_id": 1255,
+    "original_sentence": "Both at the server and the user level, Discord allows users to connect these to their Twitch.tv or other gaming service account.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "At both the server and individual level, Discord enables users to link these to their Twitch.tv or alternative gaming platform accounts.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Discord allows users, both at the server and user level, to connect these to their Twitch.tv or other gaming service account.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "restructure",
+        "sentence": "Users can connect their Twitch.tv or other gaming accounts through Discord, whether at the server level or the user level.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "negation",
+        "sentence": "It is not impossible for users to connect their Twitch.tv or gaming service accounts to Discord at both the server and user level.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "quantifier",
+        "sentence": "Most users can connect these to their Twitch.tv or other gaming service account via Discord, both at the server and user level.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Users on Discord often link their Twitch or gaming profiles through server or personal settings.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "insert",
+        "sentence": "Both at the server and the user level, Discord conveniently allows users to connect these to their Twitch.tv or other preferred gaming service account.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "Discord allows users to connect to their Twitch.tv or other gaming service account.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  },
+  {
+    "original_id": 1978,
+    "original_sentence": "Built between 2003 and 2006 out of formerly barren lands, it covers 40 hectares.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "Constructed between 2003 and 2006 on previously desolate land, it spans 40 hectares.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Out of formerly barren lands, it was built between 2003 and 2006 and covers 40 hectares.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "restructure",
+        "sentence": "It covers 40 hectares and was built between 2003 and 2006 on land that was once barren.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "negation",
+        "sentence": "It wasn’t built before 2003, and the area wasn’t fertile when construction began; now it covers 40 hectares.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "quantifier",
+        "sentence": "The entire 40 hectares were developed between 2003 and 2006 on what was once barren land.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Once desolate, the area was developed between 2003 and 2006 into a 40-hectare site.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "insert",
+        "sentence": "Originally built between 2003 and 2006 on what had been completely barren land, it now impressively covers 40 hectares.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "Built between 2003 and 2006, it covers 40 hectares.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  },
+  {
+    "original_id": 1700,
+    "original_sentence": "Standing ovations are also often given in a sporting game to reflect an outstanding individual performance.",
+    "original_prediction": 1,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "Standing ovations are frequently bestowed in sporting events to honor an exceptional personal display.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "shuffle",
+        "sentence": "In a sporting game, standing ovations are also often given to reflect an outstanding individual performance.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "restructure",
+        "sentence": "When someone performs exceptionally well in a sporting game, they are often rewarded with a standing ovation.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "It’s not uncommon for standing ovations to be given in sporting games when an individual excels.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "quantifier",
+        "sentence": "Many sporting games feature standing ovations to reflect outstanding individual performances.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Fans rise to their feet in sports to show appreciation for remarkable personal achievements.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "insert",
+        "sentence": "Standing ovations are also often spontaneously given in a sporting game to reflect an outstanding individual performance.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "delete",
+        "sentence": "Standing ovations are often given in a sporting game to reflect an individual performance.",
+        "prediction": 0,
+        "is_label_flipped": true
+      }
+    ]
+  },
+  {
+    "original_id": 91,
+    "original_sentence": "More women being shunned from higher executive positions are protesting on social media.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "More women being excluded from upper-level executive roles are demonstrating via social media.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "On social media, more women being shunned from higher executive positions are protesting.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "restructure",
+        "sentence": "Because they are being excluded from high executive roles, more women are turning to social media to protest.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "More women who are not being welcomed into higher executive positions are not staying silent on social media.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "quantifier",
+        "sentence": "Many more women being shunned from higher executive roles are now protesting on social media.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Women who are overlooked for leadership roles are increasingly voicing their discontent online.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "insert",
+        "sentence": "More and more women being systematically shunned from higher executive positions are actively protesting on social media platforms.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "Women being shunned from executive positions are protesting on social media.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  },
+  {
+    "original_id": 669,
+    "original_sentence": "In many countries, drowning is one of the main causes of preventable death for children under 12 years old.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "In numerous nations, drowning constitutes a leading cause of avoidable mortality among children under the age of 12.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Drowning is one of the main causes of preventable death for children under 12 years old in many countries.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "restructure",
+        "sentence": "Children under 12 often die from drowning, which is a major preventable cause of death in many countries.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "It’s not uncommon for drowning to be a preventable cause of death among children under 12 in many countries.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "quantifier",
+        "sentence": "In several countries, drowning is among the top causes of preventable death for children under 12.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Many children under 12 die from drowning, though such deaths could often be avoided.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "insert",
+        "sentence": "In many countries, unfortunately, drowning is still one of the main causes of preventable death for children under 12 years old.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "In many countries, drowning is a main cause of preventable death for children under 12.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  },
+  {
+    "original_id": 2560,
+    "original_sentence": "The number of strings on the rebec varies from 1 to 5, although three is the most common number.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "The quantity of strings on the rebec ranges from 1 to 5, with three being the most prevalent configuration.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Although three is the most common number, the number of strings on the rebec varies from 1 to 5.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "restructure",
+        "sentence": "While the rebec may have between 1 and 5 strings, three strings are most frequently used.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "It’s not unusual for the rebec to have three strings, though the total number can vary from 1 to 5.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "quantifier",
+        "sentence": "Most rebecs have three strings, although the number can range from 1 to 5.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Rebecs come with different numbers of strings, but three is the usual choice.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "insert",
+        "sentence": "The number of strings on the rebec typically varies from 1 to 5, although three is by far the most common number.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "The rebec has 1 to 5 strings, though three is most common.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  },
+  {
+    "original_id": 1046,
+    "original_sentence": "In the world, breast cancer is the fifth-most common cause of cancer death.",
+    "original_prediction": 1,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "Globally, breast cancer ranks as the fifth-leading cause of oncological mortality.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Breast cancer is the fifth-most common cause of cancer death in the world.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "restructure",
+        "sentence": "Breast cancer ranks fifth among all causes of cancer-related death worldwide.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "negation",
+        "sentence": "Breast cancer is not the least common cause of cancer death globally; it ranks fifth.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "quantifier",
+        "sentence": "In many parts of the world, breast cancer is among the top five causes of cancer death.",
+        "prediction": 0,
+        "is_label_flipped": true
+      },
+      {
+        "type": "resemantic",
+        "sentence": "Breast cancer accounts for a significant portion of cancer-related deaths, ranking fifth globally.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "insert",
+        "sentence": "In the world today, breast cancer remains the fifth-most common cause of death due to cancer.",
+        "prediction": 1,
+        "is_label_flipped": false
+      },
+      {
+        "type": "delete",
+        "sentence": "Globally, breast cancer is the fifth cause of cancer death.",
+        "prediction": 0,
+        "is_label_flipped": true
+      }
+    ]
+  },
+  {
+    "original_id": 2720,
+    "original_sentence": "Most tin whistles are in D, because they are often used in music with fiddles.",
+    "original_prediction": 0,
+    "counterfactuals": [
+      {
+        "type": "lexical",
+        "sentence": "The majority of tin whistles are pitched in D, as they are frequently employed in musical pieces involving fiddles.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "shuffle",
+        "sentence": "Because they are often used in music with fiddles, most tin whistles are in D.",
+        "prediction": 0,
+        "is_label_flipped": false
+      },
+      {
+        "type": "restructure",
+        "sentence": "Due to their frequent use in fiddle music, tin whistles are most commonly found in the key of D.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "negation",
+        "sentence": "It’s not uncommon for tin whistles to be in D, since they are not rarely used with fiddles.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "quantifier",
+        "sentence": "A large proportion of tin whistles are in D, given their use in fiddle-related music.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "resemantic",
+        "sentence": "D is the standard key for tin whistles, largely because they pair well with fiddles.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "insert",
+        "sentence": "Most tin whistles are typically in D, primarily because they are often used in traditional music with fiddles.",
+        "prediction": 1,
+        "is_label_flipped": true
+      },
+      {
+        "type": "delete",
+        "sentence": "Most tin whistles are in D, because they are used with fiddles.",
+        "prediction": 0,
+        "is_label_flipped": false
+      }
+    ]
+  }
+]
