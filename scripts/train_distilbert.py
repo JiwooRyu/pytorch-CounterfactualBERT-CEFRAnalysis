@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertForSequenceClassification, AdamW
+from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, AdamW
 from transformers import get_linear_schedule_with_warmup
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import matplotlib.pyplot as plt
@@ -147,9 +147,9 @@ def train_model(model, train_loader, valid_loader, device, tokenizer, epochs=3, 
         # 최고 성능 모델 저장
         if avg_valid_loss < best_valid_loss:
             best_valid_loss = avg_valid_loss
-            os.makedirs('models/baseline_bert', exist_ok=True)
-            model.save_pretrained('models/baseline_bert')
-            tokenizer.save_pretrained('models/baseline_bert')
+            os.makedirs('models/baseline_distilbert', exist_ok=True)
+            model.save_pretrained('models/baseline_distilbert')
+            tokenizer.save_pretrained('models/baseline_distilbert')
             print("모델 및 토크나이저 저장됨!")
     
     return train_losses, valid_losses
@@ -194,7 +194,7 @@ def evaluate_model(model, test_loader, device):
     plt.ylabel('True Label')
     plt.xlabel('Predicted Label')
     plt.tight_layout()
-    plt.savefig('models/baseline_bert/confusion_matrix.png', dpi=300, bbox_inches='tight')
+    plt.savefig('models/baseline_distilbert/confusion_matrix.png', dpi=300, bbox_inches='tight')
     plt.show()
     
     return accuracy, report, conf_matrix
@@ -209,10 +209,10 @@ def main():
     train_df, valid_df, test_df = load_data()
     
     # 토크나이저 및 모델 로드
-    print("BERT 모델 로드 중...")
-    model_name = 'bert-base-uncased'
-    tokenizer = BertTokenizer.from_pretrained(model_name)
-    model = BertForSequenceClassification.from_pretrained(
+    print("DistilBERT 모델 로드 중...")
+    model_name = 'distilbert-base-uncased'
+    tokenizer = DistilBertTokenizer.from_pretrained(model_name)
+    model = DistilBertForSequenceClassification.from_pretrained(
         model_name, 
         num_labels=2
     )
@@ -232,8 +232,8 @@ def main():
     accuracy, report, conf_matrix = evaluate_model(model, test_loader, device)
     
     print("\n=== 훈련 완료 ===")
-    print("모델이 models/baseline_bert/에 저장되었습니다.")
-    print("Confusion Matrix가 models/baseline_bert/confusion_matrix.png에 저장되었습니다.")
+    print("모델이 models/baseline_distilbert/에 저장되었습니다.")
+    print("Confusion Matrix가 models/baseline_distilbert/confusion_matrix.png에 저장되었습니다.")
 
 if __name__ == "__main__":
     main()
