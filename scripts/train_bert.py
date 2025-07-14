@@ -44,115 +44,66 @@ class CEFRDataset(Dataset):
 def load_data():
     """데이터 로드"""
     print("데이터 로드 중...")
-    
     train_df = pd.read_csv('data/processed/train.csv')
-    valid_df = pd.read_csv('data/processed/valid.csv')
     test_df = pd.read_csv('data/processed/test.csv')
-    
     print(f"Train: {train_df.shape[0]}개")
-    print(f"Valid: {valid_df.shape[0]}개")
     print(f"Test: {test_df.shape[0]}개")
-    
-    return train_df, valid_df, test_df
+    return train_df, test_df
 
-def create_data_loaders(train_df, valid_df, test_df, tokenizer, batch_size=16):
+def create_data_loaders(train_df, test_df, tokenizer, batch_size=16):
     """데이터 로더 생성"""
     print("데이터 로더 생성 중...")
-    
     # 데이터셋 생성
     train_dataset = CEFRDataset(
         texts=train_df['text'].values,
         labels=train_df['label'].values,
         tokenizer=tokenizer
     )
-    
-    valid_dataset = CEFRDataset(
-        texts=valid_df['text'].values,
-        labels=valid_df['label'].values,
-        tokenizer=tokenizer
-    )
-    
     test_dataset = CEFRDataset(
         texts=test_df['text'].values,
         labels=test_df['label'].values,
         tokenizer=tokenizer
     )
-    
     # 데이터 로더 생성
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    valid_loader = DataLoader(valid_dataset, batch_size=batch_size, shuffle=False)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
-    
-    return train_loader, valid_loader, test_loader
+    return train_loader, test_loader
 
-def train_model(model, train_loader, valid_loader, device, tokenizer, epochs=3, learning_rate=2e-5):
+def train_model(model, train_loader, device, tokenizer, epochs=3, learning_rate=2e-5):
     """모델 훈련"""
     print("모델 훈련 시작...")
-    
     optimizer = AdamW(model.parameters(), lr=learning_rate)
     total_steps = len(train_loader) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-    
-    best_valid_loss = float('inf')
     train_losses = []
-    valid_losses = []
-    
     for epoch in range(epochs):
         print(f"\nEpoch {epoch + 1}/{epochs}")
-        
         # 훈련
         model.train()
         train_loss = 0
         train_progress = tqdm(train_loader, desc="Training")
-        
         for batch in train_progress:
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
             labels = batch['labels'].to(device)
-            
             optimizer.zero_grad()
             outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
             loss = outputs.loss
             loss.backward()
             optimizer.step()
             scheduler.step()
-            
             train_loss += loss.item()
             train_progress.set_postfix({'loss': loss.item()})
-        
         avg_train_loss = train_loss / len(train_loader)
         train_losses.append(avg_train_loss)
-        
-        # 검증
-        model.eval()
-        valid_loss = 0
-        valid_progress = tqdm(valid_loader, desc="Validation")
-        
-        with torch.no_grad():
-            for batch in valid_progress:
-                input_ids = batch['input_ids'].to(device)
-                attention_mask = batch['attention_mask'].to(device)
-                labels = batch['labels'].to(device)
-                
-                outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-                loss = outputs.loss
-                valid_loss += loss.item()
-                valid_progress.set_postfix({'loss': loss.item()})
-        
-        avg_valid_loss = valid_loss / len(valid_loader)
-        valid_losses.append(avg_valid_loss)
-        
-        print(f"Train Loss: {avg_train_loss:.4f}, Valid Loss: {avg_valid_loss:.4f}")
-        
-        # 최고 성능 모델 저장
-        if avg_valid_loss < best_valid_loss:
-            best_valid_loss = avg_valid_loss
+        print(f"Train Loss: {avg_train_loss:.4f}")
+        # 최고 성능 모델 저장 (마지막 epoch 기준)
+        if epoch == epochs - 1:
             os.makedirs('models/baseline_bert', exist_ok=True)
             model.save_pretrained('models/baseline_bert')
             tokenizer.save_pretrained('models/baseline_bert')
             print("모델 및 토크나이저 저장됨!")
-    
-    return train_losses, valid_losses
+    return train_losses
 
 def evaluate_model(model, test_loader, device):
     """모델 평가"""
@@ -204,10 +155,8 @@ def main():
     # 디바이스 설정
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"사용 디바이스: {device}")
-    
     # 데이터 로드
-    train_df, valid_df, test_df = load_data()
-    
+    train_df, test_df = load_data()
     # 토크나이저 및 모델 로드
     print("BERT 모델 로드 중...")
     model_name = 'bert-base-uncased'
@@ -217,20 +166,16 @@ def main():
         num_labels=2
     )
     model.to(device)
-    
     # 데이터 로더 생성
-    train_loader, valid_loader, test_loader = create_data_loaders(
-        train_df, valid_df, test_df, tokenizer, batch_size=16
+    train_loader, test_loader = create_data_loaders(
+        train_df, test_df, tokenizer, batch_size=16
     )
-    
     # 모델 훈련
-    train_losses, valid_losses = train_model(
-        model, train_loader, valid_loader, device, tokenizer, epochs=3
+    train_losses = train_model(
+        model, train_loader, device, tokenizer, epochs=3
     )
-    
     # 모델 평가
     accuracy, report, conf_matrix = evaluate_model(model, test_loader, device)
-    
     print("\n=== 훈련 완료 ===")
     print("모델이 models/baseline_bert/에 저장되었습니다.")
     print("Confusion Matrix가 models/baseline_bert/confusion_matrix.png에 저장되었습니다.")
