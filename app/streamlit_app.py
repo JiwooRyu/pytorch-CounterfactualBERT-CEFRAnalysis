@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import difflib
 import random
+import datetime
 
 st.set_page_config(page_title="Counterfactual Example Selector", layout="wide")
 
@@ -213,3 +214,39 @@ st.markdown('''
 *(For example, mention specific expressions or contrasts that helped clarify your judgment.)*
 ''')
 st.text_area("3-3_benefit", placeholder="Please write your answer here.", key="3-3_benefit")
+
+# --- 저장 버튼 및 다운로드 기능 (앱 최하단) ---
+st.markdown('---')
+st.header('Save All Your Responses')
+st.markdown('''
+To save your answers for all parts of the survey (Part 1, Part 2, Part 3), please click the button below.\
+All your selections and inputs will be saved in a single JSON file.
+''')
+st.markdown('''
+<span style="color:#d32f2f; font-size: 1.25em; font-weight:bold;">After saving, you MUST send the downloaded file to jiwooryu45@ajou.ac.kr.<br>If you do not send the file, your responses will NOT be collected.</span>
+''', unsafe_allow_html=True)
+if st.button('SAVE', key='save_all'):
+    responses = {}
+    # Part 2: control code feedback
+    part2 = {}
+    for code in CONTROL_TYPE_STYLE.keys():
+        part2[code] = {
+            '2-1': st.session_state.get(f'2-1_{code}'),
+            '2-2': st.session_state.get(f'2-2_{code}'),
+            '2-3': st.session_state.get(f'2-3_{code}')
+        }
+    responses['part2_control_code_feedback'] = part2
+    # Part 3: AI collaboration feedback
+    responses['part3_ai_collaboration_feedback'] = {
+        '3-1': st.session_state.get('3-1_quality'),
+        '3-2': st.session_state.get('3-2_helpful'),
+        '3-3': st.session_state.get('3-3_benefit')
+    }
+    ts = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+    filename = f'expert_response_{ts}.json'
+    st.download_button(
+        label='Download All Responses',
+        data=json.dumps(responses, ensure_ascii=False, indent=2),
+        file_name=filename,
+        mime='application/json'
+    )
