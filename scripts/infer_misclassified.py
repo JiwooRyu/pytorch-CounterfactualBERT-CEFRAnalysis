@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import torch
 from torch.utils.data import Dataset, DataLoader
-from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
+from transformers import BertTokenizer, BertForSequenceClassification
 import os
 from tqdm import tqdm
 
@@ -39,51 +39,58 @@ class CEFRDataset(Dataset):
 def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # 데이터 로드
-    test_df = pd.read_csv('data/processed/test.csv')
+    base_df = pd.read_csv('data/processed/base.csv')
+    print(f"총 {len(base_df)}개의 문장을 처리합니다.")
+    
     # 모델 및 토크나이저 로드
-    model_dir = 'models/baseline_distilbert'
-    tokenizer = DistilBertTokenizer.from_pretrained(model_dir)
-    model = DistilBertForSequenceClassification.from_pretrained(model_dir)
+    model_dir = 'models/baseline_bert'
+    tokenizer = BertTokenizer.from_pretrained(model_dir)
+    model = BertForSequenceClassification.from_pretrained(model_dir)
     model.to(device)
     model.eval()
+    
     # 데이터셋/로더
     test_dataset = CEFRDataset(
-        texts=test_df['text'].values,
-        labels=test_df['label'].values,
+        texts=base_df['text'].values,
+        labels=base_df['label'].values,
         tokenizer=tokenizer
     )
     test_loader = DataLoader(test_dataset, batch_size=16, shuffle=False)
+    
     # 예측 및 confidence score 계산
     all_probs = []
     all_preds = []
     all_labels = []
-    all_texts = []
+    
     with torch.no_grad():
         for batch in tqdm(test_loader, desc='Infer'):
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
             labels = batch['labels'].cpu().numpy()
+            
             outputs = model(input_ids=input_ids, attention_mask=attention_mask)
             logits = outputs.logits.cpu().numpy()
             probs = softmax(logits)
             preds = np.argmax(probs, axis=1)
             confs = np.max(probs, axis=1)
+            
             all_probs.extend(confs)
             all_preds.extend(preds)
             all_labels.extend(labels)
-            all_texts.extend([t for t in batch['input_ids']])
-    # 낮은 confidence 순으로 정렬
-    df_result = test_df.copy()
+    
+    # 결과 데이터프레임 생성
+    df_result = base_df.copy()
     df_result['pred'] = all_preds
     df_result['confidence'] = all_probs
-    # 정답/오답 여부
     df_result['correct'] = (df_result['label'] == df_result['pred'])
-    # 낮은 confidence 순으로 300개
-    df_lowconf = df_result.sort_values('confidence', ascending=True).head(300)
+    
     # 저장
     os.makedirs('outputs/errors', exist_ok=True)
-    df_lowconf.to_csv('outputs/errors/low_confidence_300.csv', index=False)
-    print('저장 완료: outputs/errors/low_confidence_300.csv')
+    df_result.to_csv('outputs/errors/base_sentence_full.csv', index=False)
+    print('저장 완료: outputs/errors/base_sentence_full.csv')
+    print(f"총 {len(df_result)}개의 문장이 처리되었습니다.")
+    print(f"정확도: {df_result['correct'].mean():.4f}")
+    print(f"평균 confidence: {df_result['confidence'].mean():.4f}")
 
 if __name__ == "__main__":
     main()

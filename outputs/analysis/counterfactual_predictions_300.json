@@ -2,109 +2,109 @@
   {
     "original_id": "2285",
     "original_sentence": "Blankets may be spread on the ground for a picnic or where people want to sit in a grassy or muddy area without soiling their clothing.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Blankets may be laid on the ground for a picnic or where individuals wish to sit in a verdant or sodden area without staining their garments.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "For a picnic or where people want to sit in a grassy or muddy area without soiling their clothing, blankets may be spread on the ground.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "In grassy or muddy areas where people want to sit without soiling their clothing, blankets can be spread on the ground for a picnic.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Blankets are not unlikely to be spread on the ground for a picnic or in places where people don't want to soil their clothing in grassy or muddy areas.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Blankets may often be spread on the ground for a picnic or in places where many people want to sit in a grassy or muddy area without soiling their clothing.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Blankets can be placed on the ground for a picnic or wherever people prefer to sit on grass or mud without getting their clothes dirty.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Blankets may be carefully spread on the ground for a relaxing picnic or in locations where people want to sit in a grassy or muddy area without accidentally soiling their clothing.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "Blankets may be spread on the ground for a picnic or where people want to sit without soiling their clothing.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
   {
     "original_id": "1912",
     "original_sentence": "As with all other cricket statistics, batting statistics and records are given much attention and provide a measure of a player's effectiveness.",
-    "original_prediction": 0,
+    "original_prediction": 1,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "As with all other cricket metrics, batting statistics and records receive considerable attention and offer an indication of a player's proficiency.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "Batting statistics and records, as with all other cricket statistics, are given much attention and provide a measure of a player's effectiveness.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Batting statistics and records, which are treated like all other cricket statistics, are closely followed as they reflect a player's effectiveness.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Batting statistics and records are not ignored, as with all other cricket statistics, and they do not fail to provide a measure of a player's effectiveness.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "As with most other cricket statistics, batting statistics and records are given significant attention and provide a strong measure of a player's effectiveness.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Just like other data in cricket, batting stats and records attract attention and serve to gauge how effective a player is.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "As with all other detailed cricket statistics, batting statistics and historical records are given much attention and typically provide a reliable measure of a player's effectiveness.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "As with other cricket statistics, batting records are given attention and provide a measure of a player's effectiveness.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": false
       }
     ]
@@ -178,8 +178,8 @@
       {
         "type": "shuffle",
         "sentence": "Out of formerly barren lands, built between 2003 and 2006, it covers 40 hectares.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
@@ -208,8 +208,8 @@
       {
         "type": "insert",
         "sentence": "Built between 2003 and 2006 out of previously barren agricultural lands, it currently covers 40 hectares.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -233,14 +233,14 @@
       {
         "type": "shuffle",
         "sentence": "In a sporting game, standing ovations are also often given to reflect an outstanding individual performance.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "To acknowledge an outstanding individual performance, standing ovations are often given in sporting games.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -251,14 +251,14 @@
       {
         "type": "quantifier",
         "sentence": "Standing ovations are usually given in many sporting games to reflect an outstanding individual performance.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "In sports, audiences often give standing ovations to honor exceptional personal achievements.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -288,20 +288,20 @@
       {
         "type": "shuffle",
         "sentence": "Women being shunned from higher executive positions are protesting more on social media.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Women who are increasingly excluded from senior executive positions are turning to social media to protest.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Not all women accepted into executive positions are silent; many excluded ones are protesting on social media.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -312,8 +312,8 @@
       {
         "type": "resemantic",
         "sentence": "More women facing exclusion from top leadership roles are expressing their frustration on social media.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -332,55 +332,55 @@
   {
     "original_id": 2669,
     "original_sentence": "As a profession, medical illustration has a more recent history.",
-    "original_prediction": 0,
+    "original_prediction": 1,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "As an occupation, medical illustration possesses a comparatively modern history.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "Medical illustration, as a profession, has a more recent history.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "The history of medical illustration as a profession is relatively recent.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Medical illustration does not have an ancient history as a profession; it's more recent.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "In many regions, medical illustration as a profession has a more recent history.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "The development of medical illustration into a formal job is fairly new.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "As a formal profession, medical illustration has a significantly more recent history compared to other artistic disciplines.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "Medical illustration has a recent professional history.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       }
     ]
   },
@@ -392,8 +392,8 @@
       {
         "type": "lexical",
         "sentence": "Starting in 2014, the museum experienced financial reductions that reduced its upkeep budget to below R $520,000 per year.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -416,8 +416,8 @@
       {
         "type": "quantifier",
         "sentence": "In recent years, including from 2014 onward, the museum has faced several budget cuts reducing its annual maintenance below R $520,000.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -428,8 +428,8 @@
       {
         "type": "insert",
         "sentence": "Beginning in 2014, the museum encountered serious budget cuts that significantly reduced its maintenance allocation to less than R $520,000 per year.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -471,8 +471,8 @@
       {
         "type": "quantifier",
         "sentence": "In many ways, the influence of the region began to rise gradually after the Soest district was founded in 1817.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -497,55 +497,55 @@
   {
     "original_id": 515,
     "original_sentence": "The throwback uniforms would have an impact on future seasons in the NHL, as several teams adopted throwbacks as alternate jerseys.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Retro uniforms influenced later NHL seasons, with various teams incorporating them as secondary jerseys.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Several teams adopted throwbacks as alternate jerseys, so the throwback uniforms impacted future NHL seasons.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "Throwback uniforms influenced later NHL seasons when teams began using them as alternate jerseys.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "The throwback uniforms weren’t without effect—they impacted future NHL seasons as teams adopted them.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Many teams in the NHL adopted throwback jerseys, making a notable impact on future seasons.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Vintage-inspired jerseys changed the look of future NHL games, as multiple teams embraced the style.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "The nostalgic throwback uniforms would go on to influence future NHL seasons, as numerous teams began adopting them as official alternate jerseys.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Throwback uniforms influenced future NHL seasons.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -593,8 +593,8 @@
       {
         "type": "insert",
         "sentence": "It is especially well known for its creatively inviting structure that resembles a jungle gym in both form and function.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -636,8 +636,8 @@
       {
         "type": "quantifier",
         "sentence": "In most timelines, the animated series fits chronologically between the films.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -662,55 +662,55 @@
   {
     "original_id": 1461,
     "original_sentence": "The shrinking generator uses a different technique.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The shrinking generator employs an alternative method.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "A different technique is used by the shrinking generator.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Instead of traditional methods, the shrinking generator applies a unique technique.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "It doesn’t use the same approach— the shrinking generator uses a different technique.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Many cryptographic systems use varied methods; the shrinking generator employs a distinct one.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "The shrinking generator operates with its own specific method, unlike conventional ones.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The shrinking generator utilizes a notably different cryptographic technique from standard generators.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The shrinking generator uses a different method.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -722,8 +722,8 @@
       {
         "type": "lexical",
         "sentence": "The division was among the initial 65 constituencies involved in the inaugural federal election.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
@@ -746,14 +746,14 @@
       {
         "type": "quantifier",
         "sentence": "Several of the first 65 divisions, including this one, were part of the initial federal election.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "This was one of the foundational districts participating in the country’s first national vote.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -772,54 +772,54 @@
   {
     "original_id": 2156,
     "original_sentence": "As part of the regeneration, the transport links to Ravenscraig will be greatly improved.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "As an element of the redevelopment, transportation connections to Ravenscraig will be significantly enhanced.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "The transport links to Ravenscraig will be greatly improved as part of the regeneration.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Regeneration efforts will lead to major improvements in transport access to Ravenscraig.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "The regeneration won’t exclude transport—connections to Ravenscraig will be greatly enhanced.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Many aspects of the regeneration include better transport links to Ravenscraig.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Part of the urban renewal includes major upgrades to how people get to and from Ravenscraig.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "As part of the extensive regeneration project, the transport links and connectivity to Ravenscraig will be greatly improved and modernized.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "As part of regeneration, Ravenscraig transport will improve.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -838,8 +838,8 @@
       {
         "type": "shuffle",
         "sentence": "From shallow coastal waters to at least 1000 m deep, electric rays are found.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -899,8 +899,8 @@
       {
         "type": "restructure",
         "sentence": "Many species of birds are drawn to gardens with bird baths, especially in times of summer heat or drought.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -1082,8 +1082,8 @@
       {
         "type": "resemantic",
         "sentence": "Getting tested for STIs is a key part of stopping their transmission.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -1094,8 +1094,8 @@
       {
         "type": "delete",
         "sentence": "Testing for STIs is important for prevention.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -1113,14 +1113,14 @@
       {
         "type": "shuffle",
         "sentence": "The palace, located on the hillside, was considered crucial in the early days of the kingdom for establishing control.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "The hillside palace was essential to asserting control in the kingdom's early development.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -1137,8 +1137,8 @@
       {
         "type": "resemantic",
         "sentence": "Perched on a hill, the palace was central to early governance in the kingdom.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -1157,110 +1157,110 @@
   {
     "original_id": 630,
     "original_sentence": "The 20 in diameter cannon accepted balls that weighed 175 kg.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The 20-inch diameter cannon accommodated projectiles weighing 175 kilograms.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Balls that weighed 175 kg were accepted by the 20 in diameter cannon.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "This cannon, measuring 20 inches in diameter, could fire 175 kg balls.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It wasn’t a small cannon—the 20-inch barrel accepted 175 kg balls.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most cannons of this type could accept heavy balls; this one fired 175 kg rounds.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "With its large bore, the cannon was capable of launching massive 175 kg projectiles.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The massive 20-inch diameter cannon was engineered to accept extremely heavy balls, each weighing up to 175 kilograms.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The cannon accepted 175 kg balls.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
   {
     "original_id": 1935,
     "original_sentence": "This lets the photographer control the amount of light reaching the film or image sensor.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "This enables the photographer to regulate how much light reaches the film or image sensor.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "The photographer controls the light reaching the film or sensor using this.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "This gives photographers control over the light that hits the sensor or film.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Without this, photographers wouldn’t be able to control light reaching the sensor.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most photographers use this to control the amount of light hitting the sensor or film.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "It allows the photographer to adjust exposure by managing incoming light.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "This mechanism allows the photographer to precisely control the intensity of light that reaches the film or image sensor during shooting.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "This lets the photographer control the light on the sensor.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -1278,20 +1278,20 @@
       {
         "type": "shuffle",
         "sentence": "They are active day and night, but kodkods only enter open ground in darkness.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Although active both day and night, kodkods enter open areas only when it's dark.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Kodkods don’t go into open ground during daylight—they do so only in darkness.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
@@ -1357,8 +1357,8 @@
       {
         "type": "resemantic",
         "sentence": "With no visible stem or foliage, these are among the most basic plants.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -1382,8 +1382,8 @@
       {
         "type": "lexical",
         "sentence": "On 29 August 2010, off-road bikers came across an additional human skeleton in the woodland.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -1467,8 +1467,8 @@
       {
         "type": "resemantic",
         "sentence": "Females become capable of reproduction earlier than males, who mature three years later.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -1487,109 +1487,109 @@
   {
     "original_id": 654,
     "original_sentence": "Similarities in his musical style with the earlier works of Mozart have often been noted.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Parallels between his musical style and Mozart’s earlier compositions have frequently been observed.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "His musical style has often been noted for similarities with the earlier works of Mozart.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Observers have often noted that his style resembles early Mozart compositions.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It hasn’t gone unnoticed—many have remarked on similarities to early Mozart.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "In numerous analyses, similarities to early Mozart can be found in his musical style.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "People often say his music echoes Mozart’s earlier works.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Clear similarities in his musical style with the earlier compositions of Mozart have been frequently observed and discussed by scholars.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "His music is often compared to early Mozart.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
   {
     "original_id": 424,
     "original_sentence": "It can be used as a mordant.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "It may serve as a mordant in dyeing processes.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "As a mordant, it can be used.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "This substance is useful as a mordant.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It’s not unusable—it can be used as a mordant.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "In many cases, it can be used effectively as a mordant.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "It functions well as a fixing agent for dyes.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "In textile dyeing, it can often be used as an effective mordant to help fix colors.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "It is used as a mordant.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -1608,8 +1608,8 @@
       {
         "type": "shuffle",
         "sentence": "To rescue the trapped battalions, the main attack was launched.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
@@ -1626,14 +1626,14 @@
       {
         "type": "quantifier",
         "sentence": "The main attack was one of several attempts to rescue the trapped battalions.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "The major assault was focused on freeing the surrounded troops.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -1652,110 +1652,110 @@
   {
     "original_id": 1527,
     "original_sentence": "The court has ruled that the $2.7 billion in school funding was not good enough and was given out unfairly.",
-    "original_prediction": 0,
+    "original_prediction": 1,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The court determined that the $2.7 billion allocated for education was insufficient and inequitably distributed.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "That the $2.7 billion in school funding was inadequate and unfairly distributed was the court’s ruling.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "According to the court, the school funding of $2.7 billion was both inadequate and distributed in an unfair manner.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "The court didn’t find the $2.7 billion acceptable—it was inadequate and unfairly distributed.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Much of the $2.7 billion was considered by the court to be insufficient and unfairly distributed.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "The funding plan for schools was deemed both lacking and poorly allocated by the court.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The court has officially ruled that the $2.7 billion set aside for school funding was grossly insufficient and distributed in a significantly unfair manner.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "The court ruled the $2.7 billion was unfair.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       }
     ]
   },
   {
     "original_id": 1294,
     "original_sentence": "Conscious thought is not necessary for knowledge of results to have its effect.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Awareness is not essential for performance feedback to exert its influence.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "For knowledge of results to have its effect, conscious thought is not necessary.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "The effect of knowing results does not require conscious thought.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It isn’t required to be consciously aware for feedback to have an effect.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "In many instances, knowledge of results impacts behavior without the need for conscious thought.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Feedback can shape learning even without conscious awareness.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "Interestingly, conscious thought is generally not required for knowledge of results to produce behavioral changes or improvements.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Conscious thought isn't required for results to affect.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -1785,8 +1785,8 @@
       {
         "type": "negation",
         "sentence": "These services don’t depend on fares—they're funded by other means such as subsidies or sponsorships.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
@@ -1822,8 +1822,8 @@
       {
         "type": "lexical",
         "sentence": "The significance and purpose are occasionally reflected using alternative terminology.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -1840,14 +1840,14 @@
       {
         "type": "negation",
         "sentence": "It’s not always the case, but meaning and intent can sometimes be mirrored by different terms.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "In some cases, the meaning and intent are mirrored using different expressions.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -1872,55 +1872,55 @@
   {
     "original_id": 1907,
     "original_sentence": "The giant panda has luxuriant black-and-white fur.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The giant panda sports dense and striking black-and-white pelage.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Luxuriant black-and-white fur covers the giant panda.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Covered in plush black and white fur, the giant panda is easily recognized.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It’s not lacking in fur—the giant panda has rich black-and-white fur.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most giant pandas are recognized by their thick black-and-white fur.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "The panda’s thick coat of black and white makes it visually distinctive.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "The giant panda is instantly recognizable thanks to its thick, luxuriant coat of black-and-white fur.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The panda has black-and-white fur.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -1944,8 +1944,8 @@
       {
         "type": "restructure",
         "sentence": "It is claimed that one date marks the king's birth and the other his coronation.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -1968,8 +1968,8 @@
       {
         "type": "insert",
         "sentence": "According to several reports, these two dates are believed to represent the king's birthday and his coronation day, respectively.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -2017,8 +2017,8 @@
       {
         "type": "resemantic",
         "sentence": "Potoroos give birth to two young per year, though only one is carried at a time.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -2103,8 +2103,8 @@
       {
         "type": "shuffle",
         "sentence": "Agriculture, livestock, tourism, and trade with Haiti are the municipality’s main economic activities.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -2115,8 +2115,8 @@
       {
         "type": "negation",
         "sentence": "The municipality’s economy doesn’t rely on industry but on farming, livestock, tourism, and trade with Haiti.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -2147,55 +2147,55 @@
   {
     "original_id": 1133,
     "original_sentence": "Since measurings begun in 1905, several November records for deep snow were broken.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Since observations commenced in 1905, numerous November snowfall records have been surpassed.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "Several November deep snow records were broken since measurements began in 1905.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Ever since snow measurements started in 1905, multiple November records for snowfall have been broken.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It’s not the case that all records held—several were broken since 1905.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Many snowfall records for November have been broken since 1905, when measurements began.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Record-breaking deep snowfalls have occurred in November multiple times since 1905.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Since official snow measurements began in 1905, multiple longstanding November records for deep snow have been broken.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Since 1905, several November snow records were broken.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -2213,8 +2213,8 @@
       {
         "type": "shuffle",
         "sentence": "Bugles that are modern instruments are often valved.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
@@ -2225,8 +2225,8 @@
       {
         "type": "negation",
         "sentence": "Modern bugles aren’t always valve-less—they’re often valved.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
@@ -2249,8 +2249,8 @@
       {
         "type": "delete",
         "sentence": "Modern bugles often have valves.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       }
     ]
   },
@@ -2280,8 +2280,8 @@
       {
         "type": "negation",
         "sentence": "If a group doesn’t spend more than it earns, it may use the leftover funds for investment or lending.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
@@ -2292,8 +2292,8 @@
       {
         "type": "resemantic",
         "sentence": "Surplus funds can be put toward loans or investments by financially successful groups.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -2312,55 +2312,55 @@
   {
     "original_id": 2552,
     "original_sentence": "The only time a female flying lizard ventures to the ground is when she is ready to lay her eggs.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "A female flying lizard descends to the ground solely for egg-laying purposes.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "Only when she is ready to lay eggs does the female flying lizard go to the ground.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Female flying lizards go to the ground exclusively to lay eggs.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "A female flying lizard doesn’t go to the ground except to lay eggs.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most female flying lizards only touch the ground when they are ready to lay eggs.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Ground visits by female flying lizards occur only during reproduction.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "The only instance when a female flying lizard will descend to the ground is precisely when she is about to lay her eggs.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "She goes to the ground only to lay eggs.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -2439,8 +2439,8 @@
       {
         "type": "restructure",
         "sentence": "Different currencies place the symbol in different positions when writing amounts.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -2451,14 +2451,14 @@
       {
         "type": "quantifier",
         "sentence": "In many currencies, the placement of the symbol varies when amounts are written.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Currency formats differ in where they position the monetary symbol.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -2518,8 +2518,8 @@
       {
         "type": "insert",
         "sentence": "A traditional and special Christmas family meal forms an essential part of the holiday celebration, although the dishes served differ substantially between different countries.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -2537,8 +2537,8 @@
       {
         "type": "lexical",
         "sentence": "Passes are synchronized among iOS devices via iCloud, and OS X 10.8.2 onward facilitates opening passes for transfer to users’ iOS devices.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -2561,8 +2561,8 @@
       {
         "type": "quantifier",
         "sentence": "Most iOS devices sync passes using iCloud, and many OS X versions from 10.8.2 onward support pass sharing.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -2622,8 +2622,8 @@
       {
         "type": "resemantic",
         "sentence": "Philosophy is another field where game theory has proven useful.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -2708,14 +2708,14 @@
       {
         "type": "shuffle",
         "sentence": "GRUB loads the selected kernel into memory and passes control to it once boot options are selected.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "GRUB first loads the chosen kernel into memory and then hands over control, after boot options are chosen.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
@@ -2732,8 +2732,8 @@
       {
         "type": "resemantic",
         "sentence": "GRUB initializes the kernel and gives it control after the user picks boot settings.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -2757,8 +2757,8 @@
       {
         "type": "lexical",
         "sentence": "Due to his status as a former Irish President, he received a national funeral.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
@@ -2769,14 +2769,14 @@
       {
         "type": "restructure",
         "sentence": "Because he once served as Ireland's President, a state funeral was held in his honor.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "He wasn't denied honors—he received a state funeral for having been President of Ireland.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -2807,55 +2807,55 @@
   {
     "original_id": 1836,
     "original_sentence": "In appearance, it is light yellow and opaque, smooth and creamy.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Visually, it appears pale yellow, non-transparent, with a silky and rich texture.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "It is smooth and creamy, light yellow and opaque in appearance.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Its visual characteristics include a smooth, creamy texture and a light yellow, opaque color.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "It isn’t transparent or dark—it is light yellow, opaque, smooth, and creamy.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most descriptions mention its light yellow hue and smooth, opaque texture.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "It looks soft and rich, with a pale color and no transparency.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "In terms of appearance, the substance exhibits a light yellow hue, lacks transparency, and has a distinctly smooth and creamy consistency.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "It is light yellow, opaque, smooth, and creamy.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -2885,8 +2885,8 @@
       {
         "type": "negation",
         "sentence": "Contribution claims aren’t usually handled differently—they're made like the original.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
@@ -2897,8 +2897,8 @@
       {
         "type": "resemantic",
         "sentence": "Such claims are generally submitted in the same way as the initial claim.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -2909,8 +2909,8 @@
       {
         "type": "delete",
         "sentence": "Contribution claims are usually like the original.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       }
     ]
   },
@@ -2989,8 +2989,8 @@
       {
         "type": "restructure",
         "sentence": "The air raids on September 7–8, 1941, during WWII resulted in the deaths of the Zoo’s elephants.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -3044,8 +3044,8 @@
       {
         "type": "restructure",
         "sentence": "The prefecture has banned mine exploration, and anyone caught is heavily fined.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -3056,8 +3056,8 @@
       {
         "type": "quantifier",
         "sentence": "In most cases, people caught exploring the mines are issued heavy fines by the prefecture.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -3082,54 +3082,54 @@
   {
     "original_id": 2111,
     "original_sentence": "The word lineman / linesman refers to those who work in generally outdoor installation and maintenance jobs.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The term lineman / linesman denotes individuals engaged in predominantly outdoor setup and upkeep tasks.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Lineman / linesman refers to those who generally work in outdoor installation and maintenance jobs.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Those employed in outdoor installation and maintenance work are commonly referred to as linemen or linesmen.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "The word lineman / linesman does not refer to indoor workers but to those involved in outdoor installation and maintenance.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Most linemen / linesmen perform outdoor installation and maintenance duties.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "People who handle outside technical setups and repairs are often called linemen or linesmen.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "The word lineman / linesman typically refers to individuals who perform essential outdoor installation and ongoing maintenance work.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Lineman / linesman refers to those in outdoor installation and maintenance.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -3137,55 +3137,55 @@
   {
     "original_id": 1460,
     "original_sentence": "The shrinking generator takes a different approach.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The shrinking generator employs an alternative methodology.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "A different approach is taken by the shrinking generator.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Rather than following conventional methods, the shrinking generator adopts a distinct strategy.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "The shrinking generator does not follow the usual approach.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Some shrinking generators take different approaches.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Unlike standard generators, the shrinking generator uses a unique strategy.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The shrinking generator, unlike traditional models, takes a notably different approach to its function.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The shrinking generator uses a different method.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -3215,8 +3215,8 @@
       {
         "type": "negation",
         "sentence": "This region hasn’t historically used non-Romance languages as official ones.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -3247,55 +3247,55 @@
   {
     "original_id": 1905,
     "original_sentence": "A traditional design, the grapnel style is simple to design and build.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "As a conventional structure, the grapnel model is straightforward to construct and fabricate.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "The grapnel style, a traditional design, is simple to build and design.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "The grapnel style, being a traditional design, offers ease in construction and planning.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "The grapnel style isn’t complex to design or build—it follows a traditional layout.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most traditional designs like the grapnel style are easy to design and build.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "The grapnel style is an old and uncomplicated type that’s easy to make.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "As a widely recognized traditional design, the grapnel style remains relatively simple to both conceptualize and construct.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The grapnel style is simple to build.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -3386,8 +3386,8 @@
       {
         "type": "quantifier",
         "sentence": "Many members left the party after the 1856 election, leading to rapid decline.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -3545,20 +3545,20 @@
       {
         "type": "negation",
         "sentence": "Without rapid forces, important locations couldn’t be adequately protected from the enemy.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most important locations required fast-moving forces for protection from the enemy.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Quick military units were crucial for defending critical areas.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -3577,55 +3577,55 @@
   {
     "original_id": 1716,
     "original_sentence": "The geodetic center of North America is within the county.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The geospatial center of North America lies inside the boundaries of the county.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Within the county lies the geodetic center of North America.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "This county contains the geodetic center point of North America.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "The geodetic center isn’t outside the county—it’s located within it.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Most geographic measurements place the geodetic center of North America in this county.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "North America’s central geodetic location falls within this county’s borders.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The officially recognized geodetic center of the North American continent is located within the geographical limits of the county.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The center of North America is in the county.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -3765,8 +3765,8 @@
       {
         "type": "negation",
         "sentence": "Caramel sauce is not made without heating water and caster sugar.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -3844,8 +3844,8 @@
       {
         "type": "delete",
         "sentence": "SIDS rates are higher in babies of smoking mothers.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -3863,8 +3863,8 @@
       {
         "type": "shuffle",
         "sentence": "There is not enough scientific evidence to support the use of most treatments, even though many alternative ones are used for the common cold.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -3875,8 +3875,8 @@
       {
         "type": "negation",
         "sentence": "There isn’t enough scientific proof to claim that most alternative cold treatments are effective.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -3924,8 +3924,8 @@
       {
         "type": "restructure",
         "sentence": "Post-1998, he encountered difficulties with weight regulation and recurring injuries.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -3948,8 +3948,8 @@
       {
         "type": "insert",
         "sentence": "After the year 1998, he gradually began suffering from both persistent weight-control problems and repeated injuries.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -3979,8 +3979,8 @@
       {
         "type": "restructure",
         "sentence": "Although ragtime was replaced by newer styles in the 1920s, it has seen many revivals.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -4017,54 +4017,54 @@
   {
     "original_id": 915,
     "original_sentence": "Brown recluse spiders are usually between 6 and , but may grow larger.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Brown recluse spiders typically measure between 6 mm and a certain length, though they can become larger.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Usually between 6 and , brown recluse spiders may grow even larger.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Although they are commonly between 6 and , brown recluse spiders can grow beyond this size.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "It is not unusual for brown recluse spiders to exceed their usual size of 6 and .",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Some brown recluse spiders are between 6 and , but others can be larger.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "These spiders generally range around 6 and , with the potential to grow bigger.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Brown recluse spiders are usually between 6 and in length, although under certain conditions they may grow larger.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Brown recluse spiders are usually 6 to , but may grow.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -4072,55 +4072,55 @@
   {
     "original_id": 817,
     "original_sentence": "Gribbles bore into wood and plant material for food.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Gribbles tunnel into timber and botanical matter for sustenance.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "For food, Gribbles bore into wood and plant material.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "To obtain nourishment, Gribbles burrow into wood and other vegetation.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "Gribbles do not avoid boring into wood and plant material when feeding.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Many Gribbles bore into wood and plant material to feed.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Gribbles consume their meals by penetrating wood and vegetation.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "Gribbles typically bore into soft wood and plant material for food.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Gribbles bore into wood for food.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -4132,8 +4132,8 @@
       {
         "type": "lexical",
         "sentence": "Although he explored various artistic genres, his exceptional gift lay in landscape painting.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -4144,8 +4144,8 @@
       {
         "type": "restructure",
         "sentence": "Despite his experimentation with diverse styles, he was particularly known for landscape painting.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -4217,8 +4217,8 @@
       {
         "type": "resemantic",
         "sentence": "Szeged and the nearby region have seen continuous human presence since early history.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -4315,8 +4315,8 @@
       {
         "type": "negation",
         "sentence": "Fuel added after launch is not considered when determining specific impulse.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -4352,8 +4352,8 @@
       {
         "type": "lexical",
         "sentence": "Guests usually disembark at a tram stop situated in the arrival plaza flanked by the administrative buildings and the museum entry.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -4437,8 +4437,8 @@
       {
         "type": "resemantic",
         "sentence": "The author’s identity remains a mystery, sparking various theories.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -4462,8 +4462,8 @@
       {
         "type": "lexical",
         "sentence": "Heavy or power rotation refers to a playlist of tracks receiving maximum airplay on a radio station.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -4498,8 +4498,8 @@
       {
         "type": "insert",
         "sentence": "Heavy or power rotation is typically a curated list of songs that receive the most frequent airplay on a radio station.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -4633,8 +4633,8 @@
       {
         "type": "shuffle",
         "sentence": "To be washed away, soaps and detergents spread oils and dirt through the water.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -4645,8 +4645,8 @@
       {
         "type": "negation",
         "sentence": "Without soaps and detergents, oils and dirt cannot easily be washed away in water.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -4657,8 +4657,8 @@
       {
         "type": "resemantic",
         "sentence": "Cleaning agents work by breaking up oil and dirt, enabling water to remove them.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -4688,8 +4688,8 @@
       {
         "type": "shuffle",
         "sentence": "Five petals, often grown together, are present in many species.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -4773,8 +4773,8 @@
       {
         "type": "insert",
         "sentence": "The library features a well-equipped chess room that houses a wide range of materials meticulously dedicated to the history, study, and practice of chess.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -4834,8 +4834,8 @@
       {
         "type": "delete",
         "sentence": "No firm dates can be assigned to his reign, but it is thought to be from 498 to 506.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -4859,8 +4859,8 @@
       {
         "type": "restructure",
         "sentence": "Each country where African elephants live provides them with some form of legal protection.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -4871,8 +4871,8 @@
       {
         "type": "quantifier",
         "sentence": "Most countries where African elephants are found offer them some level of legal protection.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -4914,8 +4914,8 @@
       {
         "type": "restructure",
         "sentence": "The typical method for making butter cakes involves whipping butter and sugar until the mixture becomes fluffy.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -4938,8 +4938,8 @@
       {
         "type": "insert",
         "sentence": "Traditional butter cakes are often made by thoroughly beating the butter and sugar together until the mixture becomes light and fluffy.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -4999,8 +4999,8 @@
       {
         "type": "delete",
         "sentence": "Its relative and parallel majors are E and C-sharp.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -5024,8 +5024,8 @@
       {
         "type": "restructure",
         "sentence": "In some instances, ministries are retained by the Prime Minister instead of being distributed to cabinet members.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -5036,8 +5036,8 @@
       {
         "type": "quantifier",
         "sentence": "A few specific ministries are managed solely by the Prime Minister and not delegated to others.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -5227,55 +5227,55 @@
   {
     "original_id": 441,
     "original_sentence": "The majority of squid are no more than 60 cm long, although the giant squid may reach 13 m.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Most squid species measure under 60 cm in length, though the colossal squid can grow up to 13 meters.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Although the giant squid may reach 13 m, the majority of squid are no more than 60 cm long.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "While giant squid can grow to 13 meters, most squid are less than 60 centimeters in length.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Not all squid are large; most do not exceed 60 cm in length.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "The vast majority of squid are shorter than 60 cm, though a few species may grow much longer.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Squid vary greatly in size, with most being small but some like the giant squid reaching massive lengths.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The vast majority of squid are relatively small, usually no longer than 60 cm, although species like the giant squid may grow to lengths of up to 13 meters.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Most squid are under 60 cm, but giant ones may reach 13 m.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -5458,8 +5458,8 @@
       {
         "type": "shuffle",
         "sentence": "About a quarter of the over 360 monuments Historic Scotland managed were manned and charged admission.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -5507,8 +5507,8 @@
       {
         "type": "lexical",
         "sentence": "After two significant incidents in 2002 and 2003, a primary safety concern has revolved around corner 130R.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -5537,8 +5537,8 @@
       {
         "type": "resemantic",
         "sentence": "Corner 130R has remained a focal point of safety discussions since the accidents in 2002 and 2003.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -5562,8 +5562,8 @@
       {
         "type": "lexical",
         "sentence": "The expansive hall of the station was selected due to its resemblance in dimensions to 19th-century concert venues, specifically featuring a 'shoebox style' design.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -5574,8 +5574,8 @@
       {
         "type": "restructure",
         "sentence": "Its shoebox-style proportions, resembling those of 19th-century concert halls, led to the selection of the station’s large hall.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -5592,8 +5592,8 @@
       {
         "type": "resemantic",
         "sentence": "The hall was selected for its acoustically favorable, traditional concert hall shape.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -5623,8 +5623,8 @@
       {
         "type": "shuffle",
         "sentence": "Because they sing both during the day and at night, nightingales are named accordingly.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
@@ -5714,8 +5714,8 @@
       {
         "type": "delete",
         "sentence": "Breckinridge ordered officers to inspect troops and report back.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -5763,8 +5763,8 @@
       {
         "type": "insert",
         "sentence": "Under current regulations, goaltenders are explicitly not permitted to serve in the role of captain during games.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "delete",
@@ -5818,8 +5818,8 @@
       {
         "type": "insert",
         "sentence": "In addition to full members, the organization comprises 19 associate members and one affiliate member.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -5904,14 +5904,14 @@
       {
         "type": "restructure",
         "sentence": "There is generally no reaction from healthy gums when exposed to normal brushing.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "Healthy gums don’t usually react negatively to regular brushing.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -5959,8 +5959,8 @@
       {
         "type": "restructure",
         "sentence": "The common cold has existed for ages, even though its cause was discovered only in the 1950s.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
@@ -6020,8 +6020,8 @@
       {
         "type": "negation",
         "sentence": "Let’s not assume the investor has unlimited options; rather, imagine they had to choose between just two stocks.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -6124,8 +6124,8 @@
       {
         "type": "restructure",
         "sentence": "Although the exact dates are unclear, the Emperor is traditionally believed to have ruled between 480 and 484.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
@@ -6154,8 +6154,8 @@
       {
         "type": "delete",
         "sentence": "No firm dates exist, but he likely reigned from 480 to 484.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -6222,8 +6222,8 @@
       {
         "type": "lexical",
         "sentence": "Currently, Trailways affiliates are dispersed throughout North America.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -6258,8 +6258,8 @@
       {
         "type": "insert",
         "sentence": "Today, Trailways members are widely spread throughout many regions of North America.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -6272,55 +6272,55 @@
   {
     "original_id": 1751,
     "original_sentence": "Certain networks have made changes to prevent them from being used by such multi-network IM clients.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Some networks have implemented modifications to block access by multi-protocol instant messaging clients.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "To prevent usage by multi-network IM clients, certain networks have made changes.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "To block multi-network IM clients, specific networks have modified their systems.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Certain networks no longer allow multi-network IM clients due to recent changes.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Several networks have made adjustments to restrict usage by multi-network IM clients.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Networks have acted to block cross-platform instant messaging tools.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "In response to compatibility issues, certain networks have proactively made changes to stop multi-network IM clients from accessing their services.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Networks made changes to block multi-network IM clients.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -6466,8 +6466,8 @@
       {
         "type": "quantifier",
         "sentence": "Some performance improvements are delivered through WAN optimization or WAFS.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -6484,8 +6484,8 @@
       {
         "type": "delete",
         "sentence": "Performance is sometimes improved by WAN optimization.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -6649,8 +6649,8 @@
       {
         "type": "delete",
         "sentence": "Before Egypt united, autonomous villages settled the land.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       }
     ]
   },
@@ -6698,8 +6698,8 @@
       {
         "type": "insert",
         "sentence": "In this coastal town, one of the leading economic drivers is tourism, with scuba diving standing out as the most prominent attraction.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -6717,14 +6717,14 @@
       {
         "type": "lexical",
         "sentence": "The plant’s yellow blossoms yield fuzzy seed pods, each bearing about six seeds.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Each pod, containing about six seeds, is produced by the plant’s yellow flowers.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -6857,8 +6857,8 @@
       {
         "type": "resemantic",
         "sentence": "The English version contains over 108,000 words arranged in two flowing segments without any chapter separations.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -6912,8 +6912,8 @@
       {
         "type": "resemantic",
         "sentence": "Though the exact years remain unknown, it is generally assumed this Emperor ruled during the early 5th century CE.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -6961,8 +6961,8 @@
       {
         "type": "quantifier",
         "sentence": "Much of the eastern border of the province corresponds to the western side of the Maas.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -6979,8 +6979,8 @@
       {
         "type": "delete",
         "sentence": "The eastern border of the province aligns with the western side of the Maas.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -7071,8 +7071,8 @@
       {
         "type": "quantifier",
         "sentence": "Many phrases of British origin, including this one, derive from sports involving goalposts.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -7102,8 +7102,8 @@
       {
         "type": "lexical",
         "sentence": "This species displays a turquoise to green coloration and typically reaches about 46 cm in length.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -7126,8 +7126,8 @@
       {
         "type": "quantifier",
         "sentence": "Most individuals of this species grow to about 46 cm and have greenish coloring.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -7138,8 +7138,8 @@
       {
         "type": "insert",
         "sentence": "This aquatic species is blue-green to green in color and usually grows to a length of approximately 46 cm in adulthood.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -7236,8 +7236,8 @@
       {
         "type": "quantifier",
         "sentence": "Fatal accidents like the one that caused Birdsong’s death on June 4, 2019, are not uncommon.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -7267,8 +7267,8 @@
       {
         "type": "lexical",
         "sentence": "The initial $32 million phase of a significant enhancement project commenced in 2010 and was projected to finish in 2015.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -7303,8 +7303,8 @@
       {
         "type": "insert",
         "sentence": "The A$32 million first phase of the comprehensive upgrade initiative was launched in 2010 and anticipated to conclude by 2015.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -7377,8 +7377,8 @@
       {
         "type": "lexical",
         "sentence": "During the elimination stage, teams engage in two-legged encounters, one home and one away, with the final being a single match.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
@@ -7592,54 +7592,54 @@
   {
     "original_id": 2500,
     "original_sentence": "Producing a stop-motion animation using clay is extremely laborious.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Creating a stop-motion animation with clay is highly arduous.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Using clay to produce stop-motion animation is extremely laborious.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Clay-based stop-motion animation production requires immense effort.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Producing clay stop-motion animation isn’t a simple task.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most stop-motion animations using clay are extremely laborious to produce.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Making a stop-motion film with clay demands significant effort and time.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Producing a detailed stop-motion animation using clay is an extremely labor-intensive process.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Making clay stop-motion animation is laborious.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -7731,8 +7731,8 @@
       {
         "type": "quantifier",
         "sentence": "All forms of architecture involve both artistic and scientific elements in designing buildings.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -7902,8 +7902,8 @@
       {
         "type": "resemantic",
         "sentence": "The mystery of Short’s death has fueled endless rumors and theories among the public.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -7927,8 +7927,8 @@
       {
         "type": "lexical",
         "sentence": "Across the university grounds, numerous fountains emit ambient white noise.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -7939,8 +7939,8 @@
       {
         "type": "restructure",
         "sentence": "Fountains situated across the campus generate white noise for ambient effect.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -7957,8 +7957,8 @@
       {
         "type": "resemantic",
         "sentence": "Fountains scattered around campus generate soothing ambient sounds.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -8067,8 +8067,8 @@
       {
         "type": "resemantic",
         "sentence": "French firms were searching for graduates who possessed particular expertise for important industry roles.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -8134,8 +8134,8 @@
       {
         "type": "delete",
         "sentence": "Many cultures have oral law, while modern legal systems are written.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -8299,62 +8299,62 @@
       {
         "type": "delete",
         "sentence": "It is grown in gardens with pastel-colored cultivars.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
   {
     "original_id": 2269,
     "original_sentence": "It is a close relative of the mourning and eared doves.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "It is a near kin of the mourning dove and the eared dove.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "Of the mourning and eared doves, it is a close relative.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "This species shares a close evolutionary relationship with the mourning and eared doves.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "It isn’t unrelated to the mourning and eared doves.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Like many dove species, it is closely related to mourning and eared doves.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "This bird is in the same family as the mourning and eared doves.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "It is considered a close biological relative of both the mourning and the eared doves in avian classification.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "It is related to mourning and eared doves.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -8362,54 +8362,54 @@
   {
     "original_id": 2641,
     "original_sentence": "All shrews are comparatively small, most no larger than a mouse.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "All shrews are relatively diminutive, with the majority not exceeding the size of a mouse.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "Most shrews are no larger than a mouse, and all are comparatively small.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Shrews, being among the smallest mammals, are generally not bigger than a mouse.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Shrews aren’t typically larger than a mouse.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Almost all shrews are small, usually no bigger than mice.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "These mammals are tiny, with most shrews rivaling mice in size.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "All shrews are known to be comparatively small creatures, with most individuals measuring no more than a common house mouse.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "Most shrews are no larger than a mouse.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -8587,8 +8587,8 @@
       {
         "type": "lexical",
         "sentence": "Generation and utilization of energy resources is vital to the global economy.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -8623,8 +8623,8 @@
       {
         "type": "insert",
         "sentence": "Production and effective use of crucial energy resources is highly important to the modern global economy.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -8715,8 +8715,8 @@
       {
         "type": "negation",
         "sentence": "An addition reaction is not the same as an elimination reaction.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -8794,8 +8794,8 @@
       {
         "type": "delete",
         "sentence": "Nouns and adjectives are made by getting the root.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       }
     ]
   },
@@ -8807,8 +8807,8 @@
       {
         "type": "lexical",
         "sentence": "The expression is employed in a broad array of contexts.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -8843,8 +8843,8 @@
       {
         "type": "insert",
         "sentence": "The phrase is commonly used in a remarkably wide range of diverse contexts and scenarios.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -8862,8 +8862,8 @@
       {
         "type": "lexical",
         "sentence": "This species may be observed airborne from April through October in southern regions, and from summer until early autumn in the north.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -8953,8 +8953,8 @@
       {
         "type": "insert",
         "sentence": "There were only two competing teams in the quad doubles category, and they played a straightforward final match to determine who would be crowned champions.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "delete",
@@ -9057,8 +9057,8 @@
       {
         "type": "resemantic",
         "sentence": "Leaf insects disguise themselves as leaves for protection.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -9106,8 +9106,8 @@
       {
         "type": "quantifier",
         "sentence": "Most game artists are responsible for developing visuals in role-playing environments.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -9412,8 +9412,8 @@
       {
         "type": "lexical",
         "sentence": "Its native environments consist of subtropical and tropical woodlands.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -9503,8 +9503,8 @@
       {
         "type": "insert",
         "sentence": "Among the town's key industries, tourism stands out—particularly due to the popularity of scuba diving with visitors.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -9558,8 +9558,8 @@
       {
         "type": "insert",
         "sentence": "The swimming competition was conducted in the open sea as the event organizers deliberately avoided the high cost of building a dedicated stadium.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -9577,8 +9577,8 @@
       {
         "type": "lexical",
         "sentence": "It comprises 8 districts and 28 administrative municipalities.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
@@ -9644,8 +9644,8 @@
       {
         "type": "restructure",
         "sentence": "Environmental pressure affects the boiling point of a liquid.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
@@ -9674,8 +9674,8 @@
       {
         "type": "delete",
         "sentence": "The boiling point depends on environmental pressure.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -9760,8 +9760,8 @@
       {
         "type": "negation",
         "sentence": "It is not the case that Funny Cars lack the sixth feature, a roof escape opening, which has been standard since the 1970s.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -9792,55 +9792,55 @@
   {
     "original_id": 600,
     "original_sentence": "The film's story is about an astronaut crew who leave Earth on a deep space mission and crash land on a supposedly alien planet in the 40th century.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The movie's plot follows a team of astronauts who depart Earth for deep space and eventually crash on a presumed extraterrestrial planet in the 40th century.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "In the 40th century, a crew of astronauts leaves Earth on a deep space mission and crash-lands on an alien planet.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "An astronaut crew on a deep space mission from Earth crash-lands on what is believed to be an alien world in the 40th century.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "The film doesn’t take place on Earth but follows astronauts who crash on a seemingly alien planet.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "A group of astronauts crash-lands on an alien world during one of the many deep space missions of the 40th century.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Set in the distant future, the film narrates how astronauts explore space and end up stranded on a mysterious planet.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The science fiction film's storyline features a crew of astronauts embarking on an ambitious deep space journey and crash-landing on what appears to be an alien world during the 40th century.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The film is about astronauts who crash on an alien planet in the 40th century.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -10041,8 +10041,8 @@
       {
         "type": "quantifier",
         "sentence": "Several changes in their service terms may have led to resentment.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -10053,8 +10053,8 @@
       {
         "type": "insert",
         "sentence": "There were notable changes in the terms of their service, potentially leading to resentment among the group.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "delete",
@@ -10108,8 +10108,8 @@
       {
         "type": "insert",
         "sentence": "Mood and emotional states within the work environment are directly associated with levels of job satisfaction.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -10139,8 +10139,8 @@
       {
         "type": "restructure",
         "sentence": "They gathered in prayer, hoping for the rains to stop overflowing the river and harming the crops.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -10224,8 +10224,8 @@
       {
         "type": "delete",
         "sentence": "A meltdown can be part of a disaster chain.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -10243,8 +10243,8 @@
       {
         "type": "shuffle",
         "sentence": "Efforts to discover brown dwarfs were fruitless for many years.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -10255,20 +10255,20 @@
       {
         "type": "negation",
         "sentence": "Efforts to discover brown dwarfs did not yield results for many years.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Numerous efforts over the years to find brown dwarfs were unsuccessful.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Scientists spent years searching for brown dwarfs without success.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -10279,8 +10279,8 @@
       {
         "type": "delete",
         "sentence": "Efforts to discover brown dwarfs were fruitless.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -10389,62 +10389,62 @@
       {
         "type": "delete",
         "sentence": "This subfamily is widely distributed and adapted to many environments.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
   {
     "original_id": 2781,
     "original_sentence": "As a result the two worlds collide and it seems they are doomed by circumstance.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Consequently, the two realms clash, appearing to be condemned by fate.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "The two worlds collide, and as a result, they appear doomed by circumstance.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "Because of these events, the two worlds come into conflict and appear destined for ruin.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "It does not seem that the two worlds can avoid being doomed by circumstance once they collide.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Both worlds seem entirely doomed by the circumstances that led to their collision.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "The convergence of the two worlds appears to seal their tragic fate.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "As a direct consequence, the two disparate worlds inevitably collide, and it seems they are tragically doomed by circumstances beyond control.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The worlds collide and seem doomed by circumstance.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -10548,8 +10548,8 @@
       {
         "type": "insert",
         "sentence": "The well-known pumpkin is believed to be native specifically to the continent of North America.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -10579,8 +10579,8 @@
       {
         "type": "restructure",
         "sentence": "The province continues to rely heavily on agriculture, which contributes 15% to its total output.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -10664,8 +10664,8 @@
       {
         "type": "delete",
         "sentence": "Evaporation is part of the water cycle.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -10677,8 +10677,8 @@
       {
         "type": "lexical",
         "sentence": "No documentation exists of his involvement in any martial endeavors during his era.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -10707,8 +10707,8 @@
       {
         "type": "resemantic",
         "sentence": "His historical record lacks evidence of any military involvement.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -10762,8 +10762,8 @@
       {
         "type": "resemantic",
         "sentence": "The adoption of weather maps in modern forecasting began in the mid-1800s.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -10872,8 +10872,8 @@
       {
         "type": "resemantic",
         "sentence": "How courts are arranged and judges selected varies depending on the legal framework of each state.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -10884,8 +10884,8 @@
       {
         "type": "delete",
         "sentence": "Court structure and judge selection are determined by state law.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -10947,54 +10947,54 @@
   {
     "original_id": 2780,
     "original_sentence": "As a result, the two worlds collide and it seems they are doomed by circumstance.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Consequently, the two realms clash, and it appears they are fated for ruin.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "The two worlds collide, and as a result, they seem doomed by circumstance.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "Due to this, the two worlds come into conflict and appear destined for misfortune.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "It does not seem that the two worlds can avoid being doomed once they collide.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Both worlds appear completely doomed by the overwhelming circumstances after their collision.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "The meeting of the two worlds appears to seal their unfortunate fate.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "As a dramatic consequence, the two very different worlds inevitably collide, and it seems they are tragically doomed by unavoidable circumstances.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The two worlds collide and seem doomed.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -11019,14 +11019,14 @@
       {
         "type": "restructure",
         "sentence": "The two airplanes collided over the canyon when their flight paths crossed around 11:31 AM MST.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "There was no way to prevent the collision once their paths intersected over the canyon at 11:31 AM MST.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -11049,8 +11049,8 @@
       {
         "type": "delete",
         "sentence": "At 11:31 AM MST, the planes intersected and collided.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -11086,8 +11086,8 @@
       {
         "type": "quantifier",
         "sentence": "Each of the provinces and territories is divided into multiple regions for different purposes.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -11104,8 +11104,8 @@
       {
         "type": "delete",
         "sentence": "Provinces and territories are divided into regions for various purposes.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },
@@ -11202,8 +11202,8 @@
       {
         "type": "resemantic",
         "sentence": "The invention of fireworks is credited to China in the 7th century.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
@@ -11277,54 +11277,54 @@
   {
     "original_id": 1971,
     "original_sentence": "The first recorded outbreak of chikungunya may have been in 1779.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "The earliest documented chikungunya epidemic likely occurred in 1779.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "In 1779, the first recorded outbreak of chikungunya may have taken place.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
         "sentence": "Chikungunya’s first known outbreak is believed to have occurred in 1779.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "negation",
         "sentence": "There is no evidence that chikungunya outbreaks were recorded before 1779.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "One of the earliest known outbreaks of chikungunya might have taken place in 1779.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Historical records suggest that chikungunya first spread in 1779.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "The first officially recorded outbreak of the chikungunya virus may have occurred as early as the year 1779.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "The first chikungunya outbreak may have been in 1779.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       }
     ]
@@ -11332,55 +11332,55 @@
   {
     "original_id": 2807,
     "original_sentence": "In the center of a village, the ground begins to open up and a strange green light emanates from within.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "In the heart of a village, the earth starts to split and an eerie green glow radiates from inside.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "The ground begins to open up in the center of a village, and a strange green light emanates from within.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "As the ground opens in the village center, an unusual green light shines from below.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "The ground doesn't remain solid in the village center; instead, it opens as a strange green light emerges.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "In many village centers, the ground sometimes opens up and a strange green light can emerge.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "At the village center, the earth parts and an otherworldly green light glows from beneath.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "In the very center of a quiet village, the ground suddenly begins to open up, and a strange, pulsating green light emanates from within.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "delete",
         "sentence": "In a village, the ground opens and a green light emanates.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
@@ -11477,8 +11477,8 @@
       {
         "type": "resemantic",
         "sentence": "The group is found across many regions and its members thrive in numerous types of habitats.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -11514,8 +11514,8 @@
       {
         "type": "restructure",
         "sentence": "Modern Western popular music often includes the technique of call and response singing.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -11642,8 +11642,8 @@
       {
         "type": "resemantic",
         "sentence": "With just two participants, the Quad doubles title was settled in a single decisive match.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -11746,8 +11746,8 @@
       {
         "type": "quantifier",
         "sentence": "Many academic historians contributed to the historical journal, which was established in the 19th century.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -11887,8 +11887,8 @@
       {
         "type": "lexical",
         "sentence": "Canada is also home to numerous aboriginal languages.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
@@ -11972,8 +11972,8 @@
       {
         "type": "resemantic",
         "sentence": "Some clinics provide initial care and assessment for injured or ill individuals by trained staff.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -12033,8 +12033,8 @@
       {
         "type": "insert",
         "sentence": "March music is often particularly important during formal ceremonial occasions such as parades or official events.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -12070,8 +12070,8 @@
       {
         "type": "negation",
         "sentence": "The officials did not appear unprepared for the inevitable criticism following the policy announcement.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
@@ -12107,8 +12107,8 @@
       {
         "type": "lexical",
         "sentence": "He had a minor role in the upheavals of 1848.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -12186,8 +12186,8 @@
       {
         "type": "quantifier",
         "sentence": "Several decades of prosperity were followed by a lengthy period of various declines.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -12253,8 +12253,8 @@
       {
         "type": "insert",
         "sentence": "The clearly displeased principal restlessly kept walking back and forth across the classroom.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -12272,8 +12272,8 @@
       {
         "type": "lexical",
         "sentence": "Handles the simulation of authentic physical laws in the application.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
@@ -12302,8 +12302,8 @@
       {
         "type": "resemantic",
         "sentence": "Simulates the behavior of natural physical forces inside the software.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -12412,8 +12412,8 @@
       {
         "type": "resemantic",
         "sentence": "Special filters help determine which light the solution absorbs best.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -12547,8 +12547,8 @@
       {
         "type": "lexical",
         "sentence": "Items seven and eight on the list differ from the initial six, and are typically overlooked by other scholars.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -12583,8 +12583,8 @@
       {
         "type": "insert",
         "sentence": "Numbers seven and eight on the list, which are notably distinct from the first six, have generally not been taken into account by other authors.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -12614,8 +12614,8 @@
       {
         "type": "restructure",
         "sentence": "Some goods become scarce due to the enforcement of intellectual property laws.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
@@ -12785,8 +12785,8 @@
       {
         "type": "negation",
         "sentence": "Alaska does not follow the standard U.S. model of county subdivisions.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
@@ -12809,8 +12809,8 @@
       {
         "type": "delete",
         "sentence": "Alaska is not fully divided into counties.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       }
     ]
   },
@@ -12822,8 +12822,8 @@
       {
         "type": "lexical",
         "sentence": "The concept of strategic aerial bombing was initially implemented during World War I.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -12846,20 +12846,20 @@
       {
         "type": "quantifier",
         "sentence": "Some aspects of strategic bombing were first explored during World War I.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "The tactic of targeting infrastructure from the air began in World War I.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Strategic bombing, a significant military concept, was first experimented with during World War I.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -12889,8 +12889,8 @@
       {
         "type": "restructure",
         "sentence": "The core battle royale format allows for many possible modifications.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "negation",
@@ -12901,14 +12901,14 @@
       {
         "type": "quantifier",
         "sentence": "Several possible modifications can be implemented on top of battle royale basics.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
         "sentence": "Different tweaks can be made to enhance the standard battle royale gameplay.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
@@ -13023,8 +13023,8 @@
       {
         "type": "insert",
         "sentence": "Several times throughout recent history, people in Australia have actively wanted to remove the monarchy.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "delete",
@@ -13042,14 +13042,14 @@
       {
         "type": "lexical",
         "sentence": "Numerous cross-promotional matches occurred following Unforgiven.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "After Unforgiven, there were several inter-promotional matches.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "restructure",
@@ -13078,8 +13078,8 @@
       {
         "type": "insert",
         "sentence": "There were several high-profile inter-promotional matches that took place after Unforgiven.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "delete",
@@ -13280,14 +13280,14 @@
       {
         "type": "negation",
         "sentence": "Rat snakes are not uncommon as pets among reptile lovers.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "quantifier",
         "sentence": "Many reptile enthusiasts keep rat snakes as pets.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       },
       {
         "type": "resemantic",
@@ -13304,8 +13304,8 @@
       {
         "type": "delete",
         "sentence": "Rat snakes are kept as pets by reptile enthusiasts.",
-        "prediction": 1,
-        "is_label_flipped": false
+        "prediction": 0,
+        "is_label_flipped": true
       }
     ]
   },

@@ -2,110 +2,110 @@
   {
     "original_id": 2285,
     "original_sentence": "Blankets may be spread on the ground for a picnic or where people want to sit in a grassy or muddy area without soiling their clothing.",
-    "original_prediction": 1,
+    "original_prediction": 0,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "Blankets may be unfurled on the ground for a picnic or where individuals want to sit in a verdant or sludgy area without soiling their attire.",
         "prediction": 1,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "shuffle",
         "sentence": "For a picnic or in a grassy or muddy area where people want to sit without soiling their clothing, blankets may be spread on the ground.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "To avoid getting their clothes dirty, people may spread blankets on the ground for a picnic or in grassy or muddy areas.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Blankets are not unlikely to be spread on the ground for a picnic or where people don’t want to dirty their clothing in grassy or muddy areas.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Several blankets may be spread on the ground for a picnic or where many people want to sit in a grassy or muddy area without soiling their clothing.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "People use blankets to sit on grass or mud during picnics so their clothes stay clean.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Blankets may be neatly spread on the ground for a picnic or where people want to sit in a grassy or particularly muddy area without soiling their clothing.",
-        "prediction": 1,
+        "prediction": 0,
         "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "Blankets may be spread on the ground for a picnic or where people want to sit without soiling their clothing.",
         "prediction": 0,
-        "is_label_flipped": true
+        "is_label_flipped": false
       }
     ]
   },
   {
     "original_id": 1912,
     "original_sentence": "As with all other cricket statistics, batting statistics and records are given much attention and provide a measure of a player's effectiveness.",
-    "original_prediction": 0,
+    "original_prediction": 1,
     "counterfactuals": [
       {
         "type": "lexical",
         "sentence": "As with all other cricket metrics, batting statistics and records receive considerable scrutiny and offer a gauge of a player's proficiency.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
         "sentence": "Batting statistics and records, as with all other cricket statistics, are given much attention and provide a measure of a player's effectiveness.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "Batting statistics and records are used to assess a player's effectiveness and, like all cricket statistics, are highly regarded.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "Batting statistics and records are not ignored, just like other cricket statistics, as they help gauge a player's effectiveness.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Most batting statistics and records are given much attention, similar to all other cricket statistics, as they reflect a player's effectiveness.",
-        "prediction": 0,
+        "prediction": 1,
         "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "Batting records are closely analyzed in cricket because they show how well a player performs.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "As with virtually all other cricket statistics, detailed batting statistics and records are given much attention and provide a good measure of a player’s effectiveness.",
         "prediction": 1,
-        "is_label_flipped": true
+        "is_label_flipped": false
       },
       {
         "type": "delete",
         "sentence": "Batting statistics and records are given attention and provide a measure of a player's effectiveness.",
         "prediction": 0,
-        "is_label_flipped": false
+        "is_label_flipped": true
       }
     ]
   },
@@ -172,8 +172,8 @@
       {
         "type": "lexical",
         "sentence": "Constructed between 2003 and 2006 on previously desolate land, it spans 40 hectares.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "shuffle",
@@ -208,8 +208,8 @@
       {
         "type": "insert",
         "sentence": "Originally built between 2003 and 2006 on what had been completely barren land, it now impressively covers 40 hectares.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -233,26 +233,26 @@
       {
         "type": "shuffle",
         "sentence": "In a sporting game, standing ovations are also often given to reflect an outstanding individual performance.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "When someone performs exceptionally well in a sporting game, they are often rewarded with a standing ovation.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It’s not uncommon for standing ovations to be given in sporting games when an individual excels.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "Many sporting games feature standing ovations to reflect outstanding individual performances.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -288,8 +288,8 @@
       {
         "type": "shuffle",
         "sentence": "On social media, more women being shunned from higher executive positions are protesting.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
@@ -349,8 +349,8 @@
       {
         "type": "restructure",
         "sentence": "Children under 12 often die from drowning, which is a major preventable cause of death in many countries.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -398,14 +398,14 @@
       {
         "type": "shuffle",
         "sentence": "Although three is the most common number, the number of strings on the rebec varies from 1 to 5.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "restructure",
         "sentence": "While the rebec may have between 1 and 5 strings, three strings are most frequently used.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
@@ -422,14 +422,14 @@
       {
         "type": "resemantic",
         "sentence": "Rebecs come with different numbers of strings, but three is the usual choice.",
-        "prediction": 0,
-        "is_label_flipped": false
+        "prediction": 1,
+        "is_label_flipped": true
       },
       {
         "type": "insert",
         "sentence": "The number of strings on the rebec typically varies from 1 to 5, although three is by far the most common number.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
@@ -471,8 +471,8 @@
       {
         "type": "quantifier",
         "sentence": "In many parts of the world, breast cancer is among the top five causes of cancer death.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
@@ -489,8 +489,8 @@
       {
         "type": "delete",
         "sentence": "Globally, breast cancer is the fifth cause of cancer death.",
-        "prediction": 0,
-        "is_label_flipped": true
+        "prediction": 1,
+        "is_label_flipped": false
       }
     ]
   },
@@ -514,32 +514,32 @@
       {
         "type": "restructure",
         "sentence": "Due to their frequent use in fiddle music, tin whistles are most commonly found in the key of D.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "negation",
         "sentence": "It’s not uncommon for tin whistles to be in D, since they are not rarely used with fiddles.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "quantifier",
         "sentence": "A large proportion of tin whistles are in D, given their use in fiddle-related music.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "resemantic",
         "sentence": "D is the standard key for tin whistles, largely because they pair well with fiddles.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "insert",
         "sentence": "Most tin whistles are typically in D, primarily because they are often used in traditional music with fiddles.",
-        "prediction": 1,
-        "is_label_flipped": true
+        "prediction": 0,
+        "is_label_flipped": false
       },
       {
         "type": "delete",
