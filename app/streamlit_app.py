@@ -179,7 +179,7 @@ for code, info in CONTROL_TYPE_STYLE.items():
         **2-3. (Important) How could this control code be modified or refined to make it more effective?**  
         (e.g., Restructure → change to passive voice / use of embedded clauses, etc.)
         ''')
-        st.text_area(f"2-3_{code}", placeholder="Please write your suggestions here.", key=f"2-3_{code}")
+        st.text_area(f"2-3_{code}", placeholder="Please write your suggestions here.", key=f"text_2-3_{code}")
 
 # Part 3: AI Collaboration Feedback
 st.markdown('---')
@@ -202,7 +202,7 @@ st.markdown('''
 **3-3. (Important) In what ways did the AI-generated sentences help you make better difficulty judgments than if you had made them without any examples?**  
 *(For example, mention specific expressions or contrasts that helped clarify your judgment.)*
 ''')
-st.text_area("3-3_benefit", placeholder="Please write your answer here.", key="3-3_benefit")
+st.text_area("3-3_benefit", placeholder="Please write your answer here.", key="text_3-3_benefit")
 
 # --- 저장 버튼 및 다운로드 기능 (앱 최하단) ---
 st.markdown('---')
@@ -224,14 +224,14 @@ for code in CONTROL_TYPE_STYLE.keys():
     part2[code] = {
         '2-1': st.session_state.get(f'2-1_{code}'),
         '2-2': st.session_state.get(f'2-2_{code}'),
-        '2-3': st.session_state.get(f'2-3_{code}')
+        '2-3': st.session_state.get(f'text_2-3_{code}')
     }
 responses['part2_control_code_feedback'] = part2
 # Part 3: AI collaboration feedback
 responses['part3_ai_collaboration_feedback'] = {
     '3-1': st.session_state.get('3-1_quality'),
     '3-2': st.session_state.get('3-2_helpful'),
-    '3-3': st.session_state.get('3-3_benefit')
+    '3-3': st.session_state.get('text_3-3_benefit')
 }
 
 ts = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
