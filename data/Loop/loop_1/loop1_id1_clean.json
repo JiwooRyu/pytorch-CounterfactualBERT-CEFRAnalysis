@@ -1,0 +1,1084 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4 , 2019 , as a result of injuries sustained in a car crash .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Birdsong passed away on June 4, 2019, due to wounds incurred in an automobile accident.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4 , 2019 , as a result of injuries sustained in a car crash .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "On June 4, 2019, Birdsong succumbed to injuries from a car accident.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4 , 2019 , as a result of injuries sustained in a car crash .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Birdsong tragically died on June 4, 2019, as a result of serious injuries sustained in a devastating car crash.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Pet owners who like reptiles often choose rat snakes.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Rat snakes aren’t unusual pets for reptile lovers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many reptile fans have rat snakes as pets.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Rat snakes are pets for reptile lovers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2010",
+      "original_sentence": "Before the unification of Egypt , the land was settled with autonomous villages .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Independent settlements existed across Egypt prior to its unification.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2010",
+      "original_sentence": "Before the unification of Egypt , the land was settled with autonomous villages .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Before the political unification of Egypt, the land was already settled with numerous autonomous villages.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I did n't want to interrupt .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Since you were occupied, I chose not to disturb you.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I did n't want to interrupt .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "I tried calling but didn’t follow through due to your unavailability.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I did n't want to interrupt .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Sometimes it’s better not to interrupt if someone seems busy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I did n't want to interrupt .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Out of courtesy, I refrained from interrupting your work.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Humans have practiced nail care for over four millennia.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many ancient cultures performed nail grooming for thousands of years.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Archaeological evidence shows that grooming toenails has been common for over 4,000 years in various cultures.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "People pedicure their nails for 4,000 years.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position , not the order received .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Sectors should not be serviced in the order they are received if efficiency is to be increased.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position , not the order received .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most sectors should be serviced based on proximity to the current head position for optimal efficiency.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position , not the order received .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "For efficiency, sectors should be serviced by proximity, not order received.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Their capital belonged to the Atrebates before Rome conquered Britain.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "An earlier tribe occupied the region Rome later took.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Before Rome, it was Atrebatic territory.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "536",
+      "original_sentence": "For 95 - 97 % of cases , infection is resolved after one dose of metronidazole .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "In almost all cases, the infection clears up after one dose of metronidazole.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1621",
+      "original_sentence": "Located on the hillside , the palace was considered crucial in establishing control in the early days of the kingdom .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The palace wasn’t considered unimportant to the early kingdom.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1621",
+      "original_sentence": "Located on the hillside , the palace was considered crucial in establishing control in the early days of the kingdom .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many early efforts at control centered around this palace.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1621",
+      "original_sentence": "Located on the hillside , the palace was considered crucial in establishing control in the early days of the kingdom .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Control was symbolized by this strategic hillside structure.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1621",
+      "original_sentence": "Located on the hillside , the palace was considered crucial in establishing control in the early days of the kingdom .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Its elevation gave it strategic significance.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2518",
+      "original_sentence": "In his first form , Frieza is a relatively short humanoid , albeit with a large chestnut - shaped skull with two horns .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Frieza, in his first form, is a relatively short humanoid with a large chestnut-shaped skull and two horns.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2518",
+      "original_sentence": "In his first form , Frieza is a relatively short humanoid , albeit with a large chestnut - shaped skull with two horns .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Frieza is not tall in his first form, despite having a large, horned skull.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2518",
+      "original_sentence": "In his first form , Frieza is a relatively short humanoid , albeit with a large chestnut - shaped skull with two horns .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "In his first form, Frieza is a short humanoid with a horned skull.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "166",
+      "original_sentence": "The main thing that I wanted to say was to tell you how grateful I am for your friendship .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "The primary point I wished to express was my deep gratitude for your companionship.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "166",
+      "original_sentence": "The main thing that I wanted to say was to tell you how grateful I am for your friendship .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The main thing that I wanted to say was that I’m not ungrateful for your friendship.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "166",
+      "original_sentence": "The main thing that I wanted to say was to tell you how grateful I am for your friendship .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Above all, I just wanted to express my appreciation for our friendship.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2350",
+      "original_sentence": "Endgames can be classified according to the type of pieces remaining on the board .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Endgames aren’t all treated the same.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2350",
+      "original_sentence": "Endgames can be classified according to the type of pieces remaining on the board .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some types of endgames depend on a few key pieces.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2350",
+      "original_sentence": "Endgames can be classified according to the type of pieces remaining on the board .",
+      "original_prediction": "B1",
+      "cf_type": "delete",
+      "cf_sentence": "Endgame classification = piece-based.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1903",
+      "original_sentence": "Mars is a terrestrial planet that consists of minerals containing silicon and oxygen , metals , and other elements that typically make up rock .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most of Mars is made of silicon, oxygen, and other common rocky materials.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1903",
+      "original_sentence": "Mars is a terrestrial planet that consists of minerals containing silicon and oxygen , metals , and other elements that typically make up rock .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Mars’s geology resembles that of Earth, with minerals rich in silicon and oxygen.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1903",
+      "original_sentence": "Mars is a terrestrial planet that consists of minerals containing silicon and oxygen , metals , and other elements that typically make up rock .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Mars consists of silicon, oxygen, and metals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1318",
+      "original_sentence": "Call and response singing is common in modern Western popular music .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Modern Western pop frequently uses call-and-response vocal techniques.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1318",
+      "original_sentence": "Call and response singing is common in modern Western popular music .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Interactive singing formats are integral to many pop songs.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "280",
+      "original_sentence": "Petting animals is good for relaxing people under stress .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Stroking animals is beneficial for calming stressed individuals.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "280",
+      "original_sentence": "Petting animals is good for relaxing people under stress .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Not petting animals may reduce the chance of relaxing people under stress.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "280",
+      "original_sentence": "Petting animals is good for relaxing people under stress .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Petting animals is generally considered quite good for effectively relaxing individuals under psychological stress.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1791",
+      "original_sentence": "From 2014 the museum faced budget cuts that dropped its maintenance to less than R $ 520,000 annually .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Beginning in 2014, the museum experienced financial reductions that lowered upkeep to under R $ 520,000 per year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1791",
+      "original_sentence": "From 2014 the museum faced budget cuts that dropped its maintenance to less than R $ 520,000 annually .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Since 2014, several significant budget cuts reduced the museum’s maintenance funding to under R $ 520,000 annually.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "390",
+      "original_sentence": "Being the good brother he is , he paid for his sister 's loans once he was able to afford it .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Being the considerate sibling he is, he settled his sister's debts once he could manage it financially.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "390",
+      "original_sentence": "Being the good brother he is , he paid for his sister 's loans once he was able to afford it .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Being not an inconsiderate brother, he didn't hesitate to pay for his sister's loans once he could afford it.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "390",
+      "original_sentence": "Being the good brother he is , he paid for his sister 's loans once he was able to afford it .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Being the caring brother he is, he covered his sister's debts once he had the means.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "4",
+      "original_sentence": "Several volunteers jumped into the water to try to save the drowning man .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "They did not stand by while the man drowned.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "4",
+      "original_sentence": "Several volunteers jumped into the water to try to save the drowning man .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Bystanders acted urgently to save a man in peril.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "4",
+      "original_sentence": "Several volunteers jumped into the water to try to save the drowning man .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Emergency services were alerted shortly after.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2499",
+      "original_sentence": "Igneous rocks can be classified according to their chemistry .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Igneous rocks are not classified solely by texture.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2499",
+      "original_sentence": "Igneous rocks can be classified according to their chemistry .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most igneous rocks are sorted by chemistry.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2499",
+      "original_sentence": "Igneous rocks can be classified according to their chemistry .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This classification helps in geological studies.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2499",
+      "original_sentence": "Igneous rocks can be classified according to their chemistry .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Classification of igneous rocks involves chemistry.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1885",
+      "original_sentence": "The color irresistible is displayed at right .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "The hue irresistible is shown on the right.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1717",
+      "original_sentence": "Plant cells which are differentiated generally cannot divide or produce cells of a different type .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Differentiated plant cells typically can’t divide or form new types.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1717",
+      "original_sentence": "Plant cells which are differentiated generally cannot divide or produce cells of a different type .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Differentiated cells in plants usually don’t produce new cell types.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1717",
+      "original_sentence": "Plant cells which are differentiated generally cannot divide or produce cells of a different type .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Exceptions exist in cases like tissue culture.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1717",
+      "original_sentence": "Plant cells which are differentiated generally cannot divide or produce cells of a different type .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Differentiated plant cells can’t divide or change type.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2670",
+      "original_sentence": "The laboratory of 3D computer graphics and calculation investigates new algorithms to solve problems of processing and analysis of signals and images .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "The lab researches 3D graphics algorithms for signal and image analysis.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2670",
+      "original_sentence": "The laboratory of 3D computer graphics and calculation investigates new algorithms to solve problems of processing and analysis of signals and images .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "To solve image and signal problems, the 3D lab explores algorithms.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2670",
+      "original_sentence": "The laboratory of 3D computer graphics and calculation investigates new algorithms to solve problems of processing and analysis of signals and images .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "New algorithmic solutions for signal processing are studied in this graphics lab.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2670",
+      "original_sentence": "The laboratory of 3D computer graphics and calculation investigates new algorithms to solve problems of processing and analysis of signals and images .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It doesn't focus on hardware development.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2670",
+      "original_sentence": "The laboratory of 3D computer graphics and calculation investigates new algorithms to solve problems of processing and analysis of signals and images .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many labs like this work on algorithm design.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2670",
+      "original_sentence": "The laboratory of 3D computer graphics and calculation investigates new algorithms to solve problems of processing and analysis of signals and images .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "The lab investigates algorithms for image and signal processing.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1680",
+      "original_sentence": "Heavy rotation or power rotation is a list of songs that get the most airplay on a radio station .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Heavy or power rotation refers to a selection of tracks that receive the highest frequency of play on a radio station.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1680",
+      "original_sentence": "Heavy rotation or power rotation is a list of songs that get the most airplay on a radio station .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Heavy rotation is not a list of songs that get little airplay on a radio station.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1680",
+      "original_sentence": "Heavy rotation or power rotation is a list of songs that get the most airplay on a radio station .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Heavy rotation, also known as power rotation, is a curated list of songs that consistently get the most airplay on a given radio station.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "21",
+      "original_sentence": "Burlap clothes are usually brown .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Burlap garments are typically brown in color.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "21",
+      "original_sentence": "Burlap clothes are usually brown .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The coarse textile is generally associated with brown.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "26",
+      "original_sentence": "Several officials met to discuss the policy .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "A group of officials convened to talk about the policy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "26",
+      "original_sentence": "Several officials met to discuss the policy .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Deliberations occurred regarding administrative guidelines.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1143",
+      "original_sentence": "Basic modifications are simple .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Simple alterations are considered basic.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "171",
+      "original_sentence": "Whenever I need to buy something new , I search for information in a catalogue .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Whenever I must purchase something novel, I consult a catalogue for information.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "171",
+      "original_sentence": "Whenever I need to buy something new , I search for information in a catalogue .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "I consult a catalogue for information each time I need to make a new purchase.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "171",
+      "original_sentence": "Whenever I need to buy something new , I search for information in a catalogue .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "I don't skip searching a catalogue whenever I need to buy something new.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1294",
+      "original_sentence": "Conscious thought is not necessary for knowledge of results to have its effect .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Awareness is not required for the impact of outcome feedback to occur.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1294",
+      "original_sentence": "Conscious thought is not necessary for knowledge of results to have its effect .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Conscious cognitive processing is generally not necessary for knowledge of results to exert its intended effect.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1682",
+      "original_sentence": "Western modern historical linguistics dates from the late 18th century .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Historical linguistics began in the West in the 1700s.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1682",
+      "original_sentence": "Western modern historical linguistics dates from the late 18th century .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It didn’t originate earlier than the 18th century.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1682",
+      "original_sentence": "Western modern historical linguistics dates from the late 18th century .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This period saw increased interest in language origins.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1682",
+      "original_sentence": "Western modern historical linguistics dates from the late 18th century .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Historical linguistics started in late 18th century.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1715",
+      "original_sentence": "The river is known for its water mills ; during the 1950s , they numbered approximately 18 .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "About 18 water mills lined the river in the 1950s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1715",
+      "original_sentence": "The river is known for its water mills ; during the 1950s , they numbered approximately 18 .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "There were around 18 mills by the river in the 1950s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1715",
+      "original_sentence": "The river is known for its water mills ; during the 1950s , they numbered approximately 18 .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It wasn’t just one or two mills—there were many.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1715",
+      "original_sentence": "The river is known for its water mills ; during the 1950s , they numbered approximately 18 .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "They contributed to local industry at the time.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1715",
+      "original_sentence": "The river is known for its water mills ; during the 1950s , they numbered approximately 18 .",
+      "original_prediction": "B1",
+      "cf_type": "delete",
+      "cf_sentence": "The river had 18 water mills in the 1950s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1038",
+      "original_sentence": "A new worker spends the first few days of its adult life caring for the queen and young .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Caring for the queen and young is a new worker’s task early in life.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1038",
+      "original_sentence": "A new worker spends the first few days of its adult life caring for the queen and young .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Initial duties involve internal nest care.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1038",
+      "original_sentence": "A new worker spends the first few days of its adult life caring for the queen and young .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This is typical in eusocial insect colonies.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "539",
+      "original_sentence": "No matter how advanced the semiconductor process or how fast the switching speed , this places a practical limit on how many instructions can be simultaneously dispatched .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "The switching speed or the semiconductor process—no matter how advanced—still limits instruction dispatching.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "539",
+      "original_sentence": "No matter how advanced the semiconductor process or how fast the switching speed , this places a practical limit on how many instructions can be simultaneously dispatched .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Switching speed alone doesn’t eliminate the dispatching limit.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "539",
+      "original_sentence": "No matter how advanced the semiconductor process or how fast the switching speed , this places a practical limit on how many instructions can be simultaneously dispatched .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Advanced semiconductors still limit instruction dispatch.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "752",
+      "original_sentence": "However , because conventions are not textually based , their existence and practice are open to debate .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Since conventions aren’t in text, people often dispute them.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "752",
+      "original_sentence": "However , because conventions are not textually based , their existence and practice are open to debate .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Because they’re not written, conventions are debatable.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "752",
+      "original_sentence": "However , because conventions are not textually based , their existence and practice are open to debate .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "They don’t have clear documentation supporting them.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "752",
+      "original_sentence": "However , because conventions are not textually based , their existence and practice are open to debate .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many conventions lack written support.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "752",
+      "original_sentence": "However , because conventions are not textually based , their existence and practice are open to debate .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This leads to legal and academic uncertainty.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "752",
+      "original_sentence": "However , because conventions are not textually based , their existence and practice are open to debate .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Their practice is debated since they aren't written.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1839",
+      "original_sentence": "The library has a chess room that houses a wide range of materials dedicated to the history , study and practice of chess .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The library doesn’t lack a space dedicated to chess materials.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1839",
+      "original_sentence": "The library has a chess room that houses a wide range of materials dedicated to the history , study and practice of chess .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "A specialized area in the library provides access to various resources on chess learning and tradition.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1839",
+      "original_sentence": "The library has a chess room that houses a wide range of materials dedicated to the history , study and practice of chess .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "In addition to general reading areas, the library features a dedicated chess room containing extensive historical and instructional resources.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1563",
+      "original_sentence": "On the 29 August 2010 trail bike riders discovered another human skeleton in the forest .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Another skeleton was added to prior forest discoveries.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1563",
+      "original_sentence": "On the 29 August 2010 trail bike riders discovered another human skeleton in the forest .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "An unsettling find was made by bikers deep in the woods.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "560",
+      "original_sentence": "Canada is also home to many indigenous languages .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Canada hosts a wide array of native languages.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "560",
+      "original_sentence": "Canada is also home to many indigenous languages .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Linguistic diversity includes numerous First Nations languages.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "624",
+      "original_sentence": "Up - and-over or overhead doors are often used in garages .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The typical garage entrance lifts vertically into the ceiling space.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2113",
+      "original_sentence": "Roussimoff died in his sleep of congestive heart failure on the night of January 27 , 1993 , in a Paris hotel room .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Several causes of heart failure exist, but this one was fatal.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2113",
+      "original_sentence": "Roussimoff died in his sleep of congestive heart failure on the night of January 27 , 1993 , in a Paris hotel room .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "His death occurred peacefully in sleep due to cardiac complications.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1816",
+      "original_sentence": "Naming a child after a relative , friend , or well - known person is a common practice in the English -speaking world .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "In English-speaking societies, children are frequently named after acquaintances or public figures.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1816",
+      "original_sentence": "Naming a child after a relative , friend , or well - known person is a common practice in the English -speaking world .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Not naming children after known people is uncommon there.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1816",
+      "original_sentence": "Naming a child after a relative , friend , or well - known person is a common practice in the English -speaking world .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many English speakers follow the tradition of honor-naming.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1816",
+      "original_sentence": "Naming a child after a relative , friend , or well - known person is a common practice in the English -speaking world .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Cultural naming conventions often draw from personal or public influences.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2538",
+      "original_sentence": "In the event the electron absorbs a quantity of energy less than the binding energy , it will transition to an excited state .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "If energy is below binding level, the electron becomes excited.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2538",
+      "original_sentence": "In the event the electron absorbs a quantity of energy less than the binding energy , it will transition to an excited state .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It won’t escape the atom if energy is below binding level.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2538",
+      "original_sentence": "In the event the electron absorbs a quantity of energy less than the binding energy , it will transition to an excited state .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Low energy intake shifts electrons into a higher state without ionization.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2538",
+      "original_sentence": "In the event the electron absorbs a quantity of energy less than the binding energy , it will transition to an excited state .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Electron gains sub-binding energy → excited state.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    }
+  ]
+}

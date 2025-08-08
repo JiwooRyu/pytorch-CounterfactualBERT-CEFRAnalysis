@@ -1,0 +1,913 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "2449",
+      "original_sentence": "Producing an image from a diffraction pattern requires sophisticated mathematics and often an iterative process of modeling and refinement .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It’s not a straightforward task without mathematical complexity.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2449",
+      "original_sentence": "Producing an image from a diffraction pattern requires sophisticated mathematics and often an iterative process of modeling and refinement .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most imaging methods based on diffraction involve iterative models.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2449",
+      "original_sentence": "Producing an image from a diffraction pattern requires sophisticated mathematics and often an iterative process of modeling and refinement .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Producing an image from diffraction requires modeling and refinement.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1260",
+      "original_sentence": "Visibility of less than 100 m is usually reported as zero .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Low visibility readings under 100 meters are customarily labeled as zero.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1260",
+      "original_sentence": "Visibility of less than 100 m is usually reported as zero .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "In meteorological terms, visibility readings falling below 100 meters are typically logged as zero.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "364",
+      "original_sentence": "In order to communicate with each other , both the French girlfriend and the Japanese boyfriend decided to learn a third language .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some bilingual couples use a third language to communicate.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "364",
+      "original_sentence": "In order to communicate with each other , both the French girlfriend and the Japanese boyfriend decided to learn a third language .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Language barriers led them to choose a neutral means of conversation.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1208",
+      "original_sentence": "The atoms in metals have a strong attractive force between them .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Metallic atoms exhibit a strong mutual attraction.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1208",
+      "original_sentence": "The atoms in metals have a strong attractive force between them .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The atoms in metals are not weakly attracted to each other.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1208",
+      "original_sentence": "The atoms in metals have a strong attractive force between them .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Metal atoms bind closely due to intense mutual attraction.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2500",
+      "original_sentence": "Producing a stop-motion animation using clay is extremely laborious .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This method is favored for its unique aesthetic.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2685",
+      "original_sentence": "Typically unitary authorities cover towns or cities which are large enough to function independently of county or other regional administration .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It is not common for unitary authorities to manage areas that depend on regional administration.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2685",
+      "original_sentence": "Typically unitary authorities cover towns or cities which are large enough to function independently of county or other regional administration .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most unitary authorities cover towns or cities large enough to function independently.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2685",
+      "original_sentence": "Typically unitary authorities cover towns or cities which are large enough to function independently of county or other regional administration .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Unitary authorities cover towns large enough to function independently.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1295",
+      "original_sentence": "The filming schedule was intended to last 138 days but grew to 160 .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Delays caused the shoot to last longer than anticipated.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1295",
+      "original_sentence": "The filming schedule was intended to last 138 days but grew to 160 .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This resulted in higher costs and tighter deadlines.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1619",
+      "original_sentence": "The song received generally positive reviews from music critics .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "The song notably received generally positive and enthusiastic reviews from established music critics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1662",
+      "original_sentence": "Today Trailways members are spread across North America .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Currently, Trailways affiliates are located throughout North America.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2775",
+      "original_sentence": "Most competitive teams keep two sets of uniforms , with one design emphasizing the primary color and the other emphasizing the secondary color .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Uniform design balances visibility and brand colors.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2775",
+      "original_sentence": "Most competitive teams keep two sets of uniforms , with one design emphasizing the primary color and the other emphasizing the secondary color .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This aids in clear team identification during games.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1350",
+      "original_sentence": "The total number of people with this infection is higher in some countries in Africa and Asia .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Infection rates tend to be elevated in specific African and Asian nations.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "826",
+      "original_sentence": "Many species have five petals , often grown together .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Numerous species possess five petals, which are frequently fused.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "826",
+      "original_sentence": "Many species have five petals , often grown together .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It is not uncommon for many species to have five petals grown together.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "826",
+      "original_sentence": "Many species have five petals , often grown together .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Several organisms exhibit five petals that are typically joined.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "854",
+      "original_sentence": "Since preservation , the railway has operated as a tourist attraction .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Following restoration, the railway functions as a visitor site.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2646",
+      "original_sentence": "Feature films usually have insurance in place by the time principal photography begins .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Feature films customarily have indemnity in place by the time principal photography commences.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2646",
+      "original_sentence": "Feature films usually have insurance in place by the time principal photography begins .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Feature films typically have comprehensive insurance in place by the time principal photography begins.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2765",
+      "original_sentence": "Distributed shared memory systems mimic these mechanisms in an attempt to maintain consistency between blocks of memory in loosely coupled systems .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Distributed shared memory systems do not ignore these mechanisms when trying to maintain consistency between memory blocks in loosely coupled systems.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2765",
+      "original_sentence": "Distributed shared memory systems mimic these mechanisms in an attempt to maintain consistency between blocks of memory in loosely coupled systems .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Distributed shared memory systems often mimic these mechanisms to ensure consistency between blocks of memory in loosely coupled systems.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2765",
+      "original_sentence": "Distributed shared memory systems mimic these mechanisms in an attempt to maintain consistency between blocks of memory in loosely coupled systems .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Distributed shared memory systems mimic these mechanisms to maintain memory consistency.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1133",
+      "original_sentence": "Since measurings begun in 1905 , several November records for deep snow were broken .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Since measurements began in 1905, multiple November snowfall records have been surpassed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1133",
+      "original_sentence": "Since measurings begun in 1905 , several November records for deep snow were broken .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Since accurate measurings officially began in 1905, several significant November records for deep snow have been shattered.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "426",
+      "original_sentence": "The range is about 500 km long and it covers a tract about 48 km broad .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "It spans about 500 km in length and 48 km in breadth.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "426",
+      "original_sentence": "The range is about 500 km long and it covers a tract about 48 km broad .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This makes it a prominent regional feature.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2152",
+      "original_sentence": "Intellectual disability has been documented under a variety of names throughout history .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Terminology for cognitive disorders has evolved over centuries.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2220",
+      "original_sentence": "Performance improvements are sometimes delivered via WAFS or WAN optimization .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Network acceleration tools like WAN optimization enhance performance.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2220",
+      "original_sentence": "Performance improvements are sometimes delivered via WAFS or WAN optimization .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "These methods are common in enterprise IT environments.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "839",
+      "original_sentence": "There were several inter-promotional matches after Unforgiven .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Post-Unforgiven, multiple inter-promotional matches occurred.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "839",
+      "original_sentence": "There were several inter-promotional matches after Unforgiven .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Collaborative events ensued between wrestling brands.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "766",
+      "original_sentence": "Since the development of technology , Transmission and storage systems have been of immense interest to technologists and technology users .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Technologists have shown strong interest in data systems since tech advances.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "766",
+      "original_sentence": "Since the development of technology , Transmission and storage systems have been of immense interest to technologists and technology users .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Transmission and storage systems have interested users since technology developed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "766",
+      "original_sentence": "Since the development of technology , Transmission and storage systems have been of immense interest to technologists and technology users .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Advancements in technology have led to widespread interest in data transmission and storage.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "766",
+      "original_sentence": "Since the development of technology , Transmission and storage systems have been of immense interest to technologists and technology users .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many researchers focus on storage and transmission technologies.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "766",
+      "original_sentence": "Since the development of technology , Transmission and storage systems have been of immense interest to technologists and technology users .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "As technology evolved, the importance of storing and transmitting data grew significantly.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "766",
+      "original_sentence": "Since the development of technology , Transmission and storage systems have been of immense interest to technologists and technology users .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Tech growth increased interest in transmission and storage.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2823",
+      "original_sentence": "Some computer languages and the IEEE 754 - 2008 standard dictate that in straightforward calculations the result should not be rounded twice .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "In simple calculations, IEEE 754–2008 advises against rounding twice.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2823",
+      "original_sentence": "Some computer languages and the IEEE 754 - 2008 standard dictate that in straightforward calculations the result should not be rounded twice .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "They don’t allow results to be rounded two times in such cases.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2823",
+      "original_sentence": "Some computer languages and the IEEE 754 - 2008 standard dictate that in straightforward calculations the result should not be rounded twice .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some languages follow standards that prevent repeated rounding.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2823",
+      "original_sentence": "Some computer languages and the IEEE 754 - 2008 standard dictate that in straightforward calculations the result should not be rounded twice .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Some systems prevent double rounding in calculations.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1234",
+      "original_sentence": "Caramel sauce is made from heating water and caster sugar at a low to medium temperature .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "To make caramel sauce, heat sugar and water gently.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1234",
+      "original_sentence": "Caramel sauce is made from heating water and caster sugar at a low to medium temperature .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Sugar and water are heated on low to medium to make caramel sauce.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1234",
+      "original_sentence": "Caramel sauce is made from heating water and caster sugar at a low to medium temperature .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It’s not made without heat or sugar.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1234",
+      "original_sentence": "Caramel sauce is made from heating water and caster sugar at a low to medium temperature .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Heating sugar with water forms a rich syrup known as caramel.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1234",
+      "original_sentence": "Caramel sauce is made from heating water and caster sugar at a low to medium temperature .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Butter or cream may be added afterward.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1234",
+      "original_sentence": "Caramel sauce is made from heating water and caster sugar at a low to medium temperature .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Caramel sauce: heat sugar + water slowly.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "976",
+      "original_sentence": "This lake is considered healing and is appreciated by some local people .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "This lake is regarded as therapeutic and valued by certain locals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "976",
+      "original_sentence": "This lake is considered healing and is appreciated by some local people .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The lake is thought to possess restorative qualities and is cherished by nearby residents.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "976",
+      "original_sentence": "This lake is considered healing and is appreciated by some local people .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This naturally serene lake is widely considered healing and deeply appreciated by several local people.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2208",
+      "original_sentence": "The best -known method of prey capture is by means of sticky webs .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Catching prey using sticky webs is the most familiar method.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2208",
+      "original_sentence": "The best -known method of prey capture is by means of sticky webs .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many species use sticky webs to trap prey.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2208",
+      "original_sentence": "The best -known method of prey capture is by means of sticky webs .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This is common among orb-weaver spiders.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2208",
+      "original_sentence": "The best -known method of prey capture is by means of sticky webs .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Prey is captured using sticky webs.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1913",
+      "original_sentence": "GCs are part of the feedback system for the immune system .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Glucocorticoids function within the immune system’s feedback loop.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1913",
+      "original_sentence": "GCs are part of the feedback system for the immune system .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "The immune system's feedback loop includes GCs as a component.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1913",
+      "original_sentence": "GCs are part of the feedback system for the immune system .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "GCs are not excluded from the feedback mechanism of the immune system.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1913",
+      "original_sentence": "GCs are part of the feedback system for the immune system .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "The immune response is regulated in part by GCs through feedback signaling.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1913",
+      "original_sentence": "GCs are part of the feedback system for the immune system .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "GCs, also known as glucocorticoids, are a crucial part of the feedback regulation mechanism within the immune system.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2191",
+      "original_sentence": "Grosics died on 13 June 2014 after suffering from cardiac and lung problems .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Grosics passed away on 13 June 2014 following heart and pulmonary complications.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2191",
+      "original_sentence": "Grosics died on 13 June 2014 after suffering from cardiac and lung problems .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Grosics succumbed to heart and lung conditions on 13 June 2014.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2237",
+      "original_sentence": "There are various modifications that can be implemented atop the fundamentals of the battle royale .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "There are not only the core elements; various modifications can also be implemented in battle royale.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2237",
+      "original_sentence": "There are various modifications that can be implemented atop the fundamentals of the battle royale .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many different modifications can be applied on top of the fundamentals of the battle royale.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2237",
+      "original_sentence": "There are various modifications that can be implemented atop the fundamentals of the battle royale .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Modifications can be implemented atop the battle royale fundamentals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1140",
+      "original_sentence": "The musical film was a natural development of the stage musical after the emergence of sound film technology .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "The musical motion picture evolved logically from stage musicals following the advent of sound film technology.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1140",
+      "original_sentence": "The musical film was a natural development of the stage musical after the emergence of sound film technology .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Sound film technology led to the rise of musical cinema derived from theatrical productions.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1140",
+      "original_sentence": "The musical film was a natural development of the stage musical after the emergence of sound film technology .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "The musical film was arguably a natural cultural development of the popular stage musical genre following the emergence of sound film technology.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2285",
+      "original_sentence": "Blankets may be spread on the ground for a picnic or where people want to sit in a grassy or muddy area without soiling their clothing .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "They are not meant for indoor seating arrangements.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2285",
+      "original_sentence": "Blankets may be spread on the ground for a picnic or where people want to sit in a grassy or muddy area without soiling their clothing .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This helps maintain clean clothing during outdoor activities.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2291",
+      "original_sentence": "Modern cladistic work has not been conclusive .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Current research using cladistics hasn’t led to clear conclusions.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2291",
+      "original_sentence": "Modern cladistic work has not been conclusive .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "No definitive outcome has yet come from cladistic studies.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2291",
+      "original_sentence": "Modern cladistic work has not been conclusive .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Several studies suggest that cladistic conclusions are still unclear.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2291",
+      "original_sentence": "Modern cladistic work has not been conclusive .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Researchers continue to debate the phylogenetic trees.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1308",
+      "original_sentence": "Blankets may also be used on the ground for a picnic or other places where people want to sit without their clothing getting dirty or wet .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Not using a blanket may result in stained clothes.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "95",
+      "original_sentence": "While I was moving boxes , I heard a sudden loud noise and saw a big rip in my jeans .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "As I lifted boxes, a loud sound startled me and my jeans tore.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "95",
+      "original_sentence": "While I was moving boxes , I heard a sudden loud noise and saw a big rip in my jeans .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "An unexpected sound distracted me as I damaged my clothing.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1795",
+      "original_sentence": "While there are many alternative treatments used for the common cold , there is not enough scientific evidence to support the use of most treatments .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Many cold treatments exist but most lack evidence.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1795",
+      "original_sentence": "While there are many alternative treatments used for the common cold , there is not enough scientific evidence to support the use of most treatments .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "These treatments are not widely supported by science.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1795",
+      "original_sentence": "While there are many alternative treatments used for the common cold , there is not enough scientific evidence to support the use of most treatments .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many remedies are unproven.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1795",
+      "original_sentence": "While there are many alternative treatments used for the common cold , there is not enough scientific evidence to support the use of most treatments .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Alt treatments for colds lack support.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1540",
+      "original_sentence": "Because of code sharing , a single flight may be shown with many different flight numbers .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Multiple numbers can be associated with one flight due to code sharing.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1540",
+      "original_sentence": "Because of code sharing , a single flight may be shown with many different flight numbers .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Several flights in shared partnerships have multiple identifiers.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "796",
+      "original_sentence": "The nouns and adjectives are created by removing the ending and thus obtaining the root .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most such words come from stripped roots.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "796",
+      "original_sentence": "The nouns and adjectives are created by removing the ending and thus obtaining the root .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Remove end → root → noun/adjective.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1419",
+      "original_sentence": "The professors currently hold their positions for three years , extendable for a fourth year .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Professors are appointed for an initial term of three years, which may be extended by one year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1419",
+      "original_sentence": "The professors currently hold their positions for three years , extendable for a fourth year .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Academic appointments for professors last three years, with an option to continue for a fourth.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1428",
+      "original_sentence": "Management accountants have a dual reporting relationship .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "They don’t report to only one authority.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1428",
+      "original_sentence": "Management accountants have a dual reporting relationship .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "They have dual reporting roles.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "668",
+      "original_sentence": "As of the 2011 testing season , exams cost $ 87 each , though the cost may reduced for poor students who cannot pay for it .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Exam pricing considered financial need in 2011.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "668",
+      "original_sentence": "As of the 2011 testing season , exams cost $ 87 each , though the cost may reduced for poor students who cannot pay for it .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This pricing policy aimed to support educational equity.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1695",
+      "original_sentence": "Bear is often called a hard science fiction author because he uses many scientific details in his work .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Bear’s writing is labeled hard sci-fi for its technical depth.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1695",
+      "original_sentence": "Bear is often called a hard science fiction author because he uses many scientific details in his work .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "He is known for hard science fiction due to technical accuracy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1695",
+      "original_sentence": "Bear is often called a hard science fiction author because he uses many scientific details in his work .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "His stories blend scientific rigor with narrative depth.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    }
+  ]
+}

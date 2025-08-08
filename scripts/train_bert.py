@@ -172,7 +172,7 @@ def main():
     )
     # 모델 훈련
     train_losses = train_model(
-        model, train_loader, device, tokenizer, epochs=3
+        model, train_loader, device, tokenizer, epochs=10
     )
     # 모델 평가
     accuracy, report, conf_matrix = evaluate_model(model, test_loader, device)

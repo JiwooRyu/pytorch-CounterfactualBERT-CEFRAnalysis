@@ -1,0 +1,580 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "666",
+      "original_sentence": "He played a brief part in the revolutionary events of 1848 .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "He participated briefly in the upheavals of 1848.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "666",
+      "original_sentence": "He played a brief part in the revolutionary events of 1848 .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "He only played a brief but notable part in the revolutionary events of 1848.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "200",
+      "original_sentence": "No matter what anyone thinks , remember what you think is the right thing to do , and do it .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Regardless of others' opinions, follow your judgment of what is right and act accordingly.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "200",
+      "original_sentence": "No matter what anyone thinks , remember what you think is the right thing to do , and do it .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "No matter what anyone else might possibly think, always remember that what you personally believe is right should guide your actions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Australians have occasionally expressed interest in abolishing the monarchy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Republican sentiments have surfaced in Australia repeatedly.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This debate often intensifies during political milestones.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1781",
+      "original_sentence": "As a former President of Ireland he was given a state funeral .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "His national service was recognized posthumously.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2779",
+      "original_sentence": "Evaporation is an essential part of the water cycle .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "One key stage of the water cycle is evaporation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2779",
+      "original_sentence": "Evaporation is an essential part of the water cycle .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Evaporation is not a minor part of the water cycle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2779",
+      "original_sentence": "Evaporation is an essential part of the water cycle .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Evaporation is part of the water cycle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "830",
+      "original_sentence": "In 1933 the first gravel runways were built .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "1933 marked the start of using gravel for airstrips.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "830",
+      "original_sentence": "In 1933 the first gravel runways were built .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This was a significant step in early aviation infrastructure.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1765",
+      "original_sentence": "In the knockout phase , teams play against each other over two legs on a home - and - away basis , except for the one-match final .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Knockout rounds involve two-legged ties, home and away, apart from the one-off final.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "255",
+      "original_sentence": "If it were n't so important , she would not keep reminding you to work on it .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "She keeps reminding you to work on it because it is important.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1460",
+      "original_sentence": "The shrinking generator takes a different approach .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The shrinking generator employs a distinct technique.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1460",
+      "original_sentence": "The shrinking generator takes a different approach .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "The shrinking generator notably takes a fundamentally different approach.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2307",
+      "original_sentence": "The sea contains a number of reefs , uninhabited islands and significant hydrocarbon reserves .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "The marine area hosts reefs, deserted islands, and notable oil and gas reserves.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2307",
+      "original_sentence": "The sea contains a number of reefs , uninhabited islands and significant hydrocarbon reserves .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "The sea contains reefs, islands, and hydrocarbon reserves.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "745",
+      "original_sentence": "This phrase is British in origin and derives from sports that use goalposts .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "The phrase originated in Britain and was derived from sports that incorporate goalposts.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "745",
+      "original_sentence": "This phrase is British in origin and derives from sports that use goalposts .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This common phrase is distinctly British in origin and specifically derives from traditional sports that make use of goalposts.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2085",
+      "original_sentence": "The English text comprises 108,260 words and is divided into two parts , each reading as a continuous narrative with no chapter divisions .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "With 108,260 words, the English text is structured into two parts that read continuously without chapters.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2085",
+      "original_sentence": "The English text comprises 108,260 words and is divided into two parts , each reading as a continuous narrative with no chapter divisions .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "There are no chapter breaks in either of the two parts of the 108,260-word English text.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2085",
+      "original_sentence": "The English text comprises 108,260 words and is divided into two parts , each reading as a continuous narrative with no chapter divisions .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "The English text has 108,260 words and is divided into two parts without chapters.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "964",
+      "original_sentence": "The provinces and territories are all sub-divided into regions for a variety of official and unofficial purposes .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Regions within provinces and territories serve many functions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "964",
+      "original_sentence": "The provinces and territories are all sub-divided into regions for a variety of official and unofficial purposes .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "These divisions aren’t purely symbolic.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "964",
+      "original_sentence": "The provinces and territories are all sub-divided into regions for a variety of official and unofficial purposes .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Provinces split into regions for various tasks.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1151",
+      "original_sentence": "The six-part series followed the book in great detail including all key features .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "The series carefully mirrored the book with all major elements.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1151",
+      "original_sentence": "The six-part series followed the book in great detail including all key features .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The adaptation remained faithful to the original work.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2363",
+      "original_sentence": "Secondary cells are rechargeable .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Unlike primary cells, secondary ones can be recharged.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2363",
+      "original_sentence": "Secondary cells are rechargeable .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "They include lithium-ion and NiMH types.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1301",
+      "original_sentence": "The table tennis section applied for bankruptcy on 3 July 2006 .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "They didn’t remain financially stable.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1301",
+      "original_sentence": "The table tennis section applied for bankruptcy on 3 July 2006 .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This marked the end of their active operations.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "886",
+      "original_sentence": "Other forms of PAH are far more common .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Alternative variants of PAH are significantly more prevalent.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1282",
+      "original_sentence": "Costa Rica developed high literacy rates and education levels .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Costa Rica made major strides in education and reading proficiency.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2132",
+      "original_sentence": "The station 's large hall was chosen because its dimensions are similar to 19th century concert halls , that is , it is shaped in the 'shoebox style ' .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "The station’s spacious hall was selected for its resemblance in scale to 19th-century concert halls—specifically the shoebox configuration.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2744",
+      "original_sentence": "In the knockout stage , teams play against each other over two legs on a home - and - away basis , except for the one-match final .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Typically, in the knockout stage, teams play two matches—home and away—except for the one decisive final match.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "667",
+      "original_sentence": "Car rentals are subject to many conditions which vary from one brand to another .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Automobile rentals come with numerous stipulations that differ between providers.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "667",
+      "original_sentence": "Car rentals are subject to many conditions which vary from one brand to another .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Car rentals are typically subject to many varying conditions that depend heavily on the brand.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "93",
+      "original_sentence": "I knew bees could sting and I had to be careful around them .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This fear kept me from getting too close.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1673",
+      "original_sentence": "But in the inland areas more than half of the population was Serbo- Croatian speaking , after the first years of the 18th century .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Inland areas saw a majority of Serbo-Croatian speakers emerge after the early 18th century.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1673",
+      "original_sentence": "But in the inland areas more than half of the population was Serbo- Croatian speaking , after the first years of the 18th century .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "In inland areas, more than half the population was Serbo-Croatian speaking.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "772",
+      "original_sentence": "The growth and development of the Ediacara biota is also important .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Their fossil record sheds light on pre-Cambrian life.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "600",
+      "original_sentence": "The film 's story is about an astronaut crew who leave Earth on a deep space mission and crash land on a supposedly alien planet in the 40th century .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some crew members explore the unknown alien terrain.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1085",
+      "original_sentence": "Traditionally , this dance is performed only by women at night without any instruments .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "This ritual dance was customarily done by women, instrument-free, in the evening.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "121",
+      "original_sentence": "I am a researcher in applied corpus linguistics .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "My expertise centers around analyzing language use through large text corpora for practical applications.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1240",
+      "original_sentence": "It is made up of 8 districts and 28 municipalities .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "It is administratively made up of 8 districts and 28 separate municipalities.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2708",
+      "original_sentence": "Unique among the United States , Alaska is not entirely subdivided into organized county equivalents .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "No other U.S. state lacks such subdivisions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2708",
+      "original_sentence": "Unique among the United States , Alaska is not entirely subdivided into organized county equivalents .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Alaska isn’t fully divided into counties.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2614",
+      "original_sentence": "Three soccer grounds using artificial turfs were opened on 3 October 2012 .",
+      "original_prediction": "B1",
+      "cf_type": "delete",
+      "cf_sentence": "Three soccer grounds were opened on 3 October 2012.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2095",
+      "original_sentence": "Para-alpine skiing classification is designed to give insurance equal competition between alpine skiers with different types of limited physical and seeing powers .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "The system balances abilities to promote fairness in para-alpine skiing.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2095",
+      "original_sentence": "Para-alpine skiing classification is designed to give insurance equal competition between alpine skiers with different types of limited physical and seeing powers .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This classification enhances fairness across competition levels.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1953",
+      "original_sentence": "The following is a list of active , unofficial codes that emulate the ISO 4217 format .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "Here is a compilation of functioning informal codes that mimic the ISO 4217 structure.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1742",
+      "original_sentence": "Basic general information about the clients : creator / company , license , etc .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It’s not devoid of identifying data.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1399",
+      "original_sentence": "The 150th anniversary was celebrated in 2003 .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It wasn’t ignored—the anniversary was commemorated in 2003.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1399",
+      "original_sentence": "The 150th anniversary was celebrated in 2003 .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "That year, a sesquicentennial was held.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1283",
+      "original_sentence": "In order to make it possible for all the Form 3 students to study as Form 4 in the school , the school changed the class structure .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "In order to make it realistically possible for every single Form 3 student to continue as Form 4 in the school, the school significantly changed the class structure.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "647",
+      "original_sentence": "The methods used cover both static and dynamic situations .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "The methods currently used comprehensively cover both static and dynamic situations.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "967",
+      "original_sentence": "If two computers send data at the same time , a collision will occur .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Simultaneous data transmission by computers causes a network collision.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "967",
+      "original_sentence": "If two computers send data at the same time , a collision will occur .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "This won’t happen if transmissions are staggered.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "967",
+      "original_sentence": "If two computers send data at the same time , a collision will occur .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Shared network channels are prone to data interference.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2357",
+      "original_sentence": "Zero-fare public transport services are funded in full by means other than collecting a fare from passengers , normally through heavy subsidy or commercial sponsorship by businesses .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Free public transportation is commonly funded through government aid or business partnerships.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1409",
+      "original_sentence": "Because it requires breaking the skin barrier , tattooing carries health risks including infection and allergic reactions .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Tattooing is not without health risks, as it breaks the skin barrier.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1120",
+      "original_sentence": "The book has been in print since it was first published , and has sold over one million copies .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Since its release, the book has remained in circulation and sold millions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    }
+  ]
+}

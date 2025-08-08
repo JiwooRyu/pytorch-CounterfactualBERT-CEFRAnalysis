@@ -1,0 +1,868 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands , it covers 40 hectares .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Constructed from previously arid land between 2003 and 2006, it spans 40 hectares.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands , it covers 40 hectares .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Covering 40 hectares, it was built from barren land during 2003–2006.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands , it covers 40 hectares .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The area, once barren, was developed between 2003 and 2006 into a 40-hectare site.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Hand over the urine sample to the technician.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Every patient must provide a sample.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "A technician collects biological specimens for testing.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Since the 1920s, ragtime has experienced several comebacks.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Since the 1920s, when newer styles replaced ragtime, there have been numerous revivals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Multiple revivals have brought ragtime back since its fall.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Revival festivals and recordings have helped keep ragtime relevant despite its age.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "The eggs, which are green or grey-blue, are laid one at a time under aged leaves of the host plant.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some eggs are laid singly beneath old leaves and are green or bluish-grey.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art , his unique talent was landscape painting .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "While he explored diverse art forms, landscape painting was his true strength.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Due to budget cuts, the swimming event was held in open water.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Because of cost concerns, they held the swim meet in the sea.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "They used natural water due to financial limitations.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Spectators found the decision controversial.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and , as of July 2016 , six grandchildren .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "As of July 2016, he and his wife Mary have three children and six grandchildren.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare- earth mineral production sector .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "China has formally identified resource exhaustion and ecological issues as causes for its national restriction on rare-earth mineral production.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare- earth mineral production sector .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "The nationwide crackdown on rare-earth mineral production in China is officially attributed to resource depletion and environmental concerns.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare- earth mineral production sector .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "China has not ignored resource depletion and environmental concerns in its decision to restrict rare-earth mineral production.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare- earth mineral production sector .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "China has officially cited severe resource depletion and escalating environmental concerns as primary reasons for a sweeping nationwide crackdown on its rare-earth mineral production sector.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "17",
+      "original_sentence": "When the parade reached the end of its route , the people began to shout .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Once the parade completed its course, the crowd began to cheer.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "17",
+      "original_sentence": "When the parade reached the end of its route , the people began to shout .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "The people began to shout when the parade reached the end of its route.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "17",
+      "original_sentence": "When the parade reached the end of its route , the people began to shout .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "At the end of the parade's route, people started shouting.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "17",
+      "original_sentence": "When the parade reached the end of its route , the people began to shout .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "When the parade concluded, people started yelling in excitement.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "287",
+      "original_sentence": "We hope to see that movie but I heard the tickets might be sold out .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Though we intend to see the movie, ticket availability is uncertain.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "287",
+      "original_sentence": "We hope to see that movie but I heard the tickets might be sold out .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "High demand may prevent us from watching the movie.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "287",
+      "original_sentence": "We hope to see that movie but I heard the tickets might be sold out .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "We should check the theater’s website first.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2428",
+      "original_sentence": "The islets are volcanic rocks , with only a thin layer of soil and moss .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "They don’t have fertile or thick soil.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2428",
+      "original_sentence": "The islets are volcanic rocks , with only a thin layer of soil and moss .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Geologically, these landforms are barren and igneous.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "786",
+      "original_sentence": "The theory of their use in sexual display was first proposed by Davitashvili in 1961 and has gained increasing acceptance since .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Davitashvili introduced the idea in 1961 that their traits are for mating signals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "786",
+      "original_sentence": "The theory of their use in sexual display was first proposed by Davitashvili in 1961 and has gained increasing acceptance since .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Scholarly consensus has grown around their display functions in mating.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "438",
+      "original_sentence": "Governments use different kinds of taxes and vary the tax rates .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Governments employ various forms of taxation and adjust the corresponding rates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "438",
+      "original_sentence": "Governments use different kinds of taxes and vary the tax rates .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Different kinds of taxes are used by governments, and they vary the tax rates.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "438",
+      "original_sentence": "Governments use different kinds of taxes and vary the tax rates .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Public administrations implement diverse taxation systems and modify the rates as needed.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1438",
+      "original_sentence": "Recent editions have focused on record feats by human competitors .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Recent publications emphasized human record-setting performances.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1438",
+      "original_sentence": "Recent editions have focused on record feats by human competitors .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The spotlight turned to human accomplishments.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1438",
+      "original_sentence": "Recent editions have focused on record feats by human competitors .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "These included strength and endurance records.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1527",
+      "original_sentence": "The court has ruled that the $ 2.7 billion in school funding was not good enough and was given out unfairly .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "The court found the $2.7B in education funds insufficient and unfairly distributed.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1527",
+      "original_sentence": "The court has ruled that the $ 2.7 billion in school funding was not good enough and was given out unfairly .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "A $2.7 billion education budget was judged by the court to be inadequate and unjustly allocated.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1527",
+      "original_sentence": "The court has ruled that the $ 2.7 billion in school funding was not good enough and was given out unfairly .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Legal authorities determined the distribution of funds was flawed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2641",
+      "original_sentence": "All shrews are comparatively small , most no larger than a mouse .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Most shrews are no bigger than a mouse; they are comparatively small.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2641",
+      "original_sentence": "All shrews are comparatively small , most no larger than a mouse .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "They aren’t known for being large mammals.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2641",
+      "original_sentence": "All shrews are comparatively small , most no larger than a mouse .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Their diminutive size is characteristic of the species.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "263",
+      "original_sentence": "The wizard whom he lost was his godfather .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "His godfather, the wizard, was someone he lost.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "263",
+      "original_sentence": "The wizard whom he lost was his godfather .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "His godfather was the wizard he lost.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "263",
+      "original_sentence": "The wizard whom he lost was his godfather .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Only one close wizard figure he lost—his godfather.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "263",
+      "original_sentence": "The wizard whom he lost was his godfather .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "A personal tragedy involved losing a wizard mentor.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "936",
+      "original_sentence": "Patients come to an emergency department with little warning .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "With little warning, patients come to an emergency department.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "936",
+      "original_sentence": "Patients come to an emergency department with little warning .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Patients don’t usually arrive with much warning at emergency departments.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1851",
+      "original_sentence": "Electric rays are found from shallow coastal waters down to at least 1000 m deep .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "These rays inhabit coastal shallows and depths exceeding 1000 meters.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1851",
+      "original_sentence": "Electric rays are found from shallow coastal waters down to at least 1000 m deep .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "These fish span diverse marine layers from surf zones to ocean floors.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1851",
+      "original_sentence": "Electric rays are found from shallow coastal waters down to at least 1000 m deep .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Their electric shock aids in defense and hunting.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2437",
+      "original_sentence": "As a fine powder , toner can remain suspended in the air for some period , and is considered to have health effects comparable to inert dust .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Toner particles stay airborne and pose health risks like dust.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2437",
+      "original_sentence": "As a fine powder , toner can remain suspended in the air for some period , and is considered to have health effects comparable to inert dust .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Prolonged exposure could cause respiratory irritation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "272",
+      "original_sentence": "If I were an engineer , I would look for a chemical safer than water to use for geothermal energy production .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "To produce geothermal energy, I would find a chemical safer than water—if I were an engineer.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "272",
+      "original_sentence": "If I were an engineer , I would look for a chemical safer than water to use for geothermal energy production .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "If I were not an engineer, I wouldn’t look for a chemical safer than water for geothermal energy production.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "272",
+      "original_sentence": "If I were an engineer , I would look for a chemical safer than water to use for geothermal energy production .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "If I were an engineer, I would look for a significantly safer chemical than water for geothermal energy production.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1700",
+      "original_sentence": "Standing ovations are also often given in a sporting game to reflect an outstanding individual performance .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "In sporting events, standing ovations are frequently awarded to recognize exceptional individual efforts.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1700",
+      "original_sentence": "Standing ovations are also often given in a sporting game to reflect an outstanding individual performance .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "In a sporting game, standing ovations are also often given to reflect an outstanding individual performance.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1700",
+      "original_sentence": "Standing ovations are also often given in a sporting game to reflect an outstanding individual performance .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It’s not unusual for a standing ovation to be given during a sporting game to recognize an outstanding performance.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1700",
+      "original_sentence": "Standing ovations are also often given in a sporting game to reflect an outstanding individual performance .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Standing ovations are also often enthusiastically given in a sporting game to reflect an exceptionally outstanding individual performance.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1746",
+      "original_sentence": "With the start of the Soest district in 1817 its influence slowly rose .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Its influence rose slowly after the Soest district started in 1817.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1746",
+      "original_sentence": "With the start of the Soest district in 1817 its influence slowly rose .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Founded in 1817, the Soest district gained prominence gradually.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1536",
+      "original_sentence": "Sixth is the roof escape opening that is in place on all Funny Cars since the division was made in the early 1970s .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "The roof escape opening has been required in Funny Cars since the early 1970s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1987",
+      "original_sentence": "The frog has a few native predators , among them snakes and birds .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Among them birds and snakes, the frog has a few native predators.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1020",
+      "original_sentence": "Drug trafficking and illegal drug use is a big problem in the nation .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Illicit drugs and their distribution pose a major national issue.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1020",
+      "original_sentence": "Drug trafficking and illegal drug use is a big problem in the nation .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many areas suffer from drug-related issues.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "729",
+      "original_sentence": "In computing , at least internally , metric time gained widespread use for ease of computation .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Within computing, especially internally, metric time saw broad adoption due to its computational simplicity.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "729",
+      "original_sentence": "In computing , at least internally , metric time gained widespread use for ease of computation .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Metric time was not ignored internally in computing—it became widely used.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2550",
+      "original_sentence": "An addition reaction is the opposite of an elimination reaction .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many reactions fall into either addition or elimination types.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2550",
+      "original_sentence": "An addition reaction is the opposite of an elimination reaction .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Chemical reactions can either build or break molecules—addition does the former.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1659",
+      "original_sentence": "Engineers in the nineteenth century knew that a bridge which was built across multiple supports would distribute the loads among them .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Nineteenth-century engineers understood load sharing via multiple bridge supports.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1659",
+      "original_sentence": "Engineers in the nineteenth century knew that a bridge which was built across multiple supports would distribute the loads among them .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many engineers realized multiple supports helped balance loads.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1659",
+      "original_sentence": "Engineers in the nineteenth century knew that a bridge which was built across multiple supports would distribute the loads among them .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This understanding shaped bridge engineering at the time.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2243",
+      "original_sentence": "The structure of courts and the methods of selecting judges is determined by each state 's constitution or legislature .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Each state decides how its courts are structured and how judges are chosen.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2243",
+      "original_sentence": "The structure of courts and the methods of selecting judges is determined by each state 's constitution or legislature .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "There’s no single national method for selecting judges—states decide.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2243",
+      "original_sentence": "The structure of courts and the methods of selecting judges is determined by each state 's constitution or legislature .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This leads to significant differences in judiciary systems across the country.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1474",
+      "original_sentence": "Kodkods are active during the day and night , but they only go into open ground under the cover of darkness .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Active during the day and night are Kodkods, but they only go into open ground in darkness.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1474",
+      "original_sentence": "Kodkods are active during the day and night , but they only go into open ground under the cover of darkness .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "Kodkods are known to be active during both the day and night, although they only venture into open ground under the safety of darkness.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "354",
+      "original_sentence": "If they were at my house , I would have fed them .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Had they visited me, I would have given them food.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "354",
+      "original_sentence": "If they were at my house , I would have fed them .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "I would have fed them if they had been at my place.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "354",
+      "original_sentence": "If they were at my house , I would have fed them .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "They weren’t here, but I would’ve provided food if they had been.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1611",
+      "original_sentence": "Food power is part of food politics .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "Food politics includes the concept known as food power.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "915",
+      "original_sentence": "Brown recluse spiders are usually between 6 and , but may grow larger .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Brown recluses typically measure 6 to X mm but can exceed that.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "915",
+      "original_sentence": "Brown recluse spiders are usually between 6 and , but may grow larger .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some brown recluses exceed the average size.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2020",
+      "original_sentence": "The theory has been criticized and modified over the course of time , as one of several competing theories of emotion .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The theory hasn’t gone unchallenged over the years.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2020",
+      "original_sentence": "The theory has been criticized and modified over the course of time , as one of several competing theories of emotion .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "The theory has changed over time due to criticism.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1349",
+      "original_sentence": "He died of pneumonia and heart failure on 7 January 2018 , aged 61 .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "His death on January 7, 2018, aged 61, was caused by both pneumonia and heart-related complications.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1808",
+      "original_sentence": "Seventy students and teachers going to the United States for summer camp were among the Chinese passengers .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "The Chinese passengers included seventy students and teachers who were traveling to the United States for summer camp.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "14",
+      "original_sentence": "The man took several hostages whom he killed .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "All of the hostages were killed by him.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "14",
+      "original_sentence": "The man took several hostages whom he killed .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "The abduction ended in a deadly outcome for the captives.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2695",
+      "original_sentence": "No firm dates can be assigned to this Emperor 's life or reign , but he is conventionally considered to have reigned from 480 to 484 .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Though exact dates are unknown, tradition places his reign around 480–484.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2695",
+      "original_sentence": "No firm dates can be assigned to this Emperor 's life or reign , but he is conventionally considered to have reigned from 480 to 484 .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some believe he ruled around the early 480s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2695",
+      "original_sentence": "No firm dates can be assigned to this Emperor 's life or reign , but he is conventionally considered to have reigned from 480 to 484 .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "His timeline is uncertain, but the reign period is historically agreed upon.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    }
+  ]
+}

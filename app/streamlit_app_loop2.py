@@ -4,7 +4,7 @@ import difflib
 import random
 import datetime
 
-st.set_page_config(page_title="Counterfactual Example Selector", layout="wide")
+st.set_page_config(page_title="Loop 2 Counterfactual Example Selector", layout="wide")
 
 # 전체 앱 배경/글씨색 스타일 적용 (다크 테마)
 st.markdown('''
@@ -49,42 +49,24 @@ def diff_highlight(a, b, highlight_color):
     return ' '.join(b_out)
 
 # 1. 데이터 로드
-# anchor 데이터와 loop 데이터 로드
-with open('Loop/anchor_data.json', 'r', encoding='utf-8') as f:
-    anchor_data = json.load(f)
-with open('Loop/loop_1_data.json', 'r', encoding='utf-8') as f:
-    loop_data = json.load(f)
+# loop_2_data.json 로드
+with open('Loop/loop_2/loop_2_data.json', 'r', encoding='utf-8') as f:
+    loop2_data = json.load(f)
 
-# anchor 8개 + 일반 문장 32개로 구성
-normal_data = [item for item in loop_data if item not in anchor_data]
-
-# 5개 버전으로 분할 (각 버전: anchor 8개 + 일반 32개 = 40개)
+# 5개 버전으로 분할 (각 버전: 32개씩)
 version = st.sidebar.selectbox("Select survey version", [1, 2, 3, 4, 5])
 
-# 각 버전별로 다른 anchor 8개 선택 (40개 anchor를 5개 버전으로 분할)
+# 각 버전별로 다른 문장 32개 선택
 random.seed(42)
-random.shuffle(anchor_data)
-
-anchor_start_idx = (version - 1) * 8
-anchor_end_idx = version * 8
-selected_anchors = anchor_data[anchor_start_idx:anchor_end_idx]
-
-# 각 버전별로 다른 일반 문장 32개 선택
-random.seed(42)
-random.shuffle(normal_data)
+random.shuffle(loop2_data)
 
 start_idx = (version - 1) * 32
 end_idx = version * 32
-selected_normal = normal_data[start_idx:end_idx]
+survey_data = loop2_data[start_idx:end_idx]
 
-# 각 버전의 데이터 구성: anchor 8개 + 일반 32개
-survey_data = selected_anchors + selected_normal
+print(f"Version {version}: {len(survey_data)}개 문장")
 
-print(f"Version {version}: anchor {len(selected_anchors)}개 + 일반 {len(selected_normal)}개 = 총 {len(survey_data)}개")
-
-# survey_data는 이미 구성 완료 (anchor 8개 + 일반 32개 = 40개)
-
-st.title('Counterfactual Example Selector')
+st.title('Loop 2 Counterfactual Example Selector')
 
 # 버전 확인 안내
 st.markdown('''
@@ -97,7 +79,7 @@ st.markdown('''
 Among the examples generated using each control code, please select the sentences that feel different in difficulty compared to the original sentence.<br/>
 For each set (i.e., one original sentence and its variations), you must select at least one, and you may select more than one if needed.<br/><br/>
 For example, if the original sentence seems to be at the B1 level, please select the ones that feel more like B2 level.<br/>
-The AI model’s predictions are provided for reference only.
+The AI model's predictions are provided for reference only.
 ''', unsafe_allow_html=True)
 
 contrastive_pairs = []
@@ -116,29 +98,34 @@ for idx, item in enumerate(survey_data):
     </div>
     <div style='margin-bottom:8px;'><b>Counterfactuals:</b></div>
     """, unsafe_allow_html=True)
+    
     # counterfactual 예시를 2열(왼쪽: 내용, 오른쪽: 체크박스)로 배치
     selected = []
-    for cf in item['counterfactuals']:
-        ctype = cf['type']
-        cstyle = CONTROL_TYPE_STYLE.get(ctype, {'color':'#bbb','num':'?'})
-        highlight_color = cstyle['color']
-        cf_diff = diff_highlight(item['original_sentence'], cf['sentence'], highlight_color)
-        label_flip_color = 'red' if cf['is_label_flipped'] else '#fff'
-        type_label = f"<span style='display:inline-block;min-width:80px;background:{highlight_color};color:#111;padding:3px 12px 3px 12px;border-radius:14px;font-weight:bold;font-family:\"Noto Sans\",Arial,sans-serif;font-size:1em;'>#{cstyle['num']} {ctype.capitalize()}</span>"
-        left, right = st.columns([8,2])
-        with left:
-            st.markdown(f"""
-            <div class='cf-cf' style='border-radius:8px; margin-bottom:8px; padding:12px 18px;'>
-                {type_label}<br>
-                <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif; color:#fff;'><b>Sentence:</b></span> <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif'>{cf_diff}</span><br>
-                <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif; color:#bbb;'><b>Prediction:</b> {LABEL_MAP[cf['prediction']]}</span><br>
-                <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif;'><b>Label Flipped:</b> <span style='color:{label_flip_color}; font-weight:bold'>{cf['is_label_flipped']}</span></span>
-            </div>
-            """, unsafe_allow_html=True)
-        with right:
-            checked = st.checkbox("", key=f"{idx}_{cf['type']}" )
-            if checked:
-                selected.append(cf)
+    
+    # loop_2_data.json에는 counterfactuals가 없으므로, 원본 문장만 표시
+    st.markdown(f"""
+    <div class='cf-cf' style='border-radius:8px; margin-bottom:8px; padding:12px 18px;'>
+        <span style='display:inline-block;min-width:80px;background:#666;color:#111;padding:3px 12px 3px 12px;border-radius:14px;font-weight:bold;font-family:"Noto Sans",Arial,sans-serif;font-size:1em;'>Original</span><br>
+        <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif; color:#fff;'><b>Sentence:</b></span> <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif'>{item['original_sentence']}</span><br>
+        <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif; color:#bbb;'><b>Prediction:</b> {LABEL_MAP[item['original_prediction']]}</span><br>
+        <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif;'><b>Label Flipped:</b> <span style='color:#fff; font-weight:bold'>False</span></span>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # 체크박스 (선택사항)
+    left, right = st.columns([8,2])
+    with left:
+        st.markdown("<!-- Placeholder for counterfactuals -->", unsafe_allow_html=True)
+    with right:
+        checked = st.checkbox("", key=f"{idx}_original")
+        if checked:
+            selected.append({
+                'type': 'original',
+                'sentence': item['original_sentence'],
+                'prediction': item['original_prediction'],
+                'is_label_flipped': False
+            })
+    
     # 선택된 쌍 저장
     for cf in selected:
         contrastive_pairs.append({
@@ -150,6 +137,7 @@ for idx, item in enumerate(survey_data):
             'cf_prediction': LABEL_MAP[cf['prediction']],
             'is_label_flipped': cf['is_label_flipped']
         })
+    
     st.markdown("</div>", unsafe_allow_html=True)  # 카드 닫기
 
 # Part 2: Control Code Feedback
@@ -217,12 +205,13 @@ final_confirmation = st.radio("4-1_completion", ["Yes", "No"], key="4-1_completi
 st.markdown('---')
 st.header('Save All Your Responses')
 st.markdown('''
-To save your answers for all parts of the survey (Part 1, Part 2, Part 3), please click the button below.\
+To save your answers for all parts of the survey (Part 1, Part 2, Part 3, Part 4), please click the button below.\
 All your selections and inputs will be saved in a single JSON file.
 ''')
 st.markdown('''
 <span style="color:#d32f2f; font-size: 1.25em; font-weight:bold;">After saving, you MUST send the downloaded file to jiwooryu45@ajou.ac.kr.<br>If you do not send the file, your responses will NOT be collected.</span>
 ''', unsafe_allow_html=True)
+
 # 자동으로 모든 답변 수집
 responses = {}
 # Part 1: 선택된 contrastive pairs
@@ -248,10 +237,10 @@ responses['part4_final_confirmation'] = {
 }
 
 ts = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
-filename = f'expert_response_{ts}.json'
+filename = f'loop2_expert_response_{ts}.json'
 st.download_button(
     label='Download All Responses',
     data=json.dumps(responses, ensure_ascii=False, indent=2),
     file_name=filename,
     mime='application/json'
-)
+) 
