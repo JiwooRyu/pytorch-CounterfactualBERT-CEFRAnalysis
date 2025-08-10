@@ -25,14 +25,14 @@ LABEL_MAP = {0: 'B1', 1: 'B2'}
 
 # control code별 색상 및 번호 (어두운 배경에 어울리는 색상 유지)
 CONTROL_TYPE_STYLE = {
-    'lexical':    {'color': '#e57373', 'num': 1},
-    'shuffle':    {'color': '#64b5f6', 'num': 2},
-    'restructure':{'color': '#81c784', 'num': 3},
-    'negation':   {'color': '#ffd54f', 'num': 4},
-    'quantifier': {'color': '#ba68c8', 'num': 5},
-    'resemantic': {'color': '#ffb74d', 'num': 6},
-    'insert':     {'color': '#4db6ac', 'num': 7},
-    'delete':     {'color': '#a1887f', 'num': 8},
+    'lexical-frequency':    {'color': '#e57373', 'num': 1},
+    'lexical-idiom':       {'color': '#64b5f6', 'num': 2},
+    'restructure-passive': {'color': '#81c784', 'num': 3},
+    'restructure-participle': {'color': '#4db6ac', 'num': 4},
+    'resemantic-background': {'color': '#ffb74d', 'num': 5},
+    'negation':            {'color': '#ffd54f', 'num': 6},
+    'insert-clause':       {'color': '#ba68c8', 'num': 7},
+    'delete-modifier':     {'color': '#a1887f', 'num': 8},
 }
 
 # 두 문장 diff를 HTML로 반환 (control code 색상으로 강조, 어두운 배경에 잘 보이게)
@@ -49,22 +49,53 @@ def diff_highlight(a, b, highlight_color):
     return ' '.join(b_out)
 
 # 1. 데이터 로드
-# loop_2_data.json 로드
-with open('Loop/loop_2/loop_2_data.json', 'r', encoding='utf-8') as f:
+# anchor 데이터와 loop_2 데이터 로드
+import os
+current_dir = os.getcwd()
+anchor_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'anchor_data.json')
+loop2_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'loop_2', 'loop_2_data.json')
+
+with open(anchor_data_path, 'r', encoding='utf-8') as f:
+    anchor_data = json.load(f)
+with open(loop2_data_path, 'r', encoding='utf-8') as f:
     loop2_data = json.load(f)
 
-# 5개 버전으로 분할 (각 버전: 32개씩)
+# anchor_data에서 문장 ID만 추출 (총 40개)
+anchor_ids = set(item['original_id'] for item in anchor_data)
+
+# loop_2_data에서 anchor 문장들과 일반 문장들을 분리
+anchor_sentences = [item for item in loop2_data if item['original_id'] in anchor_ids]
+normal_data = [item for item in loop2_data if item['original_id'] not in anchor_ids]
+
+print(f"총 anchor 문장: {len(anchor_sentences)}개")
+print(f"총 일반 문장: {len(normal_data)}개")
+
+# 5개 버전으로 분할 (각 버전: anchor 8개 + 일반 32개 = 40개)
 version = st.sidebar.selectbox("Select survey version", [1, 2, 3, 4, 5])
 
-# 각 버전별로 다른 문장 32개 선택
+# anchor_data를 5개 버전으로 분할 (각 버전 8개씩)
 random.seed(42)
-random.shuffle(loop2_data)
+random.shuffle(anchor_data)
 
-start_idx = (version - 1) * 32
-end_idx = version * 32
-survey_data = loop2_data[start_idx:end_idx]
+anchor_start_idx = (version - 1) * 8
+anchor_end_idx = version * 8
+selected_anchor_ids = set(item['original_id'] for item in anchor_data[anchor_start_idx:anchor_end_idx])
 
-print(f"Version {version}: {len(survey_data)}개 문장")
+# loop_2_data에서 선택된 anchor ID에 해당하는 문장들 가져오기
+selected_anchors = [item for item in loop2_data if item['original_id'] in selected_anchor_ids]
+
+# 일반 문장들을 5개 버전으로 분할 (각 버전 30개씩, 총 150개)
+random.seed(42)
+random.shuffle(normal_data)
+
+start_idx = (version - 1) * 30
+end_idx = version * 30
+selected_normal = normal_data[start_idx:end_idx]
+
+# 각 버전의 데이터 구성: anchor 8개 + 일반 30개
+survey_data = selected_anchors + selected_normal
+
+print(f"Version {version}: anchor {len(selected_anchors)}개 + 일반 {len(selected_normal)}개 = 총 {len(survey_data)}개")
 
 st.title('Loop 2 Counterfactual Example Selector')
 
@@ -101,30 +132,27 @@ for idx, item in enumerate(survey_data):
     
     # counterfactual 예시를 2열(왼쪽: 내용, 오른쪽: 체크박스)로 배치
     selected = []
-    
-    # loop_2_data.json에는 counterfactuals가 없으므로, 원본 문장만 표시
-    st.markdown(f"""
-    <div class='cf-cf' style='border-radius:8px; margin-bottom:8px; padding:12px 18px;'>
-        <span style='display:inline-block;min-width:80px;background:#666;color:#111;padding:3px 12px 3px 12px;border-radius:14px;font-weight:bold;font-family:"Noto Sans",Arial,sans-serif;font-size:1em;'>Original</span><br>
-        <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif; color:#fff;'><b>Sentence:</b></span> <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif'>{item['original_sentence']}</span><br>
-        <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif; color:#bbb;'><b>Prediction:</b> {LABEL_MAP[item['original_prediction']]}</span><br>
-        <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif;'><b>Label Flipped:</b> <span style='color:#fff; font-weight:bold'>False</span></span>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # 체크박스 (선택사항)
-    left, right = st.columns([8,2])
-    with left:
-        st.markdown("<!-- Placeholder for counterfactuals -->", unsafe_allow_html=True)
-    with right:
-        checked = st.checkbox("", key=f"{idx}_original")
-        if checked:
-            selected.append({
-                'type': 'original',
-                'sentence': item['original_sentence'],
-                'prediction': item['original_prediction'],
-                'is_label_flipped': False
-            })
+    for cf_idx, cf in enumerate(item['counterfactuals']):
+        ctype = cf['type']
+        cstyle = CONTROL_TYPE_STYLE.get(ctype, {'color':'#bbb','num':'?'})
+        highlight_color = cstyle['color']
+        cf_diff = diff_highlight(item['original_sentence'], cf['sentence'], highlight_color)
+        label_flip_color = 'red' if cf['is_label_flipped'] else '#fff'
+        type_label = f"<span style='display:inline-block;min-width:80px;background:{highlight_color};color:#111;padding:3px 12px 3px 12px;border-radius:14px;font-weight:bold;font-family:\"Noto Sans\",Arial,sans-serif;font-size:1em;'>#{cstyle['num']} {ctype.capitalize()}</span>"
+        left, right = st.columns([8,2])
+        with left:
+            st.markdown(f"""
+            <div class='cf-cf' style='border-radius:8px; margin-bottom:8px; padding:12px 18px;'>
+                {type_label}<br>
+                <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif; color:#fff;'><b>Sentence:</b></span> <span style='font-size:1.08em; font-family:"Noto Sans",Arial,sans-serif'>{cf_diff}</span><br>
+                <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif; color:#bbb;'><b>Prediction:</b> {LABEL_MAP[cf['prediction']]}</span><br>
+                <span style='font-size:1em; font-family:"Noto Sans",Arial,sans-serif;'><b>Label Flipped:</b> <span style='color:{label_flip_color}; font-weight:bold'>{cf['is_label_flipped']}</span></span>
+            </div>
+            """, unsafe_allow_html=True)
+        with right:
+            checked = st.checkbox("", key=f"{idx}_{cf_idx}_{cf['type']}" )
+            if checked:
+                selected.append(cf)
     
     # 선택된 쌍 저장
     for cf in selected:
@@ -196,10 +224,10 @@ st.text_area("3-3_benefit", placeholder="Please write your answer here.", key="t
 st.markdown('---')
 st.header('Part 4: Final Confirmation')
 st.markdown('''
-**4-1. Have you completed all the questions in this survey?**  
-Please confirm that you have answered all parts of the survey (Part 1, Part 2, Part 3).
+**4. Do you have any additional suggestions or feedback?**  
+If you have any additional suggestions or feedback, please write them here. If not, please write 'no'.
 ''')
-final_confirmation = st.radio("4-1_completion", ["Yes", "No"], key="4-1_completion")
+additional_feedback = st.text_area("4_additional", placeholder="Please write your additional suggestions or feedback here. If none, write 'no'.", key="text_4_additional")
 
 # --- 저장 버튼 및 다운로드 기능 (앱 최하단) ---
 st.markdown('---')
@@ -233,7 +261,7 @@ responses['part3_ai_collaboration_feedback'] = {
 }
 # Part 4: Final confirmation
 responses['part4_final_confirmation'] = {
-    '4-1': st.session_state.get('4-1_completion')
+    '4': st.session_state.get('text_4_additional')
 }
 
 ts = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')

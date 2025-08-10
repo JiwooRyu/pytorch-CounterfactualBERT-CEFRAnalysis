@@ -50,9 +50,14 @@ def diff_highlight(a, b, highlight_color):
 
 # 1. 데이터 로드
 # anchor 데이터와 loop 데이터 로드
-with open('Loop/anchor_data.json', 'r', encoding='utf-8') as f:
+import os
+current_dir = os.path.dirname(os.path.abspath(__file__))
+anchor_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'anchor_data.json')
+loop_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'loop_1_data.json')
+
+with open(anchor_data_path, 'r', encoding='utf-8') as f:
     anchor_data = json.load(f)
-with open('Loop/loop_1_data.json', 'r', encoding='utf-8') as f:
+with open(loop_data_path, 'r', encoding='utf-8') as f:
     loop_data = json.load(f)
 
 # anchor 8개 + 일반 문장 32개로 구성
