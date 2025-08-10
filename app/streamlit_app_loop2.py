@@ -51,9 +51,9 @@ def diff_highlight(a, b, highlight_color):
 # 1. 데이터 로드
 # anchor 데이터와 loop_2 데이터 로드
 import os
-current_dir = os.getcwd()
-anchor_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'anchor_data.json')
-loop2_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'loop_2', 'loop_2_data.json')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+anchor_data_path = os.path.join(current_dir, 'data', 'loop', 'anchor_data.json')
+loop2_data_path = os.path.join(current_dir, 'data', 'loop', 'loop_2', 'loop_2_data.json')
 
 with open(anchor_data_path, 'r', encoding='utf-8') as f:
     anchor_data = json.load(f)
