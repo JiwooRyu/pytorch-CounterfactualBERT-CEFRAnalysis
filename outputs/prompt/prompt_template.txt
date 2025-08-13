@@ -42,7 +42,10 @@ Here are the control codes with brief explanations and examples:
 
 ```json
 {
-  "original": "{original_text}",
+  "sentence_id: "{sentence_id}"
+  "original": "{text}",
+  original_prediction: "{pred}"
+  correct: "{correct}"
   "lexical": "...",
   "shuffle": "...",
   "restructure": "...",

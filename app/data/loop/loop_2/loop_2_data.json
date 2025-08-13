@@ -11,7 +11,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Typically unitary authorities cover towns or cities which are big enough to stand on their own feet without county or regional administration.",
         "prediction": 1,
         "is_label_flipped": false
@@ -23,7 +23,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Covering towns or cities large enough to function independently, unitary authorities typically bypass county or regional administration.",
         "prediction": 1,
         "is_label_flipped": false
@@ -67,7 +67,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "In the knockout phase, teams face off over two legs on a home-and-away basis, except for the winner-takes-all final.",
         "prediction": 0,
         "is_label_flipped": false
@@ -79,7 +79,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Playing over two legs on a home-and-away basis, teams compete in the knockout phase, except for the one-match final.",
         "prediction": 0,
         "is_label_flipped": false
@@ -123,7 +123,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Producing a stop-motion animation using clay is a real uphill battle.",
         "prediction": 0,
         "is_label_flipped": false
@@ -135,7 +135,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Using clay, producing a stop-motion animation becomes an extremely laborious task.",
         "prediction": 0,
         "is_label_flipped": false
@@ -179,7 +179,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Rat snakes are often part of the home zoo for reptile enthusiasts.",
         "prediction": 0,
         "is_label_flipped": true
@@ -191,7 +191,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Kept by reptile enthusiasts, rat snakes are commonly seen as pets.",
         "prediction": 0,
         "is_label_flipped": true
@@ -235,7 +235,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "A computer program is usually cooked up by a programmer using a coding language.",
         "prediction": 0,
         "is_label_flipped": false
@@ -247,7 +247,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Written in a programming language, a computer program is usually created by a programmer.",
         "prediction": 0,
         "is_label_flipped": false
@@ -291,7 +291,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He had a cameo in the stormy events of 1848.",
         "prediction": 0,
         "is_label_flipped": false
@@ -303,7 +303,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Playing a brief part, he participated in the revolutionary events of 1848.",
         "prediction": 0,
         "is_label_flipped": false
@@ -347,7 +347,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "No matter what anyone says, stick to your guns and do what feels right.",
         "prediction": 0,
         "is_label_flipped": false
@@ -359,7 +359,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Ignoring what others think, remember what you believe is right, and do it.",
         "prediction": 0,
         "is_label_flipped": false
@@ -403,7 +403,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "If it weren't such a big deal, she wouldn’t be on your case about working on it.",
         "prediction": 0,
         "is_label_flipped": false
@@ -415,7 +415,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being so important, she keeps reminding you to work on it.",
         "prediction": 0,
         "is_label_flipped": false
@@ -459,7 +459,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "On more than one occasion, Australians have wanted to ditch the monarchy.",
         "prediction": 1,
         "is_label_flipped": true
@@ -471,7 +471,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having felt the need, people in Australia have several times wanted to remove the monarchy.",
         "prediction": 0,
         "is_label_flipped": false
@@ -515,7 +515,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Birdsong met his end on June 4, 2019, after a tragic car crash.",
         "prediction": 0,
         "is_label_flipped": false
@@ -527,7 +527,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having sustained injuries in a car crash, Birdsong died on June 4, 2019.",
         "prediction": 0,
         "is_label_flipped": false
@@ -571,7 +571,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Before Egypt came together as one, the land was dotted with self-governing villages.",
         "prediction": 1,
         "is_label_flipped": false
@@ -583,7 +583,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Prior to the unification of Egypt, the land, settled by autonomous villages, thrived independently.",
         "prediction": 1,
         "is_label_flipped": false
@@ -627,7 +627,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "In almost all cases, one dose of metronidazole does the trick.",
         "prediction": 1,
         "is_label_flipped": false
@@ -639,7 +639,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Given one dose of metronidazole, the infection is resolved in 95–97% of cases.",
         "prediction": 1,
         "is_label_flipped": false
@@ -683,7 +683,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "This subfamily is found far and wide, with members that can roll with all sorts of environments.",
         "prediction": 1,
         "is_label_flipped": false
@@ -695,7 +695,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being widely distributed, this subfamily includes members adapted to diverse environments.",
         "prediction": 1,
         "is_label_flipped": false
@@ -739,7 +739,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Ragtime has seen a lot of comebacks since newer styles took over in the 1920s.",
         "prediction": 1,
         "is_label_flipped": false
@@ -751,7 +751,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having been replaced in the 1920s, ragtime has had numerous revivals since newer styles emerged.",
         "prediction": 1,
         "is_label_flipped": false
@@ -795,7 +795,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "As someone who once held the top seat in Ireland, he was laid to rest with full honors.",
         "prediction": 0,
         "is_label_flipped": false
@@ -807,7 +807,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being a former President of Ireland, he was given a state funeral.",
         "prediction": 1,
         "is_label_flipped": true
@@ -851,7 +851,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Evaporation is key to how the water cycle keeps turning.",
         "prediction": 0,
         "is_label_flipped": true
@@ -863,7 +863,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being essential, evaporation plays a central role in the water cycle.",
         "prediction": 1,
         "is_label_flipped": false
@@ -907,7 +907,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "When you can't see past your nose, it's called zero visibility.",
         "prediction": 0,
         "is_label_flipped": false
@@ -919,7 +919,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Measured at less than 100 m, visibility is usually reported as zero.",
         "prediction": 0,
         "is_label_flipped": false
@@ -963,7 +963,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Back in 1933, gravel runways first took off.",
         "prediction": 0,
         "is_label_flipped": false
@@ -975,7 +975,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Built in 1933, the first gravel runways marked a new era in aviation.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1019,7 +1019,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The province’s eastern border hugs the western side of the Maas, born in France.",
         "prediction": 0,
         "is_label_flipped": true
@@ -1031,7 +1031,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Originating in France, the Maas borders the eastern edge of the province on its western side.",
         "prediction": 0,
         "is_label_flipped": true
@@ -1075,7 +1075,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Turning a diffraction pattern into an image takes some serious number crunching and trial and error.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1087,7 +1087,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Involving sophisticated math, producing an image from a diffraction pattern often requires iterative modeling.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1131,7 +1131,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Though he dabbled in many styles, he truly had a knack for landscape painting.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1143,7 +1143,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having experimented in many styles of art, he showed unique talent in landscape painting.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1187,7 +1187,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Back in the day, Latin or Romance languages held the official spot in this region.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1199,7 +1199,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Historically speaking, Latin or Romance languages being used officially defined the region.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1243,7 +1243,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Eggs are dropped one by one under aging leaves and are greenish or slate-colored.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1255,7 +1255,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Laid singly under old leaves, the eggs are green or grey blue.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1299,7 +1299,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Game theory has also found its way into philosophy.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1311,7 +1311,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Also being used in philosophy, game theory spans multiple disciplines.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1355,7 +1355,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "To boost efficiency, sectors should be taken care of by how close they are to the head position, not just in the order they show up.",
         "prediction": 0,
         "is_label_flipped": true
@@ -1367,7 +1367,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Aiming for increased efficiency, sectors should be serviced by proximity rather than order received.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1411,7 +1411,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Folks have been giving themselves foot makeovers for millennia.",
         "prediction": 0,
         "is_label_flipped": true
@@ -1423,7 +1423,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having been a beauty routine, pedicuring nails dates back more than 4,000 years.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1467,7 +1467,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Pass your urine sample to the person in the white coat.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1479,7 +1479,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Giving your urine sample, approach the lab technician.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1523,7 +1523,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The song got a thumbs up from most music critics.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1535,7 +1535,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Receiving generally positive reviews, the song gained praise from music critics.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1579,7 +1579,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "There’s no paper trail of him doing anything military-related back then.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1591,7 +1591,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having left no records, he seems uninvolved in military actions during his time.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1635,7 +1635,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "China has pointed the finger at resource shortages and green worries for the nationwide clampdown on rare-earth minerals.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1647,7 +1647,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Citing resource depletion and environmental concerns, China initiated a nationwide crackdown on its rare-earth mineral sector.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1691,7 +1691,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Before the Romans moved in on Britain, their land and capital seemed to be under the Atrebates' rule.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1703,7 +1703,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having not yet been conquered by the Romans, their land and capital appear to have been part of the Atrebates’ territory.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1747,7 +1747,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "They held the swimming race in open water since the organizers wouldn’t cough up for a custom stadium.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1759,7 +1759,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Refusing to pay for a stadium, the organizers held the swimming competition in the open sea.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1803,7 +1803,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "With their threads stretched out, Vampire Squid have been caught cruising the pitch-black ocean flows.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1815,7 +1815,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Deploying their long velar filaments, Vampire Squid drift through the black depths of the ocean.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1859,7 +1859,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Atoms in metals stick together like glue due to strong attraction.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1871,7 +1871,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having strong attractions, the atoms in metals remain tightly bound.",
         "prediction": 1,
         "is_label_flipped": false
@@ -1915,7 +1915,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Say an investor had to make a call between two stocks.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1927,7 +1927,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Assuming the investor had to decide between two stocks, the example proceeds.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1971,7 +1971,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Raised from wasteland between 2003 and 2006, it now stretches over 40 hectares.",
         "prediction": 0,
         "is_label_flipped": false
@@ -1983,7 +1983,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having been built on barren lands between 2003 and 2006, it now covers 40 hectares.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2027,7 +2027,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "I gave you a ring, but you were tied up and I didn’t want to butt in.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2039,7 +2039,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Seeing that you were busy, I called but didn’t interrupt.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2083,7 +2083,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He and Mary have a big family—three children and half a dozen grandkids as of July 2016.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2095,7 +2095,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having three children, he and his wife Mary had six grandchildren as of July 2016.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2139,7 +2139,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "They planned to shoot for 138 days, but it dragged on to 160.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2151,7 +2151,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Originally intended to last 138 days, the filming schedule stretched to 160.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2195,7 +2195,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "To get on the same page, the French girlfriend and Japanese boyfriend picked up a third language.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2207,7 +2207,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Wanting to communicate, they decided to learn a third language.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2251,7 +2251,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Strategic bombing first saw the light of day in World War I.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2263,7 +2263,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "First tried in World War I, strategic bombing became a military tactic.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2307,7 +2307,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "To get the hang of flight tests, test pilots must know a thing or two about aerospace engineering.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2319,7 +2319,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Knowing aerospace engineering, test pilots can understand how and why planes are tested.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2363,7 +2363,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Right from the get-go, teams used graphics to stand out from each other.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2375,7 +2375,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Used from the beginning, graphic designs helped distinguish teams.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2419,7 +2419,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Humans left a big footprint during the 19th and 20th century.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2431,7 +2431,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having shaped the world greatly, human impacts during the 19th and 20th century were significant.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2475,7 +2475,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Cholera has been wreaking havoc since the 1800s, killing tens of millions.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2487,7 +2487,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Becoming common in the 19th century, cholera has killed tens of millions since.",
         "prediction": 0,
         "is_label_flipped": true
@@ -2531,7 +2531,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Before meeting Europeans, Native groups across North America ran everything from family groups to mighty empires.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2543,7 +2543,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Existing before European contact, North American indigenous peoples were divided into various polities.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2587,7 +2587,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "When figuring out specific impulse, they only count the juice that's already loaded in the rocket.",
         "prediction": 0,
         "is_label_flipped": true
@@ -2599,7 +2599,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Accounting for specific impulse, people include only the fuel in the rocket before it gets fired.",
         "prediction": 0,
         "is_label_flipped": true
@@ -2643,7 +2643,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Nobody could touch their food with the girls lost out in the freezing night.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2655,7 +2655,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Knowing the girls were lost in the cold, no one was able to eat dinner.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2699,7 +2699,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Albatrosses stick around way longer than other birds and take their time starting families.",
         "prediction": 0,
         "is_label_flipped": true
@@ -2711,7 +2711,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Living longer than most birds, albatrosses delay breeding and invest more effort into fewer young.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2755,7 +2755,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Quick-response teams had to be ready to guard vital spots from the enemy.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2767,7 +2767,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Needing quick protection, important locations were defended by rapid forces.",
         "prediction": 1,
         "is_label_flipped": true
@@ -2811,7 +2811,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "You can find trickier algebra solutions for cubic and quartic equations.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2823,7 +2823,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Existing for cubic and quartic equations, the more complicated algebraic solutions challenge many students.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2867,7 +2867,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Insects breathe without needing a pair of bellows like humans do.",
         "prediction": 0,
         "is_label_flipped": true
@@ -2879,7 +2879,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Lacking lungs, insects still manage to respire efficiently.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2923,7 +2923,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Adult birds of both sexes are no small fry.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2935,7 +2935,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being medium to large, adults of both sexes share similar size.",
         "prediction": 0,
         "is_label_flipped": false
@@ -2979,7 +2979,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Its hind legs, big and beefy with three toes, held it upright.",
         "prediction": 1,
         "is_label_flipped": false
@@ -2991,7 +2991,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having three toes, the long and thick hind limbs supported a bipedal stance.",
         "prediction": 1,
         "is_label_flipped": false
@@ -3035,7 +3035,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Canada and the US squared off in the first cricket showdown back in September 1844.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3047,7 +3047,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Held on 24 and 25 September 1844, the first international cricket match was between Canada and the United States.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3091,7 +3091,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "This fish sports a greenish hue and typically hits 46 cm in length.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3103,7 +3103,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Commonly growing to around 46 cm, this species is blue-green to green in color.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3147,7 +3147,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Healthy gums don’t kick up a fuss from brushing.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3159,7 +3159,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being healthy, gums typically don’t react to regular disturbance like brushing.",
         "prediction": 1,
         "is_label_flipped": false
@@ -3203,7 +3203,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Beginning in 1941, you needed a high school diploma to get in the door.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3215,7 +3215,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Starting in 1941, having a high school diploma was required for entry.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3259,7 +3259,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He’s not picking sides between Joanne and Lia—he’s staying on the fence.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3271,7 +3271,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Wanting to stay neutral, he isn’t on either Joanne or Lia’s side.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3315,7 +3315,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "You can team up with three buddies in the game's multiplayer mode.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3327,7 +3327,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Supporting multiplayer, the game allows four players to play simultaneously.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3371,7 +3371,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "While most legal systems are set in stone, some cultures still pass down their laws by word of mouth.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3383,7 +3383,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Maintaining oral law, many cultures contrast with today’s systems, which are formally written.",
         "prediction": 1,
         "is_label_flipped": false
@@ -3427,7 +3427,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The copilot I bumped into was suited up in Air Canada gear.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3439,7 +3439,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having met the copilot, I saw he was dressed in an Air Canada uniform.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3483,7 +3483,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Basketball today has taken the world by storm, with over 300 million players globally.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3495,7 +3495,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Played by over 300 million people, basketball ranks among the most popular team sports today.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3539,7 +3539,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Jenneke made the top ten on AskMen's hot list in January 2013.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3551,7 +3551,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Ranked tenth in January 2013, Jenneke appeared on AskMen.com's Most Desirable list.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3595,7 +3595,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "A one-size-fits-all terminal setup blocks airlines from having their own turf at check-in or IT.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3607,7 +3607,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Designed for common use, such terminals prevent airlines from having proprietary check-in and IT systems.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3651,7 +3651,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Szeged and nearby lands have been home to humans since way back when.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3663,7 +3663,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Inhabited since ancient times, Szeged and the nearby region hold a long history.",
         "prediction": 1,
         "is_label_flipped": true
@@ -3707,7 +3707,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The court called out the $2.7 billion in school money as falling short and unfairly spread.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3719,7 +3719,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Ruling on the matter, the court found the $2.7 billion in school funding inadequate and unfairly distributed.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3763,7 +3763,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Many with trichomonas vaginalis fly under the radar for years without any symptoms.",
         "prediction": 1,
         "is_label_flipped": false
@@ -3775,7 +3775,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Infected with trichomonas vaginalis, most people show no symptoms and remain undetected for years.",
         "prediction": 1,
         "is_label_flipped": false
@@ -3819,7 +3819,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Guys have plenty of other ways to get the job done.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3831,7 +3831,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Including many variations, male masturbation techniques differ widely.",
         "prediction": 1,
         "is_label_flipped": false
@@ -3875,7 +3875,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Not just the hits—his background scores also made him a big name in India’s music scene.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3887,7 +3887,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having produced successful soundtracks, he also earned fame for his background music.",
         "prediction": 0,
         "is_label_flipped": true
@@ -3931,7 +3931,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The berry is not too sugary but still hits the sweet spot.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3943,7 +3943,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having a low sugar content, the berry tastes mildly sweet.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3987,7 +3987,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Irish immigrants in the 1800s flocked to American cities full of their own kind.",
         "prediction": 0,
         "is_label_flipped": false
@@ -3999,7 +3999,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Coming to the U.S. in the 1800s, most Irish people lived in big cities with other Irish.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4043,7 +4043,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Amphiumas lay low in the greenery during daylight hours.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4055,7 +4055,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Hiding in plants, amphiumas stay out of sight during the day.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4099,7 +4099,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "A lineman is someone who works outside, keeping the lines running.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4111,7 +4111,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Working in outdoor jobs, linemen handle installation and maintenance tasks.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4155,7 +4155,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "I wish I could’ve straightened the place up before you showed up.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4167,7 +4167,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Wishing for a chance to clean, I regretted your early arrival.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4211,7 +4211,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Back in 1968–1980, the bank aimed to cover the bare necessities in poorer countries.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4223,7 +4223,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Working from 1968 to 1980, the bank focused on meeting basic needs in poor countries.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4267,7 +4267,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Evolution has armed toxins with tricks to beat prey defenses.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4279,7 +4279,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Driven by natural selection, toxins have diversified to beat prey defenses.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4323,7 +4323,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "In many places, people still battle diseases that could’ve been stopped in their tracks.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4335,7 +4335,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Plagued by infectious diseases, many parts of the world suffer despite preventability.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4379,7 +4379,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "In the beginning, historical linguistics laid the groundwork for comparing languages.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4391,7 +4391,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Serving as the basis of comparative linguistics, historical linguistics was used for reconstruction.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4435,7 +4435,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Viruses don’t multiply the usual way since they’re not built like cells.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4447,7 +4447,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being acellular, viral populations don’t grow through cell division.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4491,7 +4491,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The city’s old downtown, frozen in time, still hosts historic shops.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4503,7 +4503,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Known for its preserved downtown, the city boasts many historic businesses.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4547,7 +4547,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He’s itching to bring home a puppy.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4559,7 +4559,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Wanting a puppy badly, he keeps asking about it.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4603,7 +4603,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Spires often crown Christian churches like exclamation points in the sky.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4615,7 +4615,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Serving as architectural ornaments, spires often appear on Christian churches.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4659,7 +4659,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Back in the day, people just used rocks to hold their boats steady.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4671,7 +4671,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Probably being rocks, the earliest anchors date to the Bronze Age.",
         "prediction": 1,
         "is_label_flipped": false
@@ -4715,7 +4715,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "These birds forage for bugs down low in the woods.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4727,7 +4727,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Feeding on ground insects, these birds are commonly found in forests.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4771,7 +4771,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Failure rates are make-or-break stats in business and safety planning.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4783,7 +4783,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Affecting various sectors, failure rates are fundamental to the economy’s safe systems.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4827,7 +4827,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Some clinics are where you go when you're banged up and need a quick check.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4839,7 +4839,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Functioning as first stops, some clinics serve those with injuries or illnesses.",
         "prediction": 0,
         "is_label_flipped": true
@@ -4883,7 +4883,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Farming is still a big deal in the province, making up 15% of what it produces.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4895,7 +4895,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Contributing 15% to the province’s output, agriculture remains a major activity.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4939,7 +4939,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The panda sports a stylish black-and-white coat.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4951,7 +4951,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Covered in black-and-white fur, the giant panda is easily recognizable.",
         "prediction": 0,
         "is_label_flipped": false
@@ -4995,7 +4995,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Later on, folks jumped in and started adding code to the project.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5007,7 +5007,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Contributing code to the project, many people joined in afterward.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5051,7 +5051,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The song got a lukewarm reception from the critics.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5063,7 +5063,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Receiving mixed reviews, the song drew differing opinions.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5107,7 +5107,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "It’s easy to spot a sarus crane thanks to its red-capped look.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5119,7 +5119,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Distinguished by its grey color and red head, the sarus crane is unique among regional cranes.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5163,7 +5163,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Crimes against humanity aren’t just wartime horrors—they can strike in peace too.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5175,7 +5175,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Occurring during war or peace, crimes against humanity differ from war crimes.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5219,7 +5219,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "When winter hits, ostriches prefer flying solo—or just with one buddy.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5231,7 +5231,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Spending winter in solitude or pairs, common ostriches exhibit social variation.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5275,7 +5275,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Every bike out front was locked up tight—so tools had to come into play.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5287,7 +5287,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Locked in front of the station, all the bikes had to be removed using tools.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5331,7 +5331,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Gaining more of the market pie is top of the list for most companies.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5343,7 +5343,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Aiming to expand, businesses often focus on increasing market share.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5387,7 +5387,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "You only count the fuel in the tank before liftoff when working out specific impulse.",
         "prediction": 0,
         "is_label_flipped": true
@@ -5399,7 +5399,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Carried before launch, only the onboard propellant is included in specific impulse.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5443,7 +5443,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The group’s tunes set the tone for the anime ahead.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5455,7 +5455,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Performing the opening song, the group contributes to the following anime.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5499,7 +5499,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "These islands are a tourist hotspot.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5511,7 +5511,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Attracting tourists, the islands remain a favorite destination.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5555,7 +5555,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Bugles these days often come with a twist—valves.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5567,7 +5567,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Classified as bugles, modern instruments often include valves.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5611,7 +5611,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "That division was part of the founding 65 that hit the ballot in the first election.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5623,7 +5623,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Contested in the first federal election, the division was among the original 65.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5667,7 +5667,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Nobody knows who wrote it—it’s a mystery sparking lots of chatter.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5679,7 +5679,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being anonymous, the work has prompted speculation about its author.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5723,7 +5723,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Gram staining sorts bacteria by what their outer shell is made of.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5735,7 +5735,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Differentiating bacteria by their cell wall traits, Gram staining is a key method.",
         "prediction": 1,
         "is_label_flipped": false
@@ -5779,7 +5779,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The name 'nightingale' sticks since these birds love to sing around the clock.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5791,7 +5791,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Singing frequently at night and day, nightingales get their name from this habit.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5835,7 +5835,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "When in doubt, stick with good old water—it’s the best choice.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5847,7 +5847,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being plain and clean, water is the best fluid.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5891,7 +5891,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "When the monsoon fails, U.P. pays the price—drought, death, and destruction.",
         "prediction": 0,
         "is_label_flipped": true
@@ -5903,7 +5903,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "With rain in short supply during the Monsoon, U.P. faces droughts and related losses.",
         "prediction": 0,
         "is_label_flipped": true
@@ -5947,7 +5947,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Back in 1873, bosses tried to sneak in Saturday and Sunday hours.",
         "prediction": 0,
         "is_label_flipped": false
@@ -5959,7 +5959,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Attempting to increase work hours, mine employers introduced weekend shifts in 1873.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6003,7 +6003,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "People once thought glass balls could keep lightning at bay on ships.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6015,7 +6015,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Used occasionally, solid glass balls were part of a supposed lightning prevention method.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6059,7 +6059,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Golf is all about playing holes one after the other, in proper order.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6071,7 +6071,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Playing a sequence of holes, golfers follow a set order in golf.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6115,7 +6115,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Some ceramics turn into super materials in the cold, showing high-temp superconductivity.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6127,7 +6127,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Exhibiting high-temperature superconductivity, some ceramics function unusually under extreme cold.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6171,7 +6171,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Step through the first hall and you're in another where the pillars tell divine stories.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6183,7 +6183,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Entering from the hypostyle hall, one finds four pillars decorated with scenes of offerings to the gods.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6227,7 +6227,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He was always strapped for cash, so he jacked up taxes and sold towns.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6239,7 +6239,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Needing money constantly, he raised taxes and sold towns.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6283,7 +6283,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The books flew off shelves—over 7 million sold—and were a hit with kids by 2017.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6295,7 +6295,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Selling over seven million copies, the books made frequent appearances on children's best-seller lists.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6339,7 +6339,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Contribution claims usually follow the same playbook as the original ones.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6351,7 +6351,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Made like the original, contribution claims are common in many cases.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6395,7 +6395,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Thanks to IP laws, some stuff becomes 'hands-off' legally.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6407,7 +6407,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Converting normal goods into scarce ones, IP laws alter market access.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6451,7 +6451,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He’s got a short fuse—that kid’s always in hot water.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6463,7 +6463,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Always getting into trouble, your younger brother likely has anger management issues.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6507,7 +6507,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Same idea, different words—that’s how meaning and intent show up sometimes.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6519,7 +6519,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Mirrored in different words, the meaning and intent can remain the same.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6563,7 +6563,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Scorpions have been creeping around since ancient times—like, Silurian old.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6575,7 +6575,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Dating back 430 million years to the Silurian, scorpions have a long evolutionary past.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6619,7 +6619,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The land looked eerie under the moon’s glow.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6631,7 +6631,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Bathed in moonlight, the countryside appeared shadowy.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6675,7 +6675,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "People see him as a giant in architecture and urban design of his era.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6687,7 +6687,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Recognized for his work, he is thought of as a key figure in architecture and urbanism.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6731,7 +6731,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Goalies aren’t given the captain’s armband when the game’s on.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6743,7 +6743,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being goaltenders, they are not permitted to serve as captains during games.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6787,7 +6787,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Breast cancer is one of the top killers on the cancer list worldwide.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6799,7 +6799,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being widespread, breast cancer is the fifth-most common cause of cancer death globally.",
         "prediction": 1,
         "is_label_flipped": false
@@ -6843,7 +6843,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "It turns out only a quarter of baby robins make it past year one.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6855,7 +6855,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having banded birds, researchers found only 25% of young robins make it through their first year.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6899,7 +6899,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "When it hit theaters in '75, reviews were all over the place, but it raked in cash.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6911,7 +6911,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Released in 1975, the film got mixed reviews though it was a box office hit.",
         "prediction": 0,
         "is_label_flipped": false
@@ -6955,7 +6955,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "These writings don’t show the punishment was still around, but they prove it didn’t fade from memory.",
         "prediction": 0,
         "is_label_flipped": true
@@ -6967,7 +6967,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Not proving continuation, these sources still serve as evidence that the punishment was remembered.",
         "prediction": 1,
         "is_label_flipped": false
@@ -7011,7 +7011,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Over time, Egyptian authorities have cracked down on books from abroad.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7023,7 +7023,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Targeting foreign material, Egyptian authorities have taken books in later years.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7067,7 +7067,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "A weird green light starts pouring out as the ground gives way in the heart of the village.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7079,7 +7079,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Opening up in the center of the village, the ground emits a strange green light.",
         "prediction": 1,
         "is_label_flipped": true
@@ -7123,7 +7123,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "No one took home the prize in the 1927 design showdown.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7135,7 +7135,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Held in 1927, the design competition failed to result in a winner.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7179,7 +7179,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "These cleaning agents break up the grime so it goes down the drain easily.",
         "prediction": 0,
         "is_label_flipped": true
@@ -7191,7 +7191,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Helping to spread grime in water, soaps and detergents allow for easier removal.",
         "prediction": 0,
         "is_label_flipped": true
@@ -7235,7 +7235,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "This species takes to the skies in the south from spring to fall, and in the north, it makes an appearance during summer and early autumn.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7247,7 +7247,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Seen flying from April to October in the south, this species appears in the north during summer and early fall.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7291,7 +7291,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Virgin took over most of the team in a sponsorship move.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7303,7 +7303,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Purchasing 80% of the team, Virgin entered a sponsorship deal.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7347,7 +7347,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "With a budget of about six million bucks and a hundred folks on the team, the agency keeps things running.",
         "prediction": 0,
         "is_label_flipped": true
@@ -7359,7 +7359,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Operating on a $6 million budget and 100 employees, the state agency manages its affairs.",
         "prediction": 0,
         "is_label_flipped": true
@@ -7403,7 +7403,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Solids get crushed when enough force breaks them from the inside out.",
         "prediction": 0,
         "is_label_flipped": true
@@ -7415,7 +7415,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Exposed to mechanical forces, solid matter is ground by breaking internal bonds.",
         "prediction": 1,
         "is_label_flipped": false
@@ -7459,7 +7459,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "They huddled to send prayers and hope the downpour wouldn’t ruin the fields.",
         "prediction": 1,
         "is_label_flipped": true
@@ -7471,7 +7471,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Wishing for an end to the floods, they gathered and prayed.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7515,7 +7515,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The museum topped the charts in 2017 with over two million visitors.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7527,7 +7527,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Receiving over 2 million visitors in 2017, the museum became Scotland’s most popular attraction.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7571,7 +7571,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Geordi’s vision comes from his techy headband since he was born without sight.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7583,7 +7583,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being born blind, Geordi needs a VISOR to see.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7627,7 +7627,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Its home turf includes warm, leafy jungles.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7639,7 +7639,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Living in subtropical or tropical forests, this species thrives there.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7683,7 +7683,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Turns out working out really gives you a boost.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7695,7 +7695,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Found to increase vitality, exercise plays a key role in wellness.",
         "prediction": 1,
         "is_label_flipped": true
@@ -7739,7 +7739,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "It’s all about having one name everyone agrees on for each plant.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7751,7 +7751,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Serving as a universal label, a formal name is assigned to each plant group.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7795,7 +7795,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Maritime pine isn’t just for industry—it also decorates parks in warmer climates.",
         "prediction": 1,
         "is_label_flipped": false
@@ -7807,7 +7807,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Used in industry and planted ornamentally, maritime pine is suited to warm climates.",
         "prediction": 1,
         "is_label_flipped": false
@@ -7851,7 +7851,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Hepatitis C affects millions in the U.S., with fresh cases cropping up annually.",
         "prediction": 0,
         "is_label_flipped": true
@@ -7863,7 +7863,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Affecting 2% of Americans, hepatitis C sees thousands of new cases each year.",
         "prediction": 1,
         "is_label_flipped": false
@@ -7907,7 +7907,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "At its core, term life insurance can be just a year-long deal.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7919,7 +7919,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Representing the most basic option, a one-year contract defines term life insurance.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7963,7 +7963,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The album eventually got a thumbs up from critics.",
         "prediction": 0,
         "is_label_flipped": false
@@ -7975,7 +7975,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Receiving praise later on, the album gained mostly positive feedback.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8019,7 +8019,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Oomycetes tend to double down with two kinds of spores.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8031,7 +8031,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Producing two kinds of spores, most oomycetes follow this pattern.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8075,7 +8075,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Flamsteed crunched the numbers on the 1666 and 1668 eclipses.",
         "prediction": 0,
         "is_label_flipped": true
@@ -8087,7 +8087,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Calculating future events, Flamsteed predicted the solar eclipses of 1666 and 1668.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8131,7 +8131,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Architecture blends bricks and brains to make buildings.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8143,7 +8143,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Combining creativity and logic, architecture focuses on building design.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8187,7 +8187,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Looks like your research really made waves in science circles.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8199,7 +8199,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Gaining attention from scientists, your research stood out significantly.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8243,7 +8243,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Operators give the clothes a once-over before tossing them into the machine.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8255,7 +8255,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Checking for foreign objects, operators inspect clothing before use.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8299,7 +8299,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "A bird bath turns a backyard into a five-star spa for birds during heat waves.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8311,7 +8311,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Attracting birds during dry spells, bird baths enhance garden biodiversity.",
         "prediction": 1,
         "is_label_flipped": true
@@ -8355,7 +8355,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Flukes come in all shapes—thousands of species split into two big groups.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8367,7 +8367,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Including many species, trematodes are divided into two main groups.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8411,7 +8411,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Hearing babies giggle melts my heart.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8423,7 +8423,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Loving the sound, I smile when babies giggle.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8467,7 +8467,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "That cannon could really chuck some heavy balls—175 kilos each!",
         "prediction": 0,
         "is_label_flipped": false
@@ -8479,7 +8479,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Accepting 175 kg balls, the 20-inch cannon was powerful.",
         "prediction": 1,
         "is_label_flipped": true
@@ -8523,7 +8523,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Filters pick the perfect light color that the solution soaks up best.",
         "prediction": 0,
         "is_label_flipped": true
@@ -8535,7 +8535,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Using different filters, scientists identify the most absorbed light wavelength.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8579,7 +8579,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The annoyed principal patrolled the classroom like a watchdog.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8591,7 +8591,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Looking displeased, the principal kept walking around the room.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8635,7 +8635,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "There's nothing like the satisfaction of wrapping up a long-term paper.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8647,7 +8647,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Seeing a long-worked-on paper finally done is satisfying.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8691,7 +8691,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "It’s like a playground for adults—very jungle gym-esque.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8703,7 +8703,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Known for its play-friendly structure, it resembles a jungle gym.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8747,7 +8747,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Music and sports are off the radar for that station.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8759,7 +8759,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Falling outside the remit, music and sport are not covered much.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8803,7 +8803,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "That’s when it hit us—we weren’t going to make it in time.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8815,7 +8815,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Realizing the time crunch, our group gave up on finishing by the deadline.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8859,7 +8859,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "That pollutant really sticks around—it doesn’t break down easily.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8871,7 +8871,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being resistant to breakdown, it qualifies as a persistent organic pollutant.",
         "prediction": 1,
         "is_label_flipped": false
@@ -8915,7 +8915,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Florida’s sunsets paint the skies with breathtaking colors.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8927,7 +8927,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Famed for its vibrant evenings, Florida offers beautiful sunsets.",
         "prediction": 0,
         "is_label_flipped": false
@@ -8971,7 +8971,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He vanished after scaling 10 of the world’s tallest peaks with no oxygen tanks.",
         "prediction": 0,
         "is_label_flipped": true
@@ -8983,7 +8983,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Having climbed 10 eight-thousanders without oxygen, he disappeared before completing the rest.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9027,7 +9027,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The grapnel design is a no-frills, old-school anchor that’s easy to make.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9039,7 +9039,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Being a traditional design, the grapnel style is easy to construct.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9083,7 +9083,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The Prime Minister keeps some portfolios close to his chest.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9095,7 +9095,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Held directly by the Prime Minister, some ministries remain unallocated.",
         "prediction": 1,
         "is_label_flipped": true
@@ -9139,7 +9139,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The shrinking generator takes a different route than typical methods.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9151,7 +9151,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Using a unique method, the shrinking generator stands apart.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9195,7 +9195,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Back in the 19th century, scholars found a publishing home in the historical journal.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9207,7 +9207,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Created in the 19th century, the historical journal provided a forum for academic historians.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9251,7 +9251,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Scotland’s heritage agency oversaw hundreds of sites, some needing a ticket and a guide.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9263,7 +9263,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Maintaining over 360 monuments, Historic Scotland also staffed about a quarter of them.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9307,7 +9307,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Lying under oath can mess up justice and hurt the wrong people.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9319,7 +9319,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Posing a threat to justice, perjury may lead to wrongful punishment.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9363,7 +9363,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The elephants didn’t survive the blitz during the war.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9375,7 +9375,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Killed during air raids, the elephants at the Zoo died in WWII.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9419,7 +9419,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Tourists hop off the tram right where the action begins—between the offices and the museum.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9431,7 +9431,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Arriving by tram, visitors enter through a plaza between the buildings and the museum.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9475,7 +9475,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "You’ll find oats sprouting up in cool climates across the globe.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9487,7 +9487,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Grown in temperate zones, oats thrive globally.",
         "prediction": 1,
         "is_label_flipped": true
@@ -9531,7 +9531,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Nuclear risks have taken center stage in Australia's anti-nuke movement.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9543,7 +9543,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Highlighting risks, anti-nuclear campaigns in Australia focus on nuclear materials.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9587,7 +9587,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "He asked his officers to take stock of the troops and fill him in.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9599,7 +9599,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Ordering a troop inspection, Breckinridge expected a report on army conditions.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9643,7 +9643,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Just 677 people called the commune home in 2009.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9655,7 +9655,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Reported in 2009, the commune's population stood at 677.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9699,7 +9699,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Potoroos don’t multitask—they raise their young one at a time.",
         "prediction": 1,
         "is_label_flipped": true
@@ -9711,7 +9711,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Giving birth to two in a year, the female potoroo carries just one at a time.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9755,7 +9755,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "It's a flashy move where the wrestler flies like a comet and spins midair.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9767,7 +9767,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Jumping from above, a wrestler performs a backflip known as a shooting star.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9811,7 +9811,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Your body's defense, not the virus itself, is what usually makes you feel awful with a cold.",
         "prediction": 0,
         "is_label_flipped": true
@@ -9823,7 +9823,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Believed to be tied to the immune response, common cold symptoms are not directly from the virus.",
         "prediction": 1,
         "is_label_flipped": false
@@ -9867,7 +9867,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The devil’s in the details when it comes to different species.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9879,7 +9879,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Varying in the specifics, species show subtle differences.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9923,7 +9923,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "People tried everything under the sun after September 1939, but not much worked.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9935,7 +9935,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Made in desperation after September 1939, efforts led to few improvements.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9979,7 +9979,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Girls grow up fast; boys take longer—4 versus 7 years for maturity.",
         "prediction": 0,
         "is_label_flipped": false
@@ -9991,7 +9991,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Reaching maturity at 4, females develop earlier than males, who mature at 7.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10035,7 +10035,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Girl bands don't stick to the usual playlist—they go wild with genres.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10047,7 +10047,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Not restricted by genre, all-female bands explore musical freedom.",
         "prediction": 1,
         "is_label_flipped": true
@@ -10091,7 +10091,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "If you're caught snooping in the mines, expect a hefty ticket from the authorities.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10103,7 +10103,7 @@
         "is_label_flipped": true
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Caught exploring the mines, people receive heavy fines due to prefecture restrictions.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10147,7 +10147,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Lar gibbons come in all shades from night black to beach sand.",
         "prediction": 0,
         "is_label_flipped": true
@@ -10159,7 +10159,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Varying in shade, the lar gibbon's fur can be black, dark brown, or light sandy brown.",
         "prediction": 1,
         "is_label_flipped": false
@@ -10203,7 +10203,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Friday was warm-up day, with drivers hitting the track for practice and qualifying runs.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10215,7 +10215,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Held on Friday, the practice and qualifying sessions lasted 45 and 30 minutes respectively.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10259,7 +10259,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Whispers of a big-screen version started swirling after the series wrapped.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10271,7 +10271,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Circulating since the show’s end, rumors suggest a feature-length film was planned.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10315,7 +10315,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The $32 million facelift kicked off in 2010, aiming for a 2015 wrap-up.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10327,7 +10327,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Begun in 2010, the $32 million upgrade was set to be completed by 2015.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10371,7 +10371,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Across the pond, they call this car a saloon.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10383,7 +10383,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Known as a saloon in British English, this car configuration differs from American terms.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10427,7 +10427,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "1993 saw the team back on top in Germany’s big road race.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10439,7 +10439,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Achieving success again, the team won the 1993 German national road race.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10483,7 +10483,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "The cartoon fills the gap between the big-screen chapters.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10495,7 +10495,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Taking place between the films, the animated series bridges the storyline.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10539,7 +10539,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Got any clue who’s your voice in the halls of power?",
         "prediction": 0,
         "is_label_flipped": false
@@ -10551,7 +10551,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Knowing your government representative helps with civic engagement.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10595,7 +10595,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "lexical-frequency",
+        "type": "lexical-idiom",
         "sentence": "Tensions were high, and Uncle Sam pointed fingers at Iran.",
         "prediction": 0,
         "is_label_flipped": false
@@ -10607,7 +10607,7 @@
         "is_label_flipped": false
       },
       {
-        "type": "restructure-passive",
+        "type": "restructure-participle",
         "sentence": "Blaming Iran, the United States responded amid ongoing tensions.",
         "prediction": 0,
         "is_label_flipped": false
