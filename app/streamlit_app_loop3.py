@@ -51,11 +51,31 @@ def diff_highlight(a, b, highlight_color):
 # 1. 데이터 로드
 # loop_3_converted.json 데이터 로드
 import os
-current_dir = os.path.dirname(os.path.abspath(__file__))
-loop3_data_path = os.path.join(current_dir, '..', 'data', 'Loop', 'loop_3', 'loop_3_converted.json')
 
-with open(loop3_data_path, 'r', encoding='utf-8') as f:
-    loop3_data = json.load(f)
+# Cloud와 로컬 환경 모두에서 작동하도록 경로 설정
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 가능한 경로들을 시도
+possible_paths = [
+    os.path.join(current_dir, '..', 'data', 'Loop', 'loop_3', 'loop_3_converted.json'),  # 로컬
+    os.path.join(current_dir, 'data', 'Loop', 'loop_3', 'loop_3_converted.json'),       # Cloud
+    '/mount/src/pytorch-counterfactualbert-cefranalysis/data/Loop/loop_3/loop_3_converted.json'  # Cloud 절대경로
+]
+
+loop3_data = None
+for path in possible_paths:
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            loop3_data = json.load(f)
+            print(f"데이터 로드 성공: {path}")
+            break
+    except FileNotFoundError:
+        print(f"경로 시도 실패: {path}")
+        continue
+
+if loop3_data is None:
+    st.error("데이터 파일을 찾을 수 없습니다. 모든 가능한 경로를 시도했지만 실패했습니다.")
+    st.stop()
 
 print(f"총 loop3 데이터: {len(loop3_data)}개")
 
