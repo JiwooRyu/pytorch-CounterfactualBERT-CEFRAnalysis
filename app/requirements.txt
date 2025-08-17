@@ -1,7 +1,7 @@
-streamlit
-pandas
+streamlit>=1.28.0
+pandas>=1.5.0
 transformers
 torch
 tqdm
 scikit-learn
-numpy
+numpy>=1.21.0

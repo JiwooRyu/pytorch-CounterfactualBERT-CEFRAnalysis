@@ -48,31 +48,59 @@ def diff_highlight(a, b, highlight_color):
             b_out.append(f'<span style="background-color:{highlight_color};color:#111;font-weight:bold; border-radius:4px; padding:1px 3px;">{" ".join(b_words[j1:j2])}</span>')
     return ' '.join(b_out)
 
-# 1. 데이터 로드
-# loop_3_converted.json 데이터 로드
-import os
+# 샘플 데이터 (Streamlit Community Cloud에서 사용)
+SAMPLE_DATA = [
+    {
+        "original_id": "2685",
+        "original_sentence": "Typically unitary authorities cover towns or cities which are large enough to function independently of county or other regional administration.",
+        "original_prediction": 1,
+        "counterfactuals": [
+            {
+                "type": "lexical-difficulty-substitution",
+                "sentence": "Typically unitary authorities encompass municipalities or metropolitan areas sufficiently sizable to operate autonomously from county or other regional governance.",
+                "prediction": 1,
+                "is_label_flipped": False
+            },
+            {
+                "type": "lexical-idiom",
+                "sentence": "Typically unitary authorities cover towns or cities that can stand on their own two feet without county or other regional administration.",
+                "prediction": 1,
+                "is_label_flipped": False
+            }
+        ]
+    },
+    {
+        "original_id": "1765",
+        "original_sentence": "In the knockout phase, teams play against each other over two legs on a home-and-away basis, except for the one-match final.",
+        "original_prediction": 0,
+        "counterfactuals": [
+            {
+                "type": "restructure-passive",
+                "sentence": "In the knockout phase, matches are played over two legs on a home-and-away basis by the teams, except for the one-match final.",
+                "prediction": 0,
+                "is_label_flipped": False
+            },
+            {
+                "type": "insert-clause",
+                "sentence": "In the knockout phase, teams, who have advanced from earlier rounds, play against each other over two legs on a home-and-away basis, except for the one-match final.",
+                "prediction": 0,
+                "is_label_flipped": False
+            }
+        ]
+    }
+]
 
-# Streamlit Community Cloud에서 사용할 수 있도록 상대 경로 사용
+# 1. 데이터 로드
 try:
-    # 로컬 개발 환경
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    parent_dir = os.path.dirname(current_dir)
-    loop3_data_path = os.path.join(parent_dir, 'data', 'Loop', 'loop_3', 'loop_3_converted.json')
-    
-    if not os.path.exists(loop3_data_path):
-        # Streamlit Community Cloud 환경
-        loop3_data_path = 'data/Loop/loop_3/loop_3_converted.json'
-        
-    print(f"데이터 파일 경로: {loop3_data_path}")
-    print(f"파일 존재 여부: {os.path.exists(loop3_data_path)}")
-    
+    # 먼저 파일에서 데이터 로드 시도
+    loop3_data_path = 'data/Loop/loop_3/loop_3_converted.json'
     with open(loop3_data_path, 'r', encoding='utf-8') as f:
         loop3_data = json.load(f)
-        
+    st.success(f"데이터 파일을 성공적으로 로드했습니다. 총 {len(loop3_data)}개 데이터")
 except FileNotFoundError:
-    # 파일을 찾을 수 없는 경우, 데이터를 직접 포함
-    st.error("데이터 파일을 찾을 수 없습니다. 파일 경로를 확인해주세요.")
-    st.stop()
+    # 파일이 없으면 샘플 데이터 사용
+    loop3_data = SAMPLE_DATA
+    st.warning("데이터 파일을 찾을 수 없어 샘플 데이터를 사용합니다.")
 
 print(f"총 loop3 데이터: {len(loop3_data)}개")
 
