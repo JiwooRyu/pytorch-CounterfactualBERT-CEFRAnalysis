@@ -52,26 +52,33 @@ def diff_highlight(a, b, highlight_color):
 # loop_3_converted.json 데이터 로드
 import os
 
-# Streamlit Community Cloud에서 사용할 수 있도록 상대 경로 사용
+# Streamlit Community Cloud와 로컬 환경 모두에서 작동하도록 경로 설정
 try:
-    # 로컬 개발 환경
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    parent_dir = os.path.dirname(current_dir)
-    loop3_data_path = os.path.join(parent_dir, 'data', 'Loop', 'loop_3', 'loop_3_converted.json')
-    
-    if not os.path.exists(loop3_data_path):
-        # Streamlit Community Cloud 환경
-        loop3_data_path = 'data/Loop/loop_3/loop_3_converted.json'
+    # 먼저 상대 경로로 시도 (Streamlit Community Cloud)
+    loop3_data_path = 'data/Loop/loop_3/loop_3_converted.json'
+    if os.path.exists(loop3_data_path):
+        with open(loop3_data_path, 'r', encoding='utf-8') as f:
+            loop3_data = json.load(f)
+        print(f"상대 경로에서 데이터 로드 성공: {loop3_data_path}")
+    else:
+        # 상대 경로가 없으면 절대 경로로 시도 (로컬 환경)
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        parent_dir = os.path.dirname(current_dir)
+        loop3_data_path = os.path.join(parent_dir, 'data', 'Loop', 'loop_3', 'loop_3_converted.json')
         
-    print(f"데이터 파일 경로: {loop3_data_path}")
-    print(f"파일 존재 여부: {os.path.exists(loop3_data_path)}")
-    
-    with open(loop3_data_path, 'r', encoding='utf-8') as f:
-        loop3_data = json.load(f)
-        
-except FileNotFoundError:
-    # 파일을 찾을 수 없는 경우, 데이터를 직접 포함
-    st.error("데이터 파일을 찾을 수 없습니다. 파일 경로를 확인해주세요.")
+        if os.path.exists(loop3_data_path):
+            with open(loop3_data_path, 'r', encoding='utf-8') as f:
+                loop3_data = json.load(f)
+            print(f"절대 경로에서 데이터 로드 성공: {loop3_data_path}")
+        else:
+            raise FileNotFoundError(f"데이터 파일을 찾을 수 없습니다: {loop3_data_path}")
+            
+except FileNotFoundError as e:
+    st.error(f"데이터 파일을 찾을 수 없습니다: {e}")
+    st.error("파일 경로를 확인하고 다시 시도해주세요.")
+    st.stop()
+except Exception as e:
+    st.error(f"데이터 로드 중 오류가 발생했습니다: {e}")
     st.stop()
 
 print(f"총 loop3 데이터: {len(loop3_data)}개")
