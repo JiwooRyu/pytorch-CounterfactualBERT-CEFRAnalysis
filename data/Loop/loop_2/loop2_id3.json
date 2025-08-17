@@ -1,0 +1,1242 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "There have been many revivals since modern styles replaced ragtime in the 1920s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Ragtime has seen a lot of comebacks since newer styles took over in the 1920s.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Since ragtime was supplanted by newer styles in the 1920s, numerous revivals have occurred.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Having been replaced in the 1920s, ragtime has had numerous revivals since newer styles emerged.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Ragtime wasn't completely forgotten, with numerous revivals happening since the 1920s.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2055",
+      "original_sentence": "There have been numerous revivals since newer styles supplanted ragtime in the 1920s.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "There have been numerous revivals, especially in the 1970s and 2000s, since newer styles supplanted ragtime in the 1920s.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Though he explored various styles of art, his special talent was landscape painting.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Though he dabbled in many styles, he truly had a knack for landscape painting.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Although many styles of art were experimented with by him, landscape painting was his unique talent.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Though he played with different artistic approaches, his gift lay in capturing the land’s beauty.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Though he experimented in many styles, he didn't show the same talent in them as in landscape painting.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Though he experimented in many styles of art, which varied from abstract to surrealism, his unique talent was landscape painting.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Eggs are deposited individually under old leaves and are green or bluish grey.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Butterflies lay the eggs singly under old leaves of a host plant, and they appear green or grey blue.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Eggs are placed beneath faded leaves of the plant and have a pale green or dusty blue color.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Eggs are not laid in clusters but singly under old leaves of a host plant.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Eggs, which are fragile and small, are laid singly under old leaves of a host plant and are green or grey blue.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Pass your urine sample to the person in the white coat.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Giving your urine sample, approach the lab technician.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Do not forget to give your urine sample to the lab technician.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "408",
+      "original_sentence": "Give your urine sample to the lab technician.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Give your urine sample, which should be freshly collected, to the lab technician.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare-earth mineral production sector.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "China has formally listed resource depletion and ecological concerns as causes for the crackdown on rare-earth mining.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare-earth mineral production sector.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "China has pointed the finger at resource shortages and green worries for the nationwide clampdown on rare-earth minerals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare-earth mineral production sector.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Resource depletion and environmental concerns have been officially cited by China as reasons for cracking down on rare-earth mineral production.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare-earth mineral production sector.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "China says running low on resources and harming the planet led to its crackdown on rare-earth mining.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare-earth mineral production sector.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "China has not ignored the issues of resource depletion and environmental concerns in explaining its crackdown.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "The swimming contest took place in the ocean because organizers declined to pay for a purpose-built stadium.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "They held the swimming race in open water since the organizers wouldn’t cough up for a custom stadium.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Refusing to pay for a stadium, the organizers held the swimming competition in the open sea.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Due to a lack of funding, the event took place in the sea rather than a custom-built venue.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The swimming competition, which was quite challenging for the athletes, was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands, it covers 40 hectares.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Constructed from previously empty lands between 2003 and 2006, it spans 40 hectares.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands, it covers 40 hectares.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Turned from desert into development between 2003 and 2006, the area covers 40 hectares.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands, it covers 40 hectares.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It was not constructed before 2003, and it does not cover less than 40 hectares.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "He and Mary have a big family—three children and half a dozen grandkids as of July 2016.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Three children and six grandchildren (as of July 2016) are had by him and his wife Mary.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "By 2016, their family tree had grown to include three kids and six grandkids.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "He and his wife Mary, who married young, have three children and, as of July 2016, six grandchildren.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1466",
+      "original_sentence": "From the beginning, graphic designs were used to tell different teams apart.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Since the start, visual designs were employed to distinguish between different teams.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1466",
+      "original_sentence": "From the beginning, graphic designs were used to tell different teams apart.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Different teams were told apart using graphic designs from the beginning.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1466",
+      "original_sentence": "From the beginning, graphic designs were used to tell different teams apart.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "From the beginning, teams were not left without ways to be told apart—they used graphic designs.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1466",
+      "original_sentence": "From the beginning, graphic designs were used to tell different teams apart.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "From the beginning, graphic designs, which could be as simple as colors or logos, were used to tell different teams apart.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1739",
+      "original_sentence": "Unlike war crimes, crimes against humanity can happen during peace or war.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Crimes against humanity, unlike war crimes, may occur in times of peace or conflict.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1739",
+      "original_sentence": "Unlike war crimes, crimes against humanity can happen during peace or war.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Crimes against humanity aren’t just wartime horrors—they can strike in peace too.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1739",
+      "original_sentence": "Unlike war crimes, crimes against humanity can happen during peace or war.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Crimes against humanity can be committed during peace or war, unlike war crimes.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1739",
+      "original_sentence": "Unlike war crimes, crimes against humanity can happen during peace or war.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Crimes against humanity aren’t restricted to wartime like war crimes are.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1832",
+      "original_sentence": "The first international cricket match was played between Canada and the United States, on 24 and 25 September 1844.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Canada and the US squared off in the first cricket showdown back in September 1844.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1832",
+      "original_sentence": "The first international cricket match was played between Canada and the United States, on 24 and 25 September 1844.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Held on 24 and 25 September 1844, the first international cricket match was between Canada and the United States.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1832",
+      "original_sentence": "The first international cricket match was played between Canada and the United States, on 24 and 25 September 1844.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "North America hosted its first international cricket event in 1844, between Canada and the USA.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2189",
+      "original_sentence": "Females reach sexual maturity at 4 years while males do not reach maturity until 7 years old.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Females become sexually mature at 4, but males not until 7.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2189",
+      "original_sentence": "Females reach sexual maturity at 4 years while males do not reach maturity until 7 years old.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Sexual maturity is reached by females at 4 years, and by males at 7.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2189",
+      "original_sentence": "Females reach sexual maturity at 4 years while males do not reach maturity until 7 years old.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Reaching maturity at 4, females develop earlier than males, who mature at 7.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2189",
+      "original_sentence": "Females reach sexual maturity at 4 years while males do not reach maturity until 7 years old.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Males don’t mature as early as females—they take until 7 years.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "329",
+      "original_sentence": "He's very keen on getting a puppy.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Getting a puppy is something he is very keen on.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "329",
+      "original_sentence": "He's very keen on getting a puppy.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "He’s showing strong interest in adopting a puppy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "329",
+      "original_sentence": "He's very keen on getting a puppy.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "He’s not uninterested in getting a puppy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2784",
+      "original_sentence": "Amid tensions between Iran and the United States, the United States blamed Iran for the attacks.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Due to strained US-Iran relations, the US held Iran responsible for the attacks.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2784",
+      "original_sentence": "Amid tensions between Iran and the United States, the United States blamed Iran for the attacks.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Blaming Iran, the United States responded amid ongoing tensions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2784",
+      "original_sentence": "Amid tensions between Iran and the United States, the United States blamed Iran for the attacks.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The United States didn’t avoid blaming Iran during the rising tensions.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2784",
+      "original_sentence": "Amid tensions between Iran and the United States, the United States blamed Iran for the attacks.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Amid tensions between Iran and the United States, which had been escalating for months, the United States blamed Iran for the attacks.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2511",
+      "original_sentence": "Intellectual property laws have the effect of converting some goods to scarce goods by law.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Thanks to IP laws, some stuff becomes 'hands-off' legally.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2511",
+      "original_sentence": "Intellectual property laws have the effect of converting some goods to scarce goods by law.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Some goods are turned into legally scarce goods due to intellectual property laws.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2511",
+      "original_sentence": "Intellectual property laws have the effect of converting some goods to scarce goods by law.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Converting normal goods into scarce ones, IP laws alter market access.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2511",
+      "original_sentence": "Intellectual property laws have the effect of converting some goods to scarce goods by law.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Legal frameworks around IP restrict access to some goods by design.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2511",
+      "original_sentence": "Intellectual property laws have the effect of converting some goods to scarce goods by law.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Intellectual property laws, which regulate ownership rights, have the effect of converting some goods into scarce goods.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "508",
+      "original_sentence": "Bird banders have found that only 25% of juvenile American robins live through their first year.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Researchers found that just 25% of young American robins survive their first year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "508",
+      "original_sentence": "Bird banders have found that only 25% of juvenile American robins live through their first year.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "It turns out only a quarter of baby robins make it past year one.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "508",
+      "original_sentence": "Bird banders have found that only 25% of juvenile American robins live through their first year.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "It has been found by bird banders that only 25% of juvenile American robins survive their first year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "508",
+      "original_sentence": "Bird banders have found that only 25% of juvenile American robins live through their first year.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Having banded birds, researchers found only 25% of young robins make it through their first year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "508",
+      "original_sentence": "Bird banders have found that only 25% of juvenile American robins live through their first year.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "According to avian studies, most young robins don’t survive their first year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "508",
+      "original_sentence": "Bird banders have found that only 25% of juvenile American robins live through their first year.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Not all juvenile robins survive—the majority don’t make it past the first year.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1908",
+      "original_sentence": "The symptoms of the common cold are believed to be primarily related to the immune response to the virus.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Your body's defense, not the virus itself, is what usually makes you feel awful with a cold.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1908",
+      "original_sentence": "The symptoms of the common cold are believed to be primarily related to the immune response to the virus.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Believed to be tied to the immune response, common cold symptoms are not directly from the virus.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1908",
+      "original_sentence": "The symptoms of the common cold are believed to be primarily related to the immune response to the virus.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Doctors think cold symptoms come more from how the body fights the virus than from the virus itself.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1908",
+      "original_sentence": "The symptoms of the common cold are believed to be primarily related to the immune response to the virus.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The symptoms of the common cold aren't mainly caused by the virus itself but by the immune response.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "239",
+      "original_sentence": "The moonlight made the countryside shadowy.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The countryside was made shadowy by the moonlight.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "239",
+      "original_sentence": "The moonlight made the countryside shadowy.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The countryside wasn’t bright—it was shadowy under the moonlight.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1056",
+      "original_sentence": "Most Irish people who came to the United States during the 1800s lived in big cities where there were many other Irish people.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Many Irish immigrants in the 1800s settled in large American cities with strong Irish communities.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1056",
+      "original_sentence": "Most Irish people who came to the United States during the 1800s lived in big cities where there were many other Irish people.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Big cities with many Irish residents were lived in by most Irish people who came to the U.S. in the 1800s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1056",
+      "original_sentence": "Most Irish people who came to the United States during the 1800s lived in big cities where there were many other Irish people.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Most Irish people didn’t live in rural areas when they moved to the United States in the 1800s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1056",
+      "original_sentence": "Most Irish people who came to the United States during the 1800s lived in big cities where there were many other Irish people.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Most Irish people, who sought work and community, lived in big U.S. cities during the 1800s.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1427",
+      "original_sentence": "Later reception of the album has been mostly positive.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The album eventually got a thumbs up from critics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1427",
+      "original_sentence": "Later reception of the album has been mostly positive.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Receiving praise later on, the album gained mostly positive feedback.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1427",
+      "original_sentence": "Later reception of the album has been mostly positive.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Later reception of the album, though initially uncertain, has been mostly positive.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "164",
+      "original_sentence": "The copilot whom I met was dressed in an Air Canada uniform.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The copilot I bumped into was suited up in Air Canada gear.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "164",
+      "original_sentence": "The copilot whom I met was dressed in an Air Canada uniform.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The copilot I met was clearly from Air Canada, judging by the uniform.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "164",
+      "original_sentence": "The copilot whom I met was dressed in an Air Canada uniform.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The copilot I met wasn’t in a different airline’s uniform.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1157",
+      "original_sentence": "Rapid forces were needed to protect important locations from the enemy.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Important locations needed protection from the enemy, so rapid forces were deployed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1157",
+      "original_sentence": "Rapid forces were needed to protect important locations from the enemy.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Without rapid forces, important locations couldn’t be protected from the enemy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "313",
+      "original_sentence": "I wish I could have had a chance to clean up before your arrival.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "I wish I could’ve straightened the place up before you showed up.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "313",
+      "original_sentence": "I wish I could have had a chance to clean up before your arrival.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Wishing for a chance to clean, I regretted your early arrival.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "313",
+      "original_sentence": "I wish I could have had a chance to clean up before your arrival.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "I didn’t get the chance to clean up before your arrival, though I wish I had.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1855",
+      "original_sentence": "Since the end of the series rumors have circulated that a feature length movie was in the works.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "After the show ended, rumors emerged about a full-length movie being developed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1855",
+      "original_sentence": "Since the end of the series rumors have circulated that a feature length movie was in the works.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Rumors that a feature-length film was being developed have circulated since the end of the series.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1855",
+      "original_sentence": "Since the end of the series rumors have circulated that a feature length movie was in the works.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Following the finale, fans speculated about a potential movie adaptation.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1855",
+      "original_sentence": "Since the end of the series rumors have circulated that a feature length movie was in the works.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Since the end of the series, which gained a cult following, rumors have circulated about a feature-length movie.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "630",
+      "original_sentence": "The 20 in diameter cannon accepted balls that weighed 175 kg.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "That cannon could really chuck some heavy balls—175 kilos each!",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "630",
+      "original_sentence": "The 20 in diameter cannon accepted balls that weighed 175 kg.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The cannon’s massive size allowed it to handle extremely heavy ammunition.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "920",
+      "original_sentence": "Agriculture is still one of the main activities in the province, adding 15% to its output.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Farming continues to be a key sector in the province, contributing 15% to its economy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "920",
+      "original_sentence": "Agriculture is still one of the main activities in the province, adding 15% to its output.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The province relies heavily on farming for economic support.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2467",
+      "original_sentence": "The historical journal, a forum where academic historians could exchange ideas and publish newly discovered information, came into being in the 19th century.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Back in the 19th century, scholars found a publishing home in the historical journal.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2467",
+      "original_sentence": "The historical journal, a forum where academic historians could exchange ideas and publish newly discovered information, came into being in the 19th century.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Created in the 19th century, the historical journal provided a forum for academic historians.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2467",
+      "original_sentence": "The historical journal, a forum where academic historians could exchange ideas and publish newly discovered information, came into being in the 19th century.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It didn’t exist before the 19th century—the historical journal emerged then.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2467",
+      "original_sentence": "The historical journal, a forum where academic historians could exchange ideas and publish newly discovered information, came into being in the 19th century.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The historical journal, which became influential in academic circles, came into being in the 19th century.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1357",
+      "original_sentence": "In 2017, the museum received 2,165,601 visitors, Scotland's most popular visitor attraction that year.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The museum topped the charts in 2017 with over two million visitors.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1357",
+      "original_sentence": "In 2017, the museum received 2,165,601 visitors, Scotland's most popular visitor attraction that year.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Receiving over 2 million visitors in 2017, the museum became Scotland’s most popular attraction.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1357",
+      "original_sentence": "In 2017, the museum received 2,165,601 visitors, Scotland's most popular visitor attraction that year.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The museum didn’t have a low turnout—it was the most visited place in Scotland in 2017.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "327",
+      "original_sentence": "Your research must have gotten a lot of attention from the scientific community.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Your study likely received considerable recognition among scientists.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "327",
+      "original_sentence": "Your research must have gotten a lot of attention from the scientific community.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Gaining attention from scientists, your research stood out significantly.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "327",
+      "original_sentence": "Your research must have gotten a lot of attention from the scientific community.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The scientific world seems to have taken strong interest in your findings.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "327",
+      "original_sentence": "Your research must have gotten a lot of attention from the scientific community.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Your research, which covers a crucial topic, must have gotten a lot of attention from the scientific community.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2397",
+      "original_sentence": "At the time of his disappearance he had climbed 10 out of the 14 eight-thousanders, all without supplementary oxygen.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "He vanished after scaling 10 of the world’s tallest peaks with no oxygen tanks.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2397",
+      "original_sentence": "At the time of his disappearance he had climbed 10 out of the 14 eight-thousanders, all without supplementary oxygen.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Before he disappeared, he had accomplished a remarkable mountaineering feat without using oxygen.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2028",
+      "original_sentence": "Different filters are used to select the wavelength of light which the solution absorbs the most.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Filters pick the perfect light color that the solution soaks up best.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2028",
+      "original_sentence": "Different filters are used to select the wavelength of light which the solution absorbs the most.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "To select the most absorbed light wavelength, different filters are applied.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2028",
+      "original_sentence": "Different filters are used to select the wavelength of light which the solution absorbs the most.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Different filters, depending on the experiment, are used to select the light’s most absorbed wavelength.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1493",
+      "original_sentence": "A design competition in 1927 did not produce a winning entry.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "No one took home the prize in the 1927 design showdown.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1493",
+      "original_sentence": "A design competition in 1927 did not produce a winning entry.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Held in 1927, the design competition failed to result in a winner.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1493",
+      "original_sentence": "A design competition in 1927 did not produce a winning entry.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The 1927 competition did not result in a winner.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2788",
+      "original_sentence": "As well as industrial uses, maritime pine is also a popular ornamental tree, planted in parks and gardens in areas with warm temperate climates.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Maritime pine isn’t just for industry—it also decorates parks in warmer climates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2788",
+      "original_sentence": "As well as industrial uses, maritime pine is also a popular ornamental tree, planted in parks and gardens in areas with warm temperate climates.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Used in industry and planted ornamentally, maritime pine is suited to warm climates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2788",
+      "original_sentence": "As well as industrial uses, maritime pine is also a popular ornamental tree, planted in parks and gardens in areas with warm temperate climates.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "As well as industrial uses, maritime pine, known for its resilience, is also used as an ornamental tree in warm temperate climates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "211",
+      "original_sentence": "It was from that point that our group realized that it would be impossible to finish by the deadline.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Realizing the time crunch, our group gave up on finishing by the deadline.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "211",
+      "original_sentence": "It was from that point that our group realized that it would be impossible to finish by the deadline.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Our team reached the conclusion late in the process that the project wouldn’t be done on time.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2452",
+      "original_sentence": "Apart from successful soundtracks, he has also received notability for his background music and is considered one of the finest background music composers in India.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Not just the hits—his background scores also made him a big name in India’s music scene.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2452",
+      "original_sentence": "Apart from successful soundtracks, he has also received notability for his background music and is considered one of the finest background music composers in India.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Having produced successful soundtracks, he also earned fame for his background music.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2452",
+      "original_sentence": "Apart from successful soundtracks, he has also received notability for his background music and is considered one of the finest background music composers in India.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "He isn’t only known for his soundtracks—his background music is also highly regarded.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "938",
+      "original_sentence": "While these literary sources do not prove that the punishment still took place, they do provide evidence that it had not been forgotten.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "These writings don’t show the punishment was still around, but they prove it didn’t fade from memory.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "938",
+      "original_sentence": "While these literary sources do not prove that the punishment still took place, they do provide evidence that it had not been forgotten.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "These sources don’t deny the punishment occurred—they just don’t confirm it did.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1544",
+      "original_sentence": "Architecture is the art and science of designing buildings and structures.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Architecture blends bricks and brains to make buildings.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1544",
+      "original_sentence": "Architecture is the art and science of designing buildings and structures.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The design of buildings and structures is considered both an art and a science in architecture.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1544",
+      "original_sentence": "Architecture is the art and science of designing buildings and structures.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Architecture refers to both the practical and artistic process of planning built environments.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    }
+  ],
+  "part2_control_code_feedback": {
+    "lexical-frequency": {
+      "2-1": 3,
+      "2-2": 3,
+      "2-3": "청크 단위로 볼 수 있어 편리 했습니다 "
+    },
+    "lexical-idiom": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "쉽사리 눈에 띄지는 않았지만 의미상, 청크 상으로 볼때 효과적일거 같습니다 "
+    },
+    "restructure-passive": {
+      "2-1": 3,
+      "2-2": 3,
+      "2-3": "의미단위로 짧게 요약 되어 구분되어 보기 편리했습니다 "
+    },
+    "restructure-participle": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "의미적 유사성을 발견하기 어려웠습니다 "
+    },
+    "resemantic-background": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "내용상 유추 하기 어려웠고 구조도 뭘 요구하는지 파악이 한번에 되질 않았습니다 "
+    },
+    "negation": {
+      "2-1": 3,
+      "2-2": 3,
+      "2-3": "한눈에 볼 수 있어 편리했습니다 "
+    },
+    "insert-clause": {
+      "2-1": 3,
+      "2-2": 3,
+      "2-3": "간결하게 정리되어 보기 편리했습니다 "
+    },
+    "delete-modifier": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "음 문법상 구조가 많이 맞지않아 클릭은 하지 않았지만 그래도 뭐 문장단위로 구분할때는 어렵진 않았습니다 "
+    }
+  },
+  "part3_ai_collaboration_feedback": {
+    "3-1": 3,
+    "3-2": 2,
+    "3-3": "확실히 단어를 청크단위로 묶어서 진행하니 한눈에 알아볼수있고 내용이 좀 더 쉽고 간결해 진거 같습니다 "
+  },
+  "part4_final_confirmation": {
+    "4": "Resemantic-background 파악하기가 어렵습니다. 유사적인 예문을 2개 곁들어 준다면 의미 파악이 잘 올거같습니다. 예를 들어 어휘에 뜻이 2개있으면 예문을 두개 들고 이렇게 사용한것이 적절한가?.. 이런걸보게된다면 의미 파악이 우선시 잘 될거같습니다 "
+  }
+}

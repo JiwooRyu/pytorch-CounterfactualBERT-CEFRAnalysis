@@ -1,0 +1,490 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "A programming language is usually used by a computer programmer to write a computer program.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language .",
+      "original_prediction": "B1",
+      "cf_type": "delete",
+      "cf_sentence": "Programmers write code using programming languages.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2801",
+      "original_sentence": "With their long velar filaments deployed , Vampire Squid have been observed drifting along in the deep , black ocean currents .",
+      "original_prediction": "B2",
+      "cf_type": "restructure",
+      "cf_sentence": "In the dark ocean depths, Vampire Squids float with trailing filaments.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1193",
+      "original_sentence": "Historically , Latin or Romance languages have been the official languages in this region .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "Traditionally, Latin or Romance tongues have served as the sanctioned languages in this area.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "430",
+      "original_sentence": "There are no records of any military related acts in his time in which he participated .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "No military acts during his time are recorded as involving him.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1597",
+      "original_sentence": "Game theory has also been used in philosophy .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "The field of philosophy incorporates game theory.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1597",
+      "original_sentence": "Game theory has also been used in philosophy .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It's not used solely in economics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2589",
+      "original_sentence": "The eastern border of the province corresponds to the western side of the Maas , which originates in France .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "The province's eastern border corresponds to the Maas's western side, which begins in France.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2810",
+      "original_sentence": "This subfamily is widely distributed and members are adapted to a wide variety of environments .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Members of this subfamily thrive in many different habitats.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2810",
+      "original_sentence": "This subfamily is widely distributed and members are adapted to a wide variety of environments .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Subfamily widely distributed and environment-adapted.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1146",
+      "original_sentence": "For example , assume an investor had to choose between two stocks .",
+      "original_prediction": "B1",
+      "cf_type": "restructure",
+      "cf_sentence": "An investor may need to select one stock over another.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1146",
+      "original_sentence": "For example , assume an investor had to choose between two stocks .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "An investor can't avoid choosing when faced with stock options.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "966",
+      "original_sentence": "A group that makes more money than it spends can lend or invest the excess profit .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "A group that does not overspend may still choose not to invest.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "966",
+      "original_sentence": "A group that makes more money than it spends can lend or invest the excess profit .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This is common in nonprofit and corporate settings.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "8",
+      "original_sentence": "She put lip balm on her dry lips .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "She applied moisturizer to her chapped lips.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "442",
+      "original_sentence": "The currently accepted rules of ancient Greek boxing are based on historical references and images .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "There aren't firsthand accounts in modern form.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "675",
+      "original_sentence": "A special Christmas family meal is traditionally an important part of the holiday 's celebration , and the food that is served varies greatly from country to country .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The food isn't the same in every country during Christmas meals.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2346",
+      "original_sentence": "Eukaryotic cells have a highly evolved process of secretion .",
+      "original_prediction": "B2",
+      "cf_type": "delete",
+      "cf_sentence": "Eukaryotic cells have evolved secretion.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "124",
+      "original_sentence": "The moment when the earthquake hit , the tsunami sirens began to shriek .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "When the earthquake hit, the moment the tsunami sirens began to shriek.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "124",
+      "original_sentence": "The moment when the earthquake hit , the tsunami sirens began to shriek .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "It wasn't long after the earthquake hit that the tsunami sirens didn't begin to shriek.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2560",
+      "original_sentence": "The number of strings on the rebec varies from 1 to 5 , although three is the most common number .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many rebecs are built with three strings, but some have different numbers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "857",
+      "original_sentence": "Oll , who was married , fell into severe depressions after he divorced .",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "He didn't cope well after ending his marriage.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "857",
+      "original_sentence": "Oll , who was married , fell into severe depressions after he divorced .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Many people face emotional struggles post-divorce.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "857",
+      "original_sentence": "Oll , who was married , fell into severe depressions after he divorced .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This led him to seek professional help.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "371",
+      "original_sentence": "I dream of a world where energy is clean and free .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Where energy is free and clean, I dream of a world.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1464",
+      "original_sentence": "Reintroduction is the release of species back into the wild .",
+      "original_prediction": "B2",
+      "cf_type": "lexical",
+      "cf_sentence": "Reintroduction refers to the re-release of organisms into their natural habitats.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1464",
+      "original_sentence": "Reintroduction is the release of species back into the wild .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Reintroduction often involves the release of several species into the wild.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "135",
+      "original_sentence": "You need to learn to work with William even though you dislike him .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "It's key to maintaining team productivity.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1331",
+      "original_sentence": "Following two major accidents in 2002 and 2003 , one of the main issues in safety has been at the corner 130R .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "After serious incidents in 2002 and 2003, safety concerns focused on corner 130R.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "836",
+      "original_sentence": "Though never intended as a teaching tool , various viewers used the knowledge they obtained watching the show .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Various viewers used the knowledge they obtained watching the show, though it was never intended as a teaching tool.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "515",
+      "original_sentence": "The throwback uniforms would have an impact on future seasons in the NHL , as several teams adopted throwbacks as alternate jerseys .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The use of throwbacks did not go unnoticed in subsequent NHL seasons.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "733",
+      "original_sentence": "The individual mineral grains in schist , drawn out into flaky scales by heat and pressure , can be seen by the naked eye .",
+      "original_prediction": "B2",
+      "cf_type": "resemantic",
+      "cf_sentence": "Schist features mineral grains that, through metamorphic processes, form visible flaky scales.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1618",
+      "original_sentence": "The song was given positive reviews from music critics .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "The song, which was recently released, was given overwhelmingly positive reviews from established music critics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "482",
+      "original_sentence": "From time to time , individuals joined the Order by special permission .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some individuals were occasionally granted entry.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "482",
+      "original_sentence": "From time to time , individuals joined the Order by special permission .",
+      "original_prediction": "B1",
+      "cf_type": "delete",
+      "cf_sentence": "Joined the Order with permission.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "701",
+      "original_sentence": "It is possible to walk upon the walls for roughly half the circumference .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Some parts of the wall are walkable by tourists.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "701",
+      "original_sentence": "It is possible to walk upon the walls for roughly half the circumference .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "The remaining portions are either restricted or damaged.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1433",
+      "original_sentence": "Points are awarded to drivers and teams based on their finishing order .",
+      "original_prediction": "B1",
+      "cf_type": "shuffle",
+      "cf_sentence": "Based on their finishing order, points are awarded to teams and drivers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1433",
+      "original_sentence": "Points are awarded to drivers and teams based on their finishing order .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Points are typically awarded to drivers and teams strictly based on the official finishing order.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1786",
+      "original_sentence": "The film received generally positive reviews .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The film did not receive negative reviews overall.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1786",
+      "original_sentence": "The film received generally positive reviews .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "The film received many generally positive reviews.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2232",
+      "original_sentence": "Wrasses can put their jaws forwards , usually with separate jaw teeth that jut outwards .",
+      "original_prediction": "B2",
+      "cf_type": "shuffle",
+      "cf_sentence": "Usually with separate jaw teeth that jut outwards, wrasses can put their jaws forwards.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2074",
+      "original_sentence": "Estimates for the total number of casualties in the war vary , because many deaths went unrecorded .",
+      "original_prediction": "B2",
+      "cf_type": "quantifier",
+      "cf_sentence": "Various estimates exist for the number of war casualties since several deaths were unrecorded.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2781",
+      "original_sentence": "As a result the two worlds collide and it seems they are doomed by circumstance .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "Their destinies, shaped by prior events, make disaster unavoidable.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2378",
+      "original_sentence": "Some performers or groups put on very elaborate and expensive affairs , with parts of the show being similar to a theater performance .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "These performances aren't simple or inexpensive.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1778",
+      "original_sentence": "They are considered one of the most successful groups of studio musicians in music history .",
+      "original_prediction": "B1",
+      "cf_type": "lexical",
+      "cf_sentence": "They are regarded as one of the most accomplished ensembles of session musicians in music history.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1778",
+      "original_sentence": "They are considered one of the most successful groups of studio musicians in music history .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Historically, these studio musicians are famed as one of the most successful backing ensembles.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "317",
+      "original_sentence": "He always got a strawberry milkshake .",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "He didn't skip getting that milkshake.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1643",
+      "original_sentence": "The pumpkin is native to the continent of North America .",
+      "original_prediction": "B1",
+      "cf_type": "quantifier",
+      "cf_sentence": "Most pumpkins are native to the North American continent.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1788",
+      "original_sentence": "A young girl describes her special relationship with her grandfather over four seasons .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Their intergenerational bond unfolds over spring, summer, fall, and winter.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1005",
+      "original_sentence": "The mean of a list is all of the numbers added together and divided by the amount of numbers",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It's not found by simply selecting the middle number.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2547",
+      "original_sentence": "No firm dates can be assigned to this Emperor 's life or reign , but he is conventionally considered to have reigned from 406 CE to 410 CE .",
+      "original_prediction": "B2",
+      "cf_type": "insert",
+      "cf_sentence": "This uncertainty is typical for early historical figures.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1716",
+      "original_sentence": "The geodetic center of North America is within the county .",
+      "original_prediction": "B1",
+      "cf_type": "insert",
+      "cf_sentence": "This makes it a geographical landmark.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2557",
+      "original_sentence": "When writing currency amounts the location of the symbol varies by currency .",
+      "original_prediction": "B1",
+      "cf_type": "resemantic",
+      "cf_sentence": "Formatting of money differs across global currency systems.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1765",
+      "original_sentence": "In the knockout phase, teams play against each other over two legs on a home-and-away basis, except for the one-match final.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "In the knockout phase, teams face off over two legs on a home-and-away basis, except for the winner-takes-all final.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "666",
+      "original_sentence": "He played a brief part in the revolutionary events of 1848.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "He, though not a central figure, played a brief part in the revolutionary events of 1848.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "200",
+      "original_sentence": "No matter what anyone thinks, remember what you think is the right thing to do, and do it.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "What you think is the right thing to do should be remembered and done, regardless of what anyone thinks.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "255",
+      "original_sentence": "If it weren't so important, she would not keep reminding you to work on it.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "If it weren't so important, she, who always stays on top of things, would not keep reminding you to work on it.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "On more than one occasion, Australians have wanted to ditch the monarchy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1781",
+      "original_sentence": "As a former President of Ireland he was given a state funeral.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "As someone who once held the top seat in Ireland, he was laid to rest with full honors.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1781",
+      "original_sentence": "As a former President of Ireland he was given a state funeral.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "As Ireland's former head of state, he was honored with a state funeral.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2779",
+      "original_sentence": "Evaporation is an essential part of the water cycle.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Evaporation is a crucial part of the water cycle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2779",
+      "original_sentence": "Evaporation is an essential part of the water cycle.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Evaporation is part of the water cycle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "830",
+      "original_sentence": "In 1933 the first gravel runways were built.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Built in 1933, the first gravel runways marked a new era in aviation.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "830",
+      "original_sentence": "In 1933 the first gravel runways were built.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "In 1933 the first primitive airstrips made of gravel were laid down.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "830",
+      "original_sentence": "In 1933 the first gravel runways were built.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "In 1933, when aviation was advancing quickly, the first gravel runways were built.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1111",
+      "original_sentence": "The A $32 million first phase of a major upgrade began in 2010 and is expected to be completed during 2015.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The $32 million facelift kicked off in 2010, aiming for a 2015 wrap-up.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1111",
+      "original_sentence": "The A $32 million first phase of a major upgrade began in 2010 and is expected to be completed during 2015.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The A $32 million first phase of a major upgrade, aimed at modernizing infrastructure, began in 2010 and is expected to finish in 2015.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2276",
+      "original_sentence": "The earliest anchors were probably rocks, and many rock anchors have been found dating from at least the Bronze Age.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Early anchors were likely stones, many of which date back to the Bronze Age.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2276",
+      "original_sentence": "The earliest anchors were probably rocks, and many rock anchors have been found dating from at least the Bronze Age.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The first anchors weren’t made of metal but likely of stone.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2276",
+      "original_sentence": "The earliest anchors were probably rocks, and many rock anchors have been found dating from at least the Bronze Age.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Early anchors were rocks found from the Bronze Age.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "221",
+      "original_sentence": "All the bicycles in front of the station had been locked, so they were removed using tools.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The locked bikes posed a problem, leading to their forced removal.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1252",
+      "original_sentence": "This species may be seen flying from April to October in the south, while in the north it flies from summer to early fall.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "This species, known for its seasonal migration, may be seen flying from April to October in the south and from summer to early fall in the north.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1677",
+      "original_sentence": "Many cultures do have an oral law, while most legal systems of today have a formal written organization.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Many cultures do not rely on written law, unlike modern legal systems.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2690",
+      "original_sentence": "Most oomycetes produce two types of spores.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Oomycetes are known for generating two distinct spore types.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2690",
+      "original_sentence": "Most oomycetes produce two types of spores.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Most oomycetes, organisms found in many ecosystems, produce two types of spores.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "379",
+      "original_sentence": "It was found that exercise increases vitality.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Found to increase vitality, exercise plays a key role in wellness.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2471",
+      "original_sentence": "Test pilots must know about aerospace engineering in order to know how and why planes are tested.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Test pilots, who are responsible for evaluating flight safety, must know about aerospace engineering to understand how and why planes are tested.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "445",
+      "original_sentence": "Because he always needed money, he raised taxes and sold towns.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Due to constant financial need, he increased taxes and sold off towns.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "445",
+      "original_sentence": "Because he always needed money, he raised taxes and sold towns.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "He didn’t refrain from taxing or selling towns—he did so due to his money problems.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "297",
+      "original_sentence": "It's nice to see a paper you've been working on for months finally completed.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It’s not disappointing—it’s satisfying to see a months-long paper finished.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "297",
+      "original_sentence": "It's nice to see a paper you've been working on for months finally completed.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "It’s nice to see a paper, especially one you’ve revised multiple times, finally completed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2059",
+      "original_sentence": "When calculating specific impulse, only propellant carried with the vehicle before use is counted.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "You don’t count any external fuel in specific impulse calculations.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2059",
+      "original_sentence": "When calculating specific impulse, only propellant carried with the vehicle before use is counted.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Specific impulse counts only onboard propellant.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1177",
+      "original_sentence": "Operators also check clothing for foreign objects before placing them into the machine.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Workers inspect clothes for any unwanted items before loading them into the machine.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1177",
+      "original_sentence": "Operators also check clothing for foreign objects before placing them into the machine.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Operators, to ensure smooth operation, also check clothing for foreign objects before placing them into the machine.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1849",
+      "original_sentence": "The song was given mixed reviews from music critics.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The song got a lukewarm reception from the critics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1849",
+      "original_sentence": "The song was given mixed reviews from music critics.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The song wasn’t universally praised—it got mixed reviews.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "220",
+      "original_sentence": "Do you know who your government representative is?",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Got any clue who’s your voice in the halls of power?",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "220",
+      "original_sentence": "Do you know who your government representative is?",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Being informed about your local representative is vital for participation in democracy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2186",
+      "original_sentence": "Oats are grown all over temperate places.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Oats are cultivated in temperate regions worldwide.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2186",
+      "original_sentence": "Oats are grown all over temperate places.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Oats are a staple crop in many cooler agricultural zones.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "760",
+      "original_sentence": "Modern instruments classified as bugles are often valved.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Modern instruments, which are classified as bugles, are often valved.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1840",
+      "original_sentence": "Increasing market share is one of the most important objectives of business.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Businesses often prioritize growing their market share.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1704",
+      "original_sentence": "In January 2013 Jenneke was ranked tenth on AskMen.com's 99 Most Desirable Women 2013.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Jenneke earned recognition from AskMen.com in early 2013, landing in the top ten.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1704",
+      "original_sentence": "In January 2013 Jenneke was ranked tenth on AskMen.com's 99 Most Desirable Women 2013.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "In January 2013, Jenneke, an Australian hurdler, was ranked tenth on AskMen.com's 99 Most Desirable Women.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "20",
+      "original_sentence": "No one was able to eat their dinners knowing the girls were lost outside in the cold.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The thought of the girls missing in the cold left everyone unable to eat.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1958",
+      "original_sentence": "Albatrosses live much longer than other birds; they delay breeding for longer and invest more effort into fewer young.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Albatrosses don’t breed early or have many offspring compared to other birds.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1077",
+      "original_sentence": "A bird bath is an attraction for many different species of birds to visit gardens, especially during the summer and drought periods.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Attracting birds during dry spells, bird baths enhance garden biodiversity.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1077",
+      "original_sentence": "A bird bath is an attraction for many different species of birds to visit gardens, especially during the summer and drought periods.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Bird baths serve as vital hydration spots for birds in warm or dry seasons.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1865",
+      "original_sentence": "Basketball today is played by more than 300 million people worldwide, making it one of the most popular team sports.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Basketball isn’t a sport with a small following—it’s played by over 300 million people.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "631",
+      "original_sentence": "All-female bands are not restricted by mainstream genres.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Not restricted by genre, all-female bands explore musical freedom.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2516",
+      "original_sentence": "The court has ruled that the $2.7 billion in school funding was inadequate and distributed unfairly.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The court found the education funds lacking and unfairly handled.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2516",
+      "original_sentence": "The court has ruled that the $2.7 billion in school funding was inadequate and distributed unfairly.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The court ruled that the school funding was inadequate and unfair.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "621",
+      "original_sentence": "From 1968 to 1980 the bank worked mostly on meeting the basic needs of people in poor countries.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Between 1968 and 1980, the bank primarily focused on supporting the essential needs of developing nations.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1070",
+      "original_sentence": "The group sings the theme music for the following anime.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The theme isn’t performed by a different artist—it’s sung by the group.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1070",
+      "original_sentence": "The group sings the theme music for the following anime.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The group, known for their energetic style, sings the theme music for the following anime.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2178",
+      "original_sentence": "Gram staining differentiates bacteria by the chemical and physical properties of their cell walls.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Gram staining doesn’t ignore cell wall properties—it uses them to distinguish bacteria.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2049",
+      "original_sentence": "From the hypostyle hall, one enters the second pillared hall, which has four pillars decorated with beautiful scenes of offerings to the gods.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The second hall is not undecorated—it’s filled with images of offerings to the gods.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2060",
+      "original_sentence": "When people find specific impulse, the only fuel counted is in the rocket before it gets fired.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "When figuring out specific impulse, they only count the juice that's already loaded in the rocket.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2060",
+      "original_sentence": "When people find specific impulse, the only fuel counted is in the rocket before it gets fired.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The fuel added after launch is not counted when people find specific impulse.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "578",
+      "original_sentence": "There are many other variations on male masturbation techniques.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Guys have plenty of other ways to get the job done.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "578",
+      "original_sentence": "There are many other variations on male masturbation techniques.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "There are lots of different approaches men can take when it comes to solo sex.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    }
+  ],
+  "part2_control_code_feedback": {
+    "lexical-frequency": {
+      "2-1": 2,
+      "2-2": 3,
+      "2-3": "This code makes the sentence to understand better than the original one."
+    },
+    "lexical-idiom": {
+      "2-1": 2,
+      "2-2": 4,
+      "2-3": "This code make the sentence shorter using the appropriate idioms.\nBut when the reader doesn't know the meaning of the idiom, it rather makes it difficult to understand the meaning, and most of them becomes B2 sentences."
+    },
+    "restructure-passive": {
+      "2-1": 4,
+      "2-2": 3,
+      "2-3": "This code changes the focus of the sentence.\nSometimes, occasional sentence variations appears in the form of changing the content of the sentence."
+    },
+    "restructure-participle": {
+      "2-1": 4,
+      "2-2": 2,
+      "2-3": "Generally similar to the Restructure-passive code besides the tense."
+    },
+    "resemantic-background": {
+      "2-1": 2,
+      "2-2": 4,
+      "2-3": "This code tends to put long additional clauses before of after the main clause.\nThis also shows sentences with frequent form change from the original sentence."
+    },
+    "negation": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "This code tends to increase readability and sentence comprehension by adding excessive negative forms."
+    },
+    "insert-clause": {
+      "2-1": 4,
+      "2-2": 4,
+      "2-3": "Due to the characteristic of Insert, increasing the length of the sentence is indispensable.\nAppropriate insert makes the reader easier to understand the sentence."
+    },
+    "delete-modifier": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "Modified well to understand the core of the sentence.\nMost of the modified sentences were predicted as B1."
+    }
+  },
+  "part3_ai_collaboration_feedback": {
+    "3-1": 2,
+    "3-2": 4,
+    "3-3": "Compared to human-written sentences, it was far more convenient assessing with AI-generated sentences.\nEspecially, expressions used in 'Insert-clause' code gave me chance to learn useful ones."
+  },
+  "part4_final_confirmation": {
+    "4": "AI's prediction of B1 and B2 seems a little bit different from human's. \nIt would be better if the difficulty level was adjusted."
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "2685",
+      "original_sentence": "Typically unitary authorities cover towns or cities which are large enough to function independently of county or other regional administration.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Covering towns or cities large enough to function independently, unitary authorities typically bypass county or regional administration.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2685",
+      "original_sentence": "Typically unitary authorities cover towns or cities which are large enough to function independently of county or other regional administration.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Typically unitary authorities cover towns or cities, which often have their own local councils, that are large enough to function independently of county or other regional administration.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2500",
+      "original_sentence": "Producing a stop-motion animation using clay is extremely laborious.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Producing a stop-motion animation using clay is a real uphill battle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2500",
+      "original_sentence": "Producing a stop-motion animation using clay is extremely laborious.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Producing a stop-motion animation using clay is like pulling teeth.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2500",
+      "original_sentence": "Producing a stop-motion animation using clay is extremely laborious.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Producing a stop-motion animation using clay, which requires frame-by-frame effort, is extremely laborious.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1260",
+      "original_sentence": "Visibility of less than 100 m is usually reported as zero.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "When you can't see past your nose, it's called zero visibility.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1260",
+      "original_sentence": "Visibility of less than 100 m is usually reported as zero.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Visibility of less than 100 m, which poses safety risks, is usually reported as zero.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2449",
+      "original_sentence": "Producing an image from a diffraction pattern requires sophisticated mathematics and often an iterative process of modeling and refinement.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Producing an image from a diffraction pattern isn't possible without advanced math and modeling.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1619",
+      "original_sentence": "The song received generally positive reviews from music critics.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Receiving generally positive reviews, the song gained praise from music critics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1208",
+      "original_sentence": "The atoms in metals have a strong attractive force between them.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "In metals, atoms pull on each other with invisible force like tiny magnets.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1295",
+      "original_sentence": "The filming schedule was intended to last 138 days but grew to 160.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Though planned as a shorter shoot, the film ended up taking 160 days.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "364",
+      "original_sentence": "In order to communicate with each other, both the French girlfriend and the Japanese boyfriend decided to learn a third language.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "To get on the same page, the French girlfriend and Japanese boyfriend picked up a third language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "364",
+      "original_sentence": "In order to communicate with each other, both the French girlfriend and the Japanese boyfriend decided to learn a third language.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "So they could speak freely, the French and Japanese couple took up a new language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1272",
+      "original_sentence": "On Friday, drivers had a 45-minute free practice session and a 30-minute qualifying session.",
+      "original_prediction": "B1",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "On Friday, drivers had a practice and qualifying session.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1580",
+      "original_sentence": "Virgin purchased eighty percent of the team, as part of sponsorship arrangement.",
+      "original_prediction": "B1",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Virgin purchased most of the team.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1952",
+      "original_sentence": "A common-use facility or terminal design disallows airlines to have its own proprietary check-in counters, gates and IT systems.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Airlines are not allowed to have their own check-in systems in a common-use terminal.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "628",
+      "original_sentence": "In most cases, contribution claims are made like the original claim itself.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Contribution claims usually follow the same playbook as the original ones.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "628",
+      "original_sentence": "In most cases, contribution claims are made like the original claim itself.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "People often submit contribution claims the same way they file initial ones.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "628",
+      "original_sentence": "In most cases, contribution claims are made like the original claim itself.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "In most cases, contribution claims, depending on the legal context, are made like the original claim itself.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "549",
+      "original_sentence": "Some clinics function as a place for people with injuries or illnesses to come and be seen by a triage nurse or other health worker.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Injured or ill people are seen by triage nurses in some clinics.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "549",
+      "original_sentence": "Some clinics function as a place for people with injuries or illnesses to come and be seen by a triage nurse or other health worker.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Clinics function as places for people to be seen by a health worker.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1779",
+      "original_sentence": "He is thought of as one of the most important architectural thinkers and urbanists of his generation.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "He’s considered a leading architectural mind and urban planner of his time.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1779",
+      "original_sentence": "He is thought of as one of the most important architectural thinkers and urbanists of his generation.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "He is thought of as an important architectural thinker.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1713",
+      "original_sentence": "Goaltenders are not permitted to serve as captains during games.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Goalies aren’t given the captain’s armband when the game’s on.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1713",
+      "original_sentence": "Goaltenders are not permitted to serve as captains during games.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Goaltenders, due to league regulations, are not permitted to serve as captains during games.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "594",
+      "original_sentence": "Large parts of the world remained plagued by largely preventable or treatable infectious diseases.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Parts of the world remained plagued by infectious diseases.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "556",
+      "original_sentence": "The animated series takes place chronologically between the and films.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "The show happens in the timeline between the two movies.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "556",
+      "original_sentence": "The animated series takes place chronologically between the and films.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The cartoon fills the gap between the big-screen chapters.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "811",
+      "original_sentence": "There exist more complicated algebraic solutions for the general cubic equation and quartic equation.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "You can find trickier algebra solutions for cubic and quartic equations.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "133",
+      "original_sentence": "The displeased principal kept walking around the classroom.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The classroom was repeatedly walked through by the displeased principal.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "133",
+      "original_sentence": "The displeased principal kept walking around the classroom.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The principal, clearly dissatisfied, monitored the classroom by walking constantly.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "888",
+      "original_sentence": "This species is blue-green to green in color and commonly grows to approximately 46 cm.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "This species, which is often caught for sport, is blue-green to green in color and commonly grows to approximately 46 cm.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "844",
+      "original_sentence": "In golf, a golfer plays a number of holes in a given order.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Golf games involve progressing through holes in a structured pattern.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1231",
+      "original_sentence": "The islands are a popular destination for tourists.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "With scenic views and warm weather, the islands draw in many travelers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "53",
+      "original_sentence": "They got together to pray and wish the rains would stop flooding the river and drowning the crops.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "They huddled to send prayers and hope the downpour wouldn’t ruin the fields.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1463",
+      "original_sentence": "Before contact with Europeans, the indigenous peoples of North America were divided into many different polities, from small bands of a few families to large empires.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Before contact with Europeans, the peoples of North America were divided into polities.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1887",
+      "original_sentence": "Historic Scotland had direct responsibility for maintaining and running over 360 monuments in its care, about a quarter of which are manned and charge admission entry.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Scotland’s historic sites are overseen by a public body responsible for upkeep and visitor access.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2111",
+      "original_sentence": "The word lineman / linesman refers to those who work in generally outdoor installation and maintenance jobs.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Working in outdoor jobs, linemen handle installation and maintenance tasks.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "751",
+      "original_sentence": "The evolutionary history of scorpions goes back to the Silurian, 430 million years ago.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "These arthropods are among Earth’s oldest known land predators.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "963",
+      "original_sentence": "These are forest birds that tend to feed on insects at or near the ground.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "These forest birds, which are small and agile, tend to feed on insects at ground level.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "457",
+      "original_sentence": "Exploring the mines is not allowed by the prefecture and people caught get heavy fines.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The mines are not allowed to be explored by the prefecture, and heavy fines are given to those caught.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "457",
+      "original_sentence": "Exploring the mines is not allowed by the prefecture and people caught get heavy fines.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Caught exploring the mines, people receive heavy fines due to prefecture restrictions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2321",
+      "original_sentence": "Failure rates are important factors in insurance, business, and regulation practices as well as fundamental to design of safe systems throughout a national or international economy.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Failure rates are make-or-break stats in business and safety planning.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1136",
+      "original_sentence": "Adults of both sexes are medium to large birds.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Adult birds of both sexes are no small fry.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1907",
+      "original_sentence": "The giant panda has luxuriant black-and-white fur.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The panda sports a stylish black-and-white coat.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1907",
+      "original_sentence": "The giant panda has luxuriant black-and-white fur.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Luxuriant black-and-white fur is possessed by the giant panda.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1907",
+      "original_sentence": "The giant panda has luxuriant black-and-white fur.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Covered in black-and-white fur, the giant panda is easily recognizable.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1612",
+      "original_sentence": "Insect respiration happens without lungs.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Insects breathe without the use of lungs.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1612",
+      "original_sentence": "Insect respiration happens without lungs.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Insects breathe without needing a pair of bellows like humans do.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2337",
+      "original_sentence": "The three-toed hind limbs were long and thick, supporting the body in a bipedal posture.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Strong, three-toed back limbs helped it stand and walk on two legs.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1905",
+      "original_sentence": "A traditional design, the grapnel style is simple to design and build.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The grapnel anchor, with roots in nautical history, is known for its simplicity.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2444",
+      "original_sentence": "Perjury is a serious crime because it might be used to take away the power of a court, which can lead to punishment for the wrong person.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The court's power can be diminished by perjury, potentially punishing innocent individuals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2444",
+      "original_sentence": "Perjury is a serious crime because it might be used to take away the power of a court, which can lead to punishment for the wrong person.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Giving false testimony disrupts justice and may result in convicting someone unfairly.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2101",
+      "original_sentence": "Most people infected with trichomonas vaginalis do not have any symptoms and can be undetected for years.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Most infected people do not have symptoms and can go undetected.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2326",
+      "original_sentence": "The game supports multiplayer with support for up to four players simultaneously.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The game, which features co-op challenges, supports multiplayer for up to four players simultaneously.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    }
+  ],
+  "part2_control_code_feedback": {
+    "lexical-frequency": {
+      "2-1": 1,
+      "2-2": 1,
+      "2-3": "Increase the difficulty of synonyms."
+    },
+    "lexical-idiom": {
+      "2-1": 5,
+      "2-2": 5,
+      "2-3": "Many unfamiliar idioms were used, making many of the sentences feel more difficult than the original sentences. \n2. laborious = a real uphill battle  \n3. less than 100m = can't see past your nose\n8. In order to communicate with each other = to get on the same page\n12. playbook  \n15. goaltenders = goalies, captain's armband\n30. make-or-break stats\n31. no small fry "
+    },
+    "restructure-passive": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "The phrase “can be diminished” in sentence 36 may seem difficult, but in fact, this seems to be a problem with the word “diminish.” \nRather than simply using the passive voice, it would be more difficult if the 4th form(4형식) passive voice, 5th form(5형식) passive voice, or conversion to the 3rd form(3형식) were used together."
+    },
+    "restructure-participle": {
+      "2-1": 3,
+      "2-2": 3,
+      "2-3": "Since conjunctions are omitted in participle phrases, students may find it difficult to interpret them intuitively."
+    },
+    "resemantic-background": {
+      "2-1": 5,
+      "2-2": 5,
+      "2-3": "  Compared to the original text, Resemantic-background uses more diverse vocabulary, making the sentences feel more complex. In particular, some of the sentence structures have become more complex.\n2. laborious = like pulling teeth\n6. invisible force like tiny magents  \n7. tough planned~, end up ving\n10. So 해석 \n12. the same way [they file] \n21. in order = progressing, structured pattern\n27. arthropods\n36. testimony"
+    },
+    "negation": {
+      "2-1": 1,
+      "2-2": 1,
+      "2-3": "In the case of sentence 4, I think the vocabulary used is easier than in the original text.\nTo use negation, it would be helpful to make the sentence a little more complicated by using partial negation or double negation."
+    },
+    "insert-clause": {
+      "2-1": 4,
+      "2-2": 5,
+      "2-3": "The inserted clauses and phrases add additional meaning, which may make the text seem difficult. Furthermore, Koreans do not often use commas, so learners who have not studied grammar such as non-restrictive relative clauses may have difficulty understanding the order of interpretation.\nHowever, if the meaning of the vocabulary in the inserted clause or sentence has become easier, it may actually help in understanding the sentence, so it may feel easier than the original text."
+    },
+    "delete-modifier": {
+      "2-1": 2,
+      "2-2": 2,
+      "2-3": "Usually, deleting makes the sentence easier to understand. For example, in sentence 10, the phrase “as part of sponsorship arrangement,” which could be difficult to interpret, is omitted, making the sentence easier to understand."
+    }
+  },
+  "part3_ai_collaboration_feedback": {
+    "3-1": 5,
+    "3-2": 4,
+    "3-3": "#2 lexical-idiom\n2. laborious = a real uphill battle  \n3. less than 100m = can't see past your nose\n8. In order to communicate with each other = to get on the same page\n12. playbook  \n15. goaltenders = goalies, captain's armband\n30. make-or-break stats\n31. no small fry \n\n#3 restructure-passive\n36. can be diminished\n\n#4 restructure-participle \n1. 분사구문 - 직관적인 해석 어려움\n5. 분사구문+ gain praise \n\n#5  Resemantic-background\n2. laborious = like pulling teeth\n6. invisible force like tiny magents  \n7. tough planned~, end up ving\n10. So 해석 \n12. the same way [they file] \n21. in order = progressing, structured pattern\n27. arthropods\n36. testimony\n\n#6 Negation\n4. 사용된 어휘 더 쉬워짐\n\n#7 Insert-clause\n1. 관계대명사절 2개 삽입 (문장구조 복잡)\n2. 관계대명사절(계속적용법) \n3. 관계사절에 의미추가되면서 해석할게 많아짐\n4. depending on~ 의미 추가 \n\n#8  Delete-modifier\n9. 나머지 다 비슷한데 숫자 등 삭제되며 문장길이 짧아짐 \n10. as part of sponsorship arrangement. 이라는 해석 난감할 수 있는 구 누락되서 쉬워짐 "
+  },
+  "part4_final_confirmation": {
+    "4": "When teaching students, one of the things they find most difficult is paraphrasing. Paraphrasing is important and difficult because it is used in various areas such as reading, writing, and speaking. It is particularly difficult because it requires the use of a wide range of vocabulary, and grammar may vary depending on the context. Developing AI could be helpful for paraphrasing practice."
+  }
+}
