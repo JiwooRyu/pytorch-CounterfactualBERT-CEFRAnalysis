@@ -185,7 +185,7 @@ def main():
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     
     # Load triplet data
-    triplet_path = 'data/Loop/triplets_expert_all.json'
+    triplet_path = 'data/Loop/loop_3/accumulated_loop2_3.json'
     print(f'Loading triplet data from: {triplet_path}')
     
     # Create datasets

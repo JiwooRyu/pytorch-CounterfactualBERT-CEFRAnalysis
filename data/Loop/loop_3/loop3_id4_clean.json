@@ -1,0 +1,391 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "650",
+      "original_sentence": "Fireworks dates back to the 7th century and originated in China.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Pyrotechnics traces its origins to the 7th century and commenced in China.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1703",
+      "original_sentence": "Several explanations exist for the original name.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A multitude of accounts subsist for the nomenclature's origin.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2242",
+      "original_sentence": "At about 11:31 AM MST, the track of both airplanes intersected over the canyon, and they hit each other.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Approximately at 11:31 AM MST, the trajectories of both aircraft converged above the gorge, and they collided.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2156",
+      "original_sentence": "As part of the regeneration , the transport links to Ravenscraig will be greatly improved .",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "As part of the regeneration, the transport links to Ravenscraig will be much better.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2156",
+      "original_sentence": "As part of the regeneration , the transport links to Ravenscraig will be greatly improved .",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The transport links to Ravenscraig will be greatly improved.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "617",
+      "original_sentence": "However, the entry must be written to the backing store at some point in time.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Nevertheless, the entry is mandated to be inscribed to the ancillary repository at some juncture.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2014",
+      "original_sentence": "Traditionally, the didgeridoo was played as an accompaniment to ceremonial dancing and singing and for solo or recreational purposes.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Conventionally, the didgeridoo was employed as a complement to ritualistic dancing and chanting and for solitary or leisure pursuits.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2469",
+      "original_sentence": "There are a wide variety of symptoms that have been found to be associated with sensory overload.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "There exists a broad spectrum of indications that have been ascertained to be correlated with sensory overload.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1607",
+      "original_sentence": "Production and use of energy resources is important to the economy of the world.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The generation and utilization of energy resources is consequential to the global economy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2084",
+      "original_sentence": "The current cantonal constitution dates from 1997.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The current cantonal constitution, which is the governing document of the canton, dates from 1997.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2413",
+      "original_sentence": "Self resonant loop antennas are relatively large, governed by the intended wavelength of operation.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Self-resonant loop aerials are comparatively sizable, dictated by the desired wavelength of their function.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2413",
+      "original_sentence": "Self resonant loop antennas are relatively large, governed by the intended wavelength of operation.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Self resonant loop antennas are relatively large, for they are governed by the intended wavelength of operation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1528",
+      "original_sentence": "Eggs are laid singly under old leaves of a host plant and are green or grey blue.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Ova are deposited individually beneath aged leaves of a host organism and are viridescent or glaucous.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "441",
+      "original_sentence": "The majority of squid are no more than 60 cm long, although the giant squid may reach 13 m.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The preponderance of squid measure no more than 60 cm in length, whereas the colossal squid can attain 13 m.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "441",
+      "original_sentence": "The majority of squid are no more than 60 cm long, although the giant squid may reach 13 m.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The majority of squid, which are cephalopods, are no more than 60 cm long, although the giant squid may reach 13 m.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1053",
+      "original_sentence": "Some serious nuclear accidents have occurred.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A few grave nuclear calamities have transpired.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2737",
+      "original_sentence": "Eucalypts were introduced to Brazil in 1910, for timber substitution and the charcoal industry.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Eucalypts were transplanted to Brazil in 1910, for lumber replacement and the charcoal industry.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2737",
+      "original_sentence": "Eucalypts were introduced to Brazil in 1910, for timber substitution and the charcoal industry.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Brazil had eucalypts introduced to it in 1910, for timber substitution and the charcoal industry.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1780",
+      "original_sentence": "Though he experimented in many styles of art, his unique talent was landscape painting.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Although he dabbled in numerous artistic modes, his singular aptitude was for landscape painting.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "264",
+      "original_sentence": "They should fire that awful accountant.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "They should terminate the employment of that atrocious accountant.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "264",
+      "original_sentence": "They should fire that awful accountant.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "They, wanting to fire an awful accountant, should do it.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1521",
+      "original_sentence": "All hardcovers have the contents of the comics with the covers.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The contents of the comics with the covers are had by all hardcovers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "364",
+      "original_sentence": "In order to communicate with each other, both the French girlfriend and the Japanese boyfriend decided to learn a third language.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "For the purpose of communicating with each other, both the French girlfriend and the Japanese boyfriend resolved to acquire a tertiary language.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2097",
+      "original_sentence": "Up to four people can play in multiplayer mode, which has specific rules predetermined by the players.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A maximum of four individuals are able to participate in the multiplayer mode, which possesses specific guidelines preordained by the participants.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2704",
+      "original_sentence": "Jutbring has been an active proponent of feminism and equal opportunities for women.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Jutbring has been an ardent advocate of feminism and equitable prospects for women.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1619",
+      "original_sentence": "The song received generally positive reviews from music critics.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The composition accrued predominantly favorable appraisals from music critics.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "230",
+      "original_sentence": "Please help me to make sense of this terrible news.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "I beseech you to assist me in comprehending this dreadful information.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1031",
+      "original_sentence": "It flies slowly with its head facing downwards , looking for its main food , the large apple snails .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "It soars sluggishly with its cranium directed towards the ground, searching for its primary sustenance, the considerable apple snails.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1642",
+      "original_sentence": "Eucalypts draw a very large amount of water from the soil.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Eucalypts extract a substantial volume of water from the substrate.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Before the Romans conquered Britain their land and capital seem to have belonged to the Atrebates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Before the Romans conquered Britain, their land and capital were part of the territory of the Atrebates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "98",
+      "original_sentence": "He is a passionate bird watcher .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "He is an ardent ornithologist.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2078",
+      "original_sentence": "Is responsible for emulating realistic laws of physics within the application .",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Is responsible for emulating realistic laws of physics.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1800",
+      "original_sentence": "Mood and emotions at work are related to job satisfaction.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Affect and sentiments in the workplace are correlated with vocational contentment.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1193",
+      "original_sentence": "Historically, Latin or Romance languages have been the official languages in this region.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In the annals of history, Latin or Romance dialects have constituted the official languages in this territory.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1209",
+      "original_sentence": "Egyptian athletes have won a total of 24 medals .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Egyptian athletes have got their hands on a total of 24 medals.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "113",
+      "original_sentence": "There is probably titanium in your eyeglass frames.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Chances are there is titanium in your eyeglass frames.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "113",
+      "original_sentence": "There is probably titanium in your eyeglass frames.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "There is not no titanium in your eyeglass frames.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "965",
+      "original_sentence": "After 1998 , he began suffering from both weight - control problems and injuries .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Subsequent to 1998, he commenced experiencing difficulties with both weight regulation and physical maladies.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1146",
+      "original_sentence": "For example, assume an investor had to choose between two stocks.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "To illustrate, presume an investor was compelled to select between two equities.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "849",
+      "original_sentence": "People first began using weather charts in a modern way in the mid-19th century.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Individuals initially commenced employing meteorological charts in a contemporary manner during the middle of the 19th century.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2552",
+      "original_sentence": "The only time a female flying lizard ventures to the ground is when she is ready to lay her eggs.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The sole occasion a female flying lizard embarks on a descent to the earth is when she is poised to deposit her eggs.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2533",
+      "original_sentence": "Leaf insects use camouflage to take on the appearance of a leaf.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Phasmatodea employ mimicry to assume the semblance of a foliole.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    }
+  ]
+}

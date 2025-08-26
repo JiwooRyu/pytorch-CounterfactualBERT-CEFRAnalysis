@@ -1,0 +1,445 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "A computer program is usually cooked up by a programmer using a coding language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2810",
+      "original_sentence": "This subfamily is widely distributed and members are adapted to a wide variety of environments.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "This subfamily is broadly spread, and its members are suited to many types of environments.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2810",
+      "original_sentence": "This subfamily is widely distributed and members are adapted to a wide variety of environments.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "This subfamily is found far and wide, with members that can roll with all sorts of environments.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2810",
+      "original_sentence": "This subfamily is widely distributed and members are adapted to a wide variety of environments.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "This subfamily is all over the map, thriving in many different surroundings.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2589",
+      "original_sentence": "The eastern border of the province corresponds to the western side of the Maas, which originates in France.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The province’s eastern border hugs the western side of the Maas, born in France.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2589",
+      "original_sentence": "The eastern border of the province corresponds to the western side of the Maas, which originates in France.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The eastern border of the province, which follows natural landmarks, corresponds to the western side of the Maas, which originates in France.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1193",
+      "original_sentence": "Historically, Latin or Romance languages have been the official languages in this region.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Historically speaking, Latin or Romance languages being used officially defined the region.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1597",
+      "original_sentence": "Game theory has also been used in philosophy.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Philosophy has also used game theory.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "430",
+      "original_sentence": "There are no records of any military related acts in his time in which he participated.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "No military-related acts in his time were recorded as being participated in by him.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2801",
+      "original_sentence": "With their long velar filaments deployed, Vampire Squid have been observed drifting along in the deep, black ocean currents.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "With their eerie tendrils out, Vampire Squid have been spotted hovering in the abyssal waters.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1146",
+      "original_sentence": "For example, assume an investor had to choose between two stocks.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Assuming the investor had to decide between two stocks, the example proceeds.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1074",
+      "original_sentence": "The division was one of the original 65 divisions contested at the first federal election.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "The division belonged to the initial 65 contested in the first federal election.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1074",
+      "original_sentence": "The division was one of the original 65 divisions contested at the first federal election.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "The division wasn’t excluded from the original 65 contested in the first federal election.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2730",
+      "original_sentence": "Balls of solid glass occasionally were used in a method purported to prevent lightning strikes to ships and other objects.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "A method said to prevent lightning strikes sometimes used balls of solid glass.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1479",
+      "original_sentence": "As an architectural ornament, spires are most often found on Christian churches.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "In church architecture, spires are a traditional element especially in Christian buildings.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1877",
+      "original_sentence": "In 1993 the team again achieved success in the national championship road race in Germany.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "1993 saw the team back on top in Germany’s big road race.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2127",
+      "original_sentence": "After September 1939, desperate efforts were made to improve the situation, but with very little result.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "People tried everything under the sun after September 1939, but not much worked.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2127",
+      "original_sentence": "After September 1939, desperate efforts were made to improve the situation, but with very little result.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Desperate efforts weren’t successful after September 1939.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "35",
+      "original_sentence": "I love it when babies giggle.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "When babies giggle, it is loved by me.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "35",
+      "original_sentence": "I love it when babies giggle.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "I love it, especially on tough days, when babies giggle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2507",
+      "original_sentence": "However, it is an extremely persistent organic pollutant; it does not easily break down.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Being resistant to breakdown, it qualifies as a persistent organic pollutant.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2807",
+      "original_sentence": "In the center of a village, the ground begins to open up and a strange green light emanates from within.",
+      "original_prediction": "B1",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "In the village center, the ground opens and green light comes out.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1241",
+      "original_sentence": "Music and sport are the only fields that largely fall outside the station's remit.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Falling outside the remit, music and sport are not covered much.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1340",
+      "original_sentence": "In 1873 mine employers attempted to introduce Saturday afternoon and Sunday shifts.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "In 1873, mine employers didn’t avoid weekends—they tried to add shifts then.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1046",
+      "original_sentence": "In the world, breast cancer is the fifth-most common cause of cancer death.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Breast cancer is the fifth cause of cancer death worldwide.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1487",
+      "original_sentence": "The simplest form of term life insurance is a one-year contract.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "One-year contracts are used to describe basic forms of term life insurance.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "758",
+      "original_sentence": "The state agency operates with an annual appropriation of approximately six million dollars and approximately 100 employees.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "This agency runs on a relatively modest budget and a small staff.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "758",
+      "original_sentence": "The state agency operates with an annual appropriation of approximately six million dollars and approximately 100 employees.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The state agency operates with an appropriation and 100 employees.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2392",
+      "original_sentence": "Healthy gums usually have no reaction to normal disturbance such as brushing.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Healthy gums don’t kick up a fuss from brushing.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2392",
+      "original_sentence": "Healthy gums usually have no reaction to normal disturbance such as brushing.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Being healthy, gums typically don’t react to regular disturbance like brushing.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2392",
+      "original_sentence": "Healthy gums usually have no reaction to normal disturbance such as brushing.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Healthy gums, which are pink and firm, usually have no reaction to normal disturbance such as brushing.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "777",
+      "original_sentence": "Flamsteed calculated the solar eclipses of 1666 and 1668.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Flamsteed didn’t ignore the solar eclipses of 1666 and 1668—he calculated them.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2207",
+      "original_sentence": "Soaps and detergents help to spread the oils and dirt particles through the water, so they can be washed away.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Oils and dirt particles are spread through water by soaps and detergents, allowing them to be washed away.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2207",
+      "original_sentence": "Soaps and detergents help to spread the oils and dirt particles through the water, so they can be washed away.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Helping to spread grime in water, soaps and detergents allow for easier removal.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1191",
+      "original_sentence": "After that, many people contributed code to the project.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Contributing code to the project, many people joined in afterward.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "698",
+      "original_sentence": "In British English, a car of this configuration is called a saloon.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Known as a saloon in British English, this car configuration differs from American terms.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1878",
+      "original_sentence": "The purpose of a formal name is to have a single name which is accepted and used worldwide for a particular plant or plant group.",
+      "original_prediction": "B1",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The purpose of a formal name is universal usage for a plant.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "961",
+      "original_sentence": "The best fluid is plain, clean water.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Flavored drinks aren't better than plain water—the best fluid is clean water.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2787",
+      "original_sentence": "Some specific ministries/department are not allocated to anyone in the cabinet but the Prime Minister himself.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Held directly by the Prime Minister, some ministries remain unallocated.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2184",
+      "original_sentence": "Its natural habitats are subtropical or tropical forests.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "It lives naturally in tropical and subtropical woodlands.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "792",
+      "original_sentence": "The meaning and intent are sometimes mirrored in different terms.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Meaning and intent aren’t always lost—they can appear in other words.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2608",
+      "original_sentence": "Natural selection has driven the diversification of the toxins to counter the defences of the prey.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Through evolutionary pressure, toxins adapted to match the prey’s defense strategies.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1339",
+      "original_sentence": "It is known for its inviting jungle gym-like characteristics.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It’s not dull—it has playful, jungle gym-like traits.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1758",
+      "original_sentence": "Since cholera became common in the 19th century, it has killed tens of millions of people.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Since cholera became common in the 19th century, it, spreading through contaminated water, has killed tens of millions of people.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1022",
+      "original_sentence": "Starting in 1941, all entering students had to be high school graduates.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Starting in 1941, all entering students, regardless of background, had to be high school graduates.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "809",
+      "original_sentence": "Szeged and surrounding area has been inhabited since ancient time.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Szeged is one of those places that’s been settled since ancient civilizations.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2598",
+      "original_sentence": "Under some conditions, such as extremely low temperature, some ceramics exhibit high-temperature superconductivity.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Certain ceramics can become superconductive at high temperatures under very cold conditions.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2811",
+      "original_sentence": "The sarus crane is easily distinguished from other cranes in the region by the overall grey color and the contrasting red head and upper neck.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The sarus crane, native to parts of Asia, is easily distinguished from other cranes by its coloring.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2811",
+      "original_sentence": "The sarus crane is easily distinguished from other cranes in the region by the overall grey color and the contrasting red head and upper neck.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The sarus crane is distinguished from other cranes by its coloring.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    }
+  ]
+}

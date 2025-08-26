@@ -1,0 +1,589 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "175",
+      "original_sentence": "If they were just a little older, I wouldn't have to drive them to those early morning practice games.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "If they were merely a trifle more mature, I would not be obligated to chauffeur them to those early morning practice games.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "175",
+      "original_sentence": "If they were just a little older, I wouldn't have to drive them to those early morning practice games.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "If they were just a little older, I, driving them to those early morning practice games, would not have to.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "175",
+      "original_sentence": "If they were just a little older, I wouldn't have to drive them to those early morning practice games.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "If they were not a little older, I would not not have to drive them to those early morning practice games.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "805",
+      "original_sentence": "After several decades of prosperity, it entered a period of protracted political, military and economic decline.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "After several decades of good times, it went into a long period of decline.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "805",
+      "original_sentence": "After several decades of prosperity, it entered a period of protracted political, military and economic decline.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "After several decades of prosperity, it entered a period of decline, being protracted.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "805",
+      "original_sentence": "After several decades of prosperity, it entered a period of protracted political, military and economic decline.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "After decades of prosperity, it entered a period of decline.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Humans have been grooming their nails via pedicures for a duration exceeding four millennia.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "People have not been pedicuring their nails for fewer than 4,000 years.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1296",
+      "original_sentence": "African elephants receive some legal protection in every country where they are found.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "African elephants are afforded a degree of legal safeguard in each nation where they are located.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1296",
+      "original_sentence": "African elephants receive some legal protection in every country where they are found.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "African elephants, receiving some legal protection, are found in every country.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1597",
+      "original_sentence": "Game theory has also been used in philosophy.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Game theory has likewise been employed in the discipline of philosophy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1597",
+      "original_sentence": "Game theory has also been used in philosophy.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Game theory, also having been used, is found in philosophy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1597",
+      "original_sentence": "Game theory has also been used in philosophy.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Game theory, which is the study of mathematical models of strategic interaction, has also been used in philosophy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1736",
+      "original_sentence": "During the Spanish Civil War he left his work to be in theater as an amateur actor.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Amidst the Spanish Civil War, he forsook his occupation to partake in thespian pursuits as a non-professional performer.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1255",
+      "original_sentence": "Both at the server and the user level , Discord allows users to connect these to their Twitch . tv or other gaming service account .",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "At the server and user level, Discord allows users to connect to their Twitch.tv or other gaming service account.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1150",
+      "original_sentence": "These birds feed on insects, including those stirred up by cattle.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "These avian creatures subsist on insects, including those agitated by livestock.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1150",
+      "original_sentence": "These birds feed on insects, including those stirred up by cattle.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "These birds, feeding on insects, include those stirred up by cattle.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2741",
+      "original_sentence": "Because of the increased demand and the restrictions on exports of the metals from China , some countries are stockpiling rare earth resources .",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Because of demand and restrictions, some countries are stockpiling rare earth resources.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2149",
+      "original_sentence": "China has officially cited resource depletion and environmental concerns as the reasons for a nationwide crackdown on its rare-earth mineral production sector.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "China has officially cited resource depletion as the reasons for a crackdown on its rare-earth mineral production sector.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "91",
+      "original_sentence": "More women being shunned from higher executive positions are protesting on social media .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A greater number of women being ostracized from elevated executive roles are remonstrating on social media.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "91",
+      "original_sentence": "More women being shunned from higher executive positions are protesting on social media .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "More women getting the cold shoulder from higher executive positions are protesting on social media.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "91",
+      "original_sentence": "More women being shunned from higher executive positions are protesting on social media .",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "More women protesting on social media are being shunned from higher executive positions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "91",
+      "original_sentence": "More women being shunned from higher executive positions are protesting on social media .",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "More women being shunned from higher executive positions are not unprotesting on social media.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2262",
+      "original_sentence": "The hosts were only announced after the qualifying round , which meant all teams had to participate in the qualification process for the final stage .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The hosts were only divulged subsequent to the qualifying round, which signified that all teams were obligated to partake in the qualification procedure for the culminating phase.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1895",
+      "original_sentence": "They typically enter the nests of pollen- collecting species, and lay their eggs in cells provisioned by the host bee.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "They typically get into the nests of pollen-collecting species, and lay their eggs in cells provided by the host bee.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2500",
+      "original_sentence": "Producing a stop-motion animation using clay is extremely laborious.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Producing a stop-motion animation, which requires moving the clay in tiny increments, is extremely laborious.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "201",
+      "original_sentence": "My brother asked me to pick up more bananas from the market on my way home.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "My brother requested that I procure more bananas from the marketplace on my return journey.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "201",
+      "original_sentence": "My brother asked me to pick up more bananas from the market on my way home.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "My brother did not not ask me to pick up more bananas from the market on my way home.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1084",
+      "original_sentence": "The head and thorax are white.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The cranium and the thorax are albescent.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1731",
+      "original_sentence": "The park experiences three seasons: summer, monsoon, and winter.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The park does not experience fewer than three seasons: summer, monsoon, and winter.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1586",
+      "original_sentence": "He was one of the best known politicians in Sweden.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "He was among the most renowned statesmen in Sweden.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1586",
+      "original_sentence": "He was one of the best known politicians in Sweden.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "He was a household name among politicians in Sweden.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1115",
+      "original_sentence": "Some adults travel to other countries to have access to sex with children, which is unavailable in their home country.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Certain adults journey to foreign nations to procure access to sexual acts with minors, which is unattainable in their native land.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1115",
+      "original_sentence": "Some adults travel to other countries to have access to sex with children, which is unavailable in their home country.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Some adults do not not travel to other countries to have access to sex with children, which is unavailable in their home country.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2287",
+      "original_sentence": "Dodder can be identified by its thin stems .",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Dodder can be ascertained via its slender stalks.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2287",
+      "original_sentence": "Dodder can be identified by its thin stems .",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Dodder cannot not be identified by its thin stems.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "120",
+      "original_sentence": "The officials announcing the new policy looked like they were ready for inevitable criticism .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The officials proclaiming the new directive appeared to be prepared for inescapable censure.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "120",
+      "original_sentence": "The officials announcing the new policy looked like they were ready for inevitable criticism .",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The officials looked like they were ready for inevitable criticism, which was being announced.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "377",
+      "original_sentence": "A monkey got loose in a train station.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A primate became unconfined within a rail terminus.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "377",
+      "original_sentence": "A monkey got loose in a train station.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "A monkey did not not get loose in a train station.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands, it covers 40 hectares.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Constructed between 2003 and 2006 from previously fallow territories, it encompasses 40 hectares.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1978",
+      "original_sentence": "Built between 2003 and 2006 out of formerly barren lands, it covers 40 hectares.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "It does not fail to cover 40 hectares, having been built between 2003 and 2006 out of formerly barren lands.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1366",
+      "original_sentence": "The phrase is used in widely varying contexts .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The expression is employed in a multitude of disparate contexts.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1749",
+      "original_sentence": "At 10.00 am there was a large crowd of people watching the action.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "At 10:00 am, there was a vast throng of spectators observing the proceedings.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1048",
+      "original_sentence": "The channel's format shows rolling news bulletins, updated every 15 minutes.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The channel's structure exhibits continuous news communiques, which are revised every 15 minutes.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1048",
+      "original_sentence": "The channel's format shows rolling news bulletins, updated every 15 minutes.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The channel's format does not not show rolling news bulletins, updated every 15 minutes.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "720",
+      "original_sentence": "There are several types of wordplay used in cryptics.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "There are numerous forms of punning employed in cryptic puzzles.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "842",
+      "original_sentence": "Adding to science and technology has happened throughout the country's history.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Contributions to science and technology have been made across the entirety of the nation's history.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "37",
+      "original_sentence": "Both of my friends will be studying abroad next year so I am a little sad.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Both of my companions will be pursuing academic endeavors overseas next year, so I am somewhat sorrowful.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "37",
+      "original_sentence": "Both of my friends will be studying abroad next year so I am a little sad.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Both of my friends will not not be studying abroad next year so I am a little sad.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2643",
+      "original_sentence": "The Founding Fathers wanted republicanism because its ideas guaranteed liberty, with limited powers checking and balancing each other.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The Founding Fathers desired republicanism because its tenets assured freedom, with restricted powers counteracting and stabilizing each other.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2643",
+      "original_sentence": "The Founding Fathers wanted republicanism because its ideas guaranteed liberty, with limited powers checking and balancing each other.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The Founding Fathers wanted republicanism because its ideas guaranteed liberty, with limited powers.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2643",
+      "original_sentence": "The Founding Fathers wanted republicanism because its ideas guaranteed liberty, with limited powers checking and balancing each other.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The Founding Fathers did not not want republicanism because its ideas guaranteed liberty, with limited powers checking and balancing each other.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position, not the order received.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "For efficiency, the sectors should be serviced in order of proximity, not the order received.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "431",
+      "original_sentence": "March music is often important for ceremonial occasions.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "March music is frequently salient for ceremonial observances.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "431",
+      "original_sentence": "March music is often important for ceremonial occasions.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "March music often gets the job done for ceremonial occasions.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1836",
+      "original_sentence": "In appearance, it is light yellow and opaque, smooth and creamy.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In semblance, it is xanthous and non-translucent, slick and rich.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1836",
+      "original_sentence": "In appearance, it is light yellow and opaque, smooth and creamy.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "In appearance, it is not dark yellow and not transparent, not rough and not watery.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2699",
+      "original_sentence": "While the cause of the common cold has only been identified since the 1950s, the disease has been with humanity throughout history.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "While the etiology of the common cold has been ascertained only since the 1950s, the malady has been with humanity across all of history.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "303",
+      "original_sentence": "Nobody spoke another word after the professor got mad.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Not a single person uttered another sound subsequent to the professor becoming incensed.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "303",
+      "original_sentence": "Nobody spoke another word after the professor got mad.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Nobody said another word after the professor went off.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "303",
+      "original_sentence": "Nobody spoke another word after the professor got mad.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Nobody, speaking another word after the professor got mad, was a silence.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "303",
+      "original_sentence": "Nobody spoke another word after the professor got mad.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Nobody did not speak another word after the professor got mad.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1852",
+      "original_sentence": "There were just two entries in the quad doubles, and they played a straight final to decide the championship.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "There were merely two competitors in the quad doubles, and they engaged in a singular final to determine the championship.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1852",
+      "original_sentence": "There were just two entries in the quad doubles, and they played a straight final to decide the championship.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "There were no more than two entries in the quad doubles, and they did not play a non-straight final to decide the championship.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Rat snakes are a fan favorite among reptile lovers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Rat snakes are not usually avoided by reptile enthusiasts as pets.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2636",
+      "original_sentence": "Rat snakes are commonly kept as pets by reptile enthusiasts.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Rat snakes, which are non-venomous and easy to handle, are commonly kept as pets by reptile enthusiasts.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Birdsong met his end on June 4, 2019, after a tragic car crash.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Birdsong didn’t survive the car crash that caused his injuries on June 4, 2019.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2010",
+      "original_sentence": "Before the unification of Egypt, the land was settled with autonomous villages.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Before the unification of Egypt, the land wasn’t ruled centrally but was settled with autonomous villages.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2010",
+      "original_sentence": "Before the unification of Egypt, the land was settled with autonomous villages.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Before the unification of Egypt, the land was settled with villages.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "536",
+      "original_sentence": "For 95–97% of cases, infection is resolved after one dose of metronidazole.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "In most cases, the bug is knocked out by one dose of metronidazole.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position, not the order received.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "To speed things up, it's better to process nearby sectors first instead of going strictly by request time.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position, not the order received.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "For increased efficiency, sectors shouldn’t be serviced in the order they were received.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2649",
+      "original_sentence": "For increased efficiency the sectors should be serviced in order of proximity to the current head position, not the order received.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Sectors should be serviced in order of proximity to the head position, not order received.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1670",
+      "original_sentence": "People have been pedicuring their nails for more than 4,000 years.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "People haven’t stopped pedicuring their nails for more than 4,000 years.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Britain and its capital appear to have been part of the Atrebates' territory before being conquered by the Romans.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Having not yet been conquered by the Romans, their land and capital appear to have been part of the Atrebates’ territory.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Before the Romans conquered Britain, their land and capital didn’t belong solely to them but to the Atrebates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2067",
+      "original_sentence": "Before the Romans conquered Britain their land and capital appear to have been part of the territory of the Atrebates.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Before the Romans conquered Britain, their land and capital were part of the territory of the Atrebates.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I didn't want to interrupt.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "I phoned, but you were occupied and I didn’t wish to disturb.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I didn't want to interrupt.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "I gave you a ring, but you were tied up and I didn’t want to butt in.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I didn't want to interrupt.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "I tried reaching you, but since you were clearly swamped, I held off.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I didn't want to interrupt.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "I called, but you were busy, and I, being considerate, didn’t want to interrupt.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1629",
+      "original_sentence": "Nightingales are named so because they frequently sing at night as well as during the day.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "They’re called nightingales because they often sing at night and in daylight.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1629",
+      "original_sentence": "Nightingales are named so because they frequently sing at night as well as during the day.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The name 'nightingale' sticks since these birds love to sing around the clock.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1629",
+      "original_sentence": "Nightingales are named so because they frequently sing at night as well as during the day.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Nightingales, famous for their nocturnal songs, are named so because they sing at night as well as during the day.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1176",
+      "original_sentence": "The female potoroos can have two babies in a year, but only carry one at a time.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Female potoroos give birth to two offspring yearly but raise them one by one.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1176",
+      "original_sentence": "The female potoroos can have two babies in a year, but only carry one at a time.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Potoroos don’t multitask—they raise their young one at a time.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1176",
+      "original_sentence": "The female potoroos can have two babies in a year, but only carry one at a time.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Giving birth to two in a year, the female potoroo carries just one at a time.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1176",
+      "original_sentence": "The female potoroos can have two babies in a year, but only carry one at a time.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Potoroos manage reproduction by limiting care to one baby per time despite yearly doubling.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2479",
+      "original_sentence": "The trematodes or flukes include 18,000 to 24,000 species, divided into two subclasses.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Flukes come in all shapes—thousands of species split into two big groups.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2479",
+      "original_sentence": "The trematodes or flukes include 18,000 to 24,000 species, divided into two subclasses.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Trematodes aren’t just a few—they encompass up to 24,000 species.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2479",
+      "original_sentence": "The trematodes or flukes include 18,000 to 24,000 species, divided into two subclasses.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Trematodes include thousands of species, divided into subclasses.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1918",
+      "original_sentence": "A shooting star is when a wrestler jumps forward from higher ground and performs a backflip in midair.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "It's a flashy move where the wrestler flies like a comet and spins midair.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1918",
+      "original_sentence": "A shooting star is when a wrestler jumps forward from higher ground and performs a backflip in midair.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "In pro wrestling, the shooting star is a complex aerial maneuver involving flips.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1918",
+      "original_sentence": "A shooting star is when a wrestler jumps forward from higher ground and performs a backflip in midair.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "A shooting star isn’t just a leap—it’s a full backflip from elevation.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "112",
+      "original_sentence": "Your younger brother must have anger management problems since he is always getting into trouble.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "He’s got a short fuse—that kid’s always in hot water.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "112",
+      "original_sentence": "Your younger brother must have anger management problems since he is always getting into trouble.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Anger issues are likely present in your younger brother, as he’s constantly getting into trouble.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "112",
+      "original_sentence": "Your younger brother must have anger management problems since he is always getting into trouble.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "He seems to lack emotional regulation, based on his frequent misbehavior.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2514",
+      "original_sentence": "The work is anonymous, and there is speculation about the author's identity.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Nobody knows who wrote it—it’s a mystery sparking lots of chatter.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2514",
+      "original_sentence": "The work is anonymous, and there is speculation about the author's identity.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "People still debate who wrote the unnamed piece.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2104",
+      "original_sentence": "The health risks associated with nuclear materials have also featured prominently in Australian anti-nuclear campaigns.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Australian opposition to nuclear energy often stresses serious health threats.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2104",
+      "original_sentence": "The health risks associated with nuclear materials have also featured prominently in Australian anti-nuclear campaigns.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Australian anti-nuclear campaigns haven’t ignored the health dangers of nuclear materials.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2104",
+      "original_sentence": "The health risks associated with nuclear materials have also featured prominently in Australian anti-nuclear campaigns.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Health risks from nuclear materials have featured in Australian anti-nuclear campaigns.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2532",
+      "original_sentence": "Viral populations do not grow through cell division, because they are acellular.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Viruses don’t multiply the usual way since they’re not built like cells.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2532",
+      "original_sentence": "Viral populations do not grow through cell division, because they are acellular.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Viruses lack cells, so they reproduce differently from living organisms.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2532",
+      "original_sentence": "Viral populations do not grow through cell division, because they are acellular.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Viral populations don’t divide like cells do.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2532",
+      "original_sentence": "Viral populations do not grow through cell division, because they are acellular.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Viral populations, which depend on host cells, do not grow through cell division.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2532",
+      "original_sentence": "Viral populations do not grow through cell division, because they are acellular.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Viral populations do not grow through division.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1729",
+      "original_sentence": "The city is notable for its well-preserved downtown with a number of remaining historic businesses.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The city, famous among tourists, is notable for its well-preserved downtown and historic businesses.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2343",
+      "original_sentence": "At first, historical linguistics served as the cornerstone of comparative linguistics primarily as a tool for linguistic reconstruction.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Comparative linguistics was initially based on historical linguistics as a reconstruction tool.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2343",
+      "original_sentence": "At first, historical linguistics served as the cornerstone of comparative linguistics primarily as a tool for linguistic reconstruction.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Historical linguistics was the cornerstone of comparative linguistics.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1710",
+      "original_sentence": "Shortage of rain during the highly variable Monsoon season can cause droughts in U. P. leading to several deaths and loss of property.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "When the monsoon fails, U.P. pays the price—drought, death, and destruction.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1710",
+      "original_sentence": "Shortage of rain during the highly variable Monsoon season can cause droughts in U. P. leading to several deaths and loss of property.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "With rain in short supply during the Monsoon, U.P. faces droughts and related losses.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1710",
+      "original_sentence": "Shortage of rain during the highly variable Monsoon season can cause droughts in U. P. leading to several deaths and loss of property.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Unreliable Monsoon rains often trigger fatal droughts in Uttar Pradesh.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1710",
+      "original_sentence": "Shortage of rain during the highly variable Monsoon season can cause droughts in U. P. leading to several deaths and loss of property.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Without enough monsoon rain, drought and disaster aren’t uncommon in U.P.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1710",
+      "original_sentence": "Shortage of rain during the highly variable Monsoon season can cause droughts in U. P. leading to several deaths and loss of property.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Rain shortage during Monsoon can cause droughts in U.P., leading to deaths.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1421",
+      "original_sentence": "In later years a number of books from foreign publishers have been taken by Egyptian authorities.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Not all books from foreign publishers have been taken by Egyptian authorities.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1421",
+      "original_sentence": "In later years a number of books from foreign publishers have been taken by Egyptian authorities.",
+      "original_prediction": "B1",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Books from foreign publishers have been taken by Egyptian authorities.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1288",
+      "original_sentence": "Strategic bombing was an idea first tried in World War I.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Strategic bombing first saw the light of day in World War I.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "605",
+      "original_sentence": "The fur coloring of the lar gibbon varies from black and dark-brown to light-brown, sandy colors.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Lar gibbons come in all shades from night black to beach sand.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "605",
+      "original_sentence": "The fur coloring of the lar gibbon varies from black and dark-brown to light-brown, sandy colors.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Varying in shade, the lar gibbon's fur can be black, dark brown, or light sandy brown.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "605",
+      "original_sentence": "The fur coloring of the lar gibbon varies from black and dark-brown to light-brown, sandy colors.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "The fur coloring of the lar gibbon does not stay the same across individuals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "605",
+      "original_sentence": "The fur coloring of the lar gibbon varies from black and dark-brown to light-brown, sandy colors.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The fur of the lar gibbon varies in color.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1235",
+      "original_sentence": "Geordi was born blind and must wear a VISOR to help him see.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "To compensate for blindness from birth, Geordi uses a high-tech device.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2153",
+      "original_sentence": "During the day amphiumas hide in plants.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Amphiumas stay concealed among vegetation during the day.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2153",
+      "original_sentence": "During the day amphiumas hide in plants.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Amphiumas lay low in the greenery during daylight hours.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2153",
+      "original_sentence": "During the day amphiumas hide in plants.",
+      "original_prediction": "B2",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "These amphibians remain hidden among foliage while the sun is out.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2681",
+      "original_sentence": "Breckinridge ordered his field officers to make an inspection of the troops and to report back with the condition of his army.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Ordering a troop inspection, Breckinridge expected a report on army conditions.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2681",
+      "original_sentence": "Breckinridge ordered his field officers to make an inspection of the troops and to report back with the condition of his army.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Breckinridge ordered his officers to inspect troops and report their condition.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "157",
+      "original_sentence": "He isn't on either Joanne or Lia's side because he wants to stay neutral.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "He avoids taking sides in the disagreement between Joanne and Lia to remain impartial.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1737",
+      "original_sentence": "Upon its release in 1975, critical response was mixed although box office was strong.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "When it hit theaters in '75, reviews were all over the place, but it raked in cash.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1737",
+      "original_sentence": "Upon its release in 1975, critical response was mixed although box office was strong.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The film received mixed critical response upon its 1975 release, although it performed well at the box office.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1737",
+      "original_sentence": "Upon its release in 1975, critical response was mixed although box office was strong.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Critical response wasn’t unanimously positive despite box office success.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "417",
+      "original_sentence": "The berry has a low sugar content and a mildly sweet taste.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Unlike sugary fruits, this berry offers a gentle sweetness.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "351",
+      "original_sentence": "Florida has beautiful sunsets skies.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Florida’s sunsets paint the skies with breathtaking colors.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "351",
+      "original_sentence": "Florida has beautiful sunsets skies.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Famed for its vibrant evenings, Florida offers beautiful sunsets.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "351",
+      "original_sentence": "Florida has beautiful sunsets skies.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "It’s hard to deny that Florida doesn’t have beautiful sunset skies.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2534",
+      "original_sentence": "At the 2009 Census, the commune had a population of 677.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "In 2009, census data recorded the commune's population as 677.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1236",
+      "original_sentence": "As of 2017, the books had collectively sold more than seven million copies, and appeared on numerous childrens' best-seller lists.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The books gained massive popularity among young readers, selling millions by 2017.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1461",
+      "original_sentence": "The shrinking generator uses a different technique.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Unlike traditional systems, the shrinking generator applies a distinct approach.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2786",
+      "original_sentence": "Visitors typically arrive at a tram station in the arrival plaza between the administrative buildings and the museum entrance.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Museum complexes often guide visitors through an entrance near transit stops and facilities.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1029",
+      "original_sentence": "However, species vary in the details.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The devil’s in the details when it comes to different species.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1029",
+      "original_sentence": "However, species vary in the details.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "Although they may look alike, species often diverge in small traits.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "912",
+      "original_sentence": "Human impacts during the 19th and 20th century have been significant.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Humans left a big footprint during the 19th and 20th century.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "912",
+      "original_sentence": "Human impacts during the 19th and 20th century have been significant.",
+      "original_prediction": "B1",
+      "cf_type": "negation",
+      "cf_sentence": "Human impacts during the 19th and 20th centuries weren’t negligible.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2723",
+      "original_sentence": "Common ostriches normally spend the winter months in pairs or alone.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Spending winter in solitude or pairs, common ostriches exhibit social variation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "423",
+      "original_sentence": "During World War II, the elephants at the Zoo were killed in the air raids of September 7-8, 1941.",
+      "original_prediction": "B1",
+      "cf_type": "resemantic-background",
+      "cf_sentence": "The war’s bombings didn’t spare animals—zoo elephants perished in 1941.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1882",
+      "original_sentence": "The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-frequency",
+      "cf_sentence": "Grinding solids happens when mechanical forces break internal bonds.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1882",
+      "original_sentence": "The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Solids get crushed when enough force breaks them from the inside out.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1882",
+      "original_sentence": "The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Solid materials are ground when mechanical forces break their internal bonds.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1882",
+      "original_sentence": "The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Exposed to mechanical forces, solid matter is ground by breaking internal bonds.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1882",
+      "original_sentence": "The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces.",
+      "original_prediction": "B2",
+      "cf_type": "negation",
+      "cf_sentence": "Grinding doesn't happen unless internal bonding forces are overcome.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1882",
+      "original_sentence": "The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Grinding occurs when mechanical forces break bonding forces.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    }
+  ]
+}

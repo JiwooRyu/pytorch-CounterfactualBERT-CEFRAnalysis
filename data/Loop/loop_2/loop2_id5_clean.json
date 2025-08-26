@@ -531,55 +531,5 @@
       "cf_prediction": "B1",
       "is_label_flipped": true
     }
-  ],
-  "part2_control_code_feedback": {
-    "lexical-frequency": {
-      "2-1": 2,
-      "2-2": 3,
-      "2-3": "This code makes the sentence to understand better than the original one."
-    },
-    "lexical-idiom": {
-      "2-1": 2,
-      "2-2": 4,
-      "2-3": "This code make the sentence shorter using the appropriate idioms.\nBut when the reader doesn't know the meaning of the idiom, it rather makes it difficult to understand the meaning, and most of them becomes B2 sentences."
-    },
-    "restructure-passive": {
-      "2-1": 4,
-      "2-2": 3,
-      "2-3": "This code changes the focus of the sentence.\nSometimes, occasional sentence variations appears in the form of changing the content of the sentence."
-    },
-    "restructure-participle": {
-      "2-1": 4,
-      "2-2": 2,
-      "2-3": "Generally similar to the Restructure-passive code besides the tense."
-    },
-    "resemantic-background": {
-      "2-1": 2,
-      "2-2": 4,
-      "2-3": "This code tends to put long additional clauses before of after the main clause.\nThis also shows sentences with frequent form change from the original sentence."
-    },
-    "negation": {
-      "2-1": 2,
-      "2-2": 2,
-      "2-3": "This code tends to increase readability and sentence comprehension by adding excessive negative forms."
-    },
-    "insert-clause": {
-      "2-1": 4,
-      "2-2": 4,
-      "2-3": "Due to the characteristic of Insert, increasing the length of the sentence is indispensable.\nAppropriate insert makes the reader easier to understand the sentence."
-    },
-    "delete-modifier": {
-      "2-1": 2,
-      "2-2": 2,
-      "2-3": "Modified well to understand the core of the sentence.\nMost of the modified sentences were predicted as B1."
-    }
-  },
-  "part3_ai_collaboration_feedback": {
-    "3-1": 2,
-    "3-2": 4,
-    "3-3": "Compared to human-written sentences, it was far more convenient assessing with AI-generated sentences.\nEspecially, expressions used in 'Insert-clause' code gave me chance to learn useful ones."
-  },
-  "part4_final_confirmation": {
-    "4": "AI's prediction of B1 and B2 seems a little bit different from human's. \nIt would be better if the difficulty level was adjusted."
-  }
+  ]
 }

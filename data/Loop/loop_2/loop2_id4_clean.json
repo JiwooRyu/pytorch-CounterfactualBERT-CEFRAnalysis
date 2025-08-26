@@ -495,55 +495,5 @@
       "cf_prediction": "B1",
       "is_label_flipped": false
     }
-  ],
-  "part2_control_code_feedback": {
-    "lexical-frequency": {
-      "2-1": 1,
-      "2-2": 1,
-      "2-3": "Increase the difficulty of synonyms."
-    },
-    "lexical-idiom": {
-      "2-1": 5,
-      "2-2": 5,
-      "2-3": "Many unfamiliar idioms were used, making many of the sentences feel more difficult than the original sentences. \n2. laborious = a real uphill battle  \n3. less than 100m = can't see past your nose\n8. In order to communicate with each other = to get on the same page\n12. playbook  \n15. goaltenders = goalies, captain's armband\n30. make-or-break stats\n31. no small fry "
-    },
-    "restructure-passive": {
-      "2-1": 2,
-      "2-2": 2,
-      "2-3": "The phrase “can be diminished” in sentence 36 may seem difficult, but in fact, this seems to be a problem with the word “diminish.” \nRather than simply using the passive voice, it would be more difficult if the 4th form(4형식) passive voice, 5th form(5형식) passive voice, or conversion to the 3rd form(3형식) were used together."
-    },
-    "restructure-participle": {
-      "2-1": 3,
-      "2-2": 3,
-      "2-3": "Since conjunctions are omitted in participle phrases, students may find it difficult to interpret them intuitively."
-    },
-    "resemantic-background": {
-      "2-1": 5,
-      "2-2": 5,
-      "2-3": "  Compared to the original text, Resemantic-background uses more diverse vocabulary, making the sentences feel more complex. In particular, some of the sentence structures have become more complex.\n2. laborious = like pulling teeth\n6. invisible force like tiny magents  \n7. tough planned~, end up ving\n10. So 해석 \n12. the same way [they file] \n21. in order = progressing, structured pattern\n27. arthropods\n36. testimony"
-    },
-    "negation": {
-      "2-1": 1,
-      "2-2": 1,
-      "2-3": "In the case of sentence 4, I think the vocabulary used is easier than in the original text.\nTo use negation, it would be helpful to make the sentence a little more complicated by using partial negation or double negation."
-    },
-    "insert-clause": {
-      "2-1": 4,
-      "2-2": 5,
-      "2-3": "The inserted clauses and phrases add additional meaning, which may make the text seem difficult. Furthermore, Koreans do not often use commas, so learners who have not studied grammar such as non-restrictive relative clauses may have difficulty understanding the order of interpretation.\nHowever, if the meaning of the vocabulary in the inserted clause or sentence has become easier, it may actually help in understanding the sentence, so it may feel easier than the original text."
-    },
-    "delete-modifier": {
-      "2-1": 2,
-      "2-2": 2,
-      "2-3": "Usually, deleting makes the sentence easier to understand. For example, in sentence 10, the phrase “as part of sponsorship arrangement,” which could be difficult to interpret, is omitted, making the sentence easier to understand."
-    }
-  },
-  "part3_ai_collaboration_feedback": {
-    "3-1": 5,
-    "3-2": 4,
-    "3-3": "#2 lexical-idiom\n2. laborious = a real uphill battle  \n3. less than 100m = can't see past your nose\n8. In order to communicate with each other = to get on the same page\n12. playbook  \n15. goaltenders = goalies, captain's armband\n30. make-or-break stats\n31. no small fry \n\n#3 restructure-passive\n36. can be diminished\n\n#4 restructure-participle \n1. 분사구문 - 직관적인 해석 어려움\n5. 분사구문+ gain praise \n\n#5  Resemantic-background\n2. laborious = like pulling teeth\n6. invisible force like tiny magents  \n7. tough planned~, end up ving\n10. So 해석 \n12. the same way [they file] \n21. in order = progressing, structured pattern\n27. arthropods\n36. testimony\n\n#6 Negation\n4. 사용된 어휘 더 쉬워짐\n\n#7 Insert-clause\n1. 관계대명사절 2개 삽입 (문장구조 복잡)\n2. 관계대명사절(계속적용법) \n3. 관계사절에 의미추가되면서 해석할게 많아짐\n4. depending on~ 의미 추가 \n\n#8  Delete-modifier\n9. 나머지 다 비슷한데 숫자 등 삭제되며 문장길이 짧아짐 \n10. as part of sponsorship arrangement. 이라는 해석 난감할 수 있는 구 누락되서 쉬워짐 "
-  },
-  "part4_final_confirmation": {
-    "4": "When teaching students, one of the things they find most difficult is paraphrasing. Paraphrasing is important and difficult because it is used in various areas such as reading, writing, and speaking. It is particularly difficult because it requires the use of a wide range of vocabulary, and grammar may vary depending on the context. Developing AI could be helpful for paraphrasing practice."
-  }
+  ]
 }

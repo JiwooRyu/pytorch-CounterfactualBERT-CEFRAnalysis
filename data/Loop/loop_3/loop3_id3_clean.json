@@ -1,0 +1,1282 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1782",
+      "original_sentence": "The silky sifaka has a variable social structure, and lives in groups of two to nine individuals.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The silky sifaka possesses a mutable communal arrangement and resides in assemblages of two to nine specimens.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1782",
+      "original_sentence": "The silky sifaka has a variable social structure, and lives in groups of two to nine individuals.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The silky sifaka has a social structure that changes, and lives in groups of two to nine individuals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1782",
+      "original_sentence": "The silky sifaka has a variable social structure, and lives in groups of two to nine individuals.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The silky sifaka does not have an invariable social structure, and does not live in groups of more than nine individuals.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1912",
+      "original_sentence": "As with all other cricket statistics, batting statistics and records are given much attention and provide a measure of a player's effectiveness.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In concordance with all other cricket statistics, batting statistics and records are afforded considerable consideration and furnish an assessment of a player's efficacy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1912",
+      "original_sentence": "As with all other cricket statistics, batting statistics and records are given much attention and provide a measure of a player's effectiveness.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Much attention is given to batting statistics and records, and a measure of a player's effectiveness is provided by them.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1912",
+      "original_sentence": "As with all other cricket statistics, batting statistics and records are given much attention and provide a measure of a player's effectiveness.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "As with all other cricket statistics, batting statistics and records, which are very important in the sport, are given much attention and provide a measure of a player's effectiveness.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1651",
+      "original_sentence": "In 1907 , residents of the town decided to incorporate .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In 1907, inhabitants of the locality resolved to unify.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1651",
+      "original_sentence": "In 1907 , residents of the town decided to incorporate .",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "It was 1907, and the residents of the town decided to incorporate.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1651",
+      "original_sentence": "In 1907 , residents of the town decided to incorporate .",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "In 1907, residents of the town, who had been a community for years, decided to incorporate.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2805",
+      "original_sentence": "Aquifers may occur at various depths.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Aquifers might be found at diverse subterranean strata.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2805",
+      "original_sentence": "Aquifers may occur at various depths.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Aquifers, which are underground layers of rock or sand that contain water, may occur at various depths.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "843",
+      "original_sentence": "He quit the band in 2008 to put more energy into his career as a pilot.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "He quit the band in 2008 to focus on his career as a pilot.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "843",
+      "original_sentence": "He quit the band in 2008 to put more energy into his career as a pilot.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "He quit the band in 2008, which was a tough decision, to put more energy into his career as a pilot.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "843",
+      "original_sentence": "He quit the band in 2008 to put more energy into his career as a pilot.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "He did not fail to quit the band in 2008 to put more energy into his career as a pilot.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1523",
+      "original_sentence": "A table consists of an orderly arrangement of rows and columns.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A table comprises an organized configuration of horizontal and vertical lines.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1523",
+      "original_sentence": "A table consists of an orderly arrangement of rows and columns.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "A table consists of an orderly arrangement, and this is of rows and columns.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1523",
+      "original_sentence": "A table consists of an orderly arrangement of rows and columns.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "A table, which is a common way to organize data, consists of an orderly arrangement of rows and columns.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1523",
+      "original_sentence": "A table consists of an orderly arrangement of rows and columns.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "A table does not consist of a disorderly arrangement of rows and columns.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "He and his spouse Mary have three offspring and, as of July 2016, six descendants.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Three children and six grandchildren are had by him and his wife Mary, as of July 2016.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "He and his wife Mary, with whom he has been married for fifty years, have three children and, as of July 2016, six grandchildren.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "943",
+      "original_sentence": "He and his wife Mary have three children and, as of July 2016, six grandchildren.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "He and his wife Mary do not lack three children and, as of July 2016, six grandchildren.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2374",
+      "original_sentence": "The Romans adopted the Greek tradition, writing at first in Greek, but eventually chronicling their history in a freshly non-Greek language.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The Romans espoused the Hellenic tradition, at first composing in Greek, but ultimately chronicling their history in a novel, non-Hellenic vernacular.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2374",
+      "original_sentence": "The Romans adopted the Greek tradition, writing at first in Greek, but eventually chronicling their history in a freshly non-Greek language.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "The Romans adopted the Greek tradition, and they wrote at first in Greek, but eventually they chronicled their history in a freshly non-Greek language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2374",
+      "original_sentence": "The Romans adopted the Greek tradition, writing at first in Greek, but eventually chronicling their history in a freshly non-Greek language.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The Romans adopted the Greek tradition, a common practice at the time, writing at first in Greek, but eventually chronicling their history in a freshly non-Greek language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2524",
+      "original_sentence": "The fact that living things inherit traits from their parents has been known since prehistoric times , and used to improve crop plants and animals through selective breeding .",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The reality that animate entities inherit attributes from their forebears has been understood since prehistorical epochs, and utilized to enhance flora and fauna via discerning propagation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2524",
+      "original_sentence": "The fact that living things inherit traits from their parents has been known since prehistoric times , and used to improve crop plants and animals through selective breeding .",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "It is not unknown that living things inherit traits from their parents, and used to improve crop plants and animals through selective breeding.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1983",
+      "original_sentence": "Its relative major is E major, and its parallel major is C-sharp major.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Its correlative major is E major, and its collateral major is C-sharp major.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1983",
+      "original_sentence": "Its relative major is E major, and its parallel major is C-sharp major.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "E major is its relative major, and C-sharp major is its parallel major.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1983",
+      "original_sentence": "Its relative major is E major, and its parallel major is C-sharp major.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Its relative major, being E major, is contrasted with its parallel major, which is C-sharp major.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1983",
+      "original_sentence": "Its relative major is E major, and its parallel major is C-sharp major.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Its relative major is E major, a concept in music theory, and its parallel major is C-sharp major.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1983",
+      "original_sentence": "Its relative major is E major, and its parallel major is C-sharp major.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Its relative major is not E minor, and its parallel major is not C-sharp minor.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2334",
+      "original_sentence": "For many years, efforts to discover brown dwarfs were fruitless.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "For a considerable duration, endeavors to unearth brown dwarfs proved to be unavailing.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2334",
+      "original_sentence": "For many years, efforts to discover brown dwarfs were fruitless.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "For many years, efforts to discover brown dwarfs, a type of substellar object, were fruitless.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2334",
+      "original_sentence": "For many years, efforts to discover brown dwarfs were fruitless.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "For many years, efforts to discover brown dwarfs were not fruitful.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "A computer program is usually put together by a programmer in a programming language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Computer programmers usually write a computer program in a programming language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "A computer program, which is a set of instructions for a machine, is usually written by a computer programmer in a programming language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1080",
+      "original_sentence": "A computer program is usually written by a computer programmer in a programming language.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "A computer program is not typically written without the involvement of a computer programmer in a programming language.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1452",
+      "original_sentence": "Although American units were usually able to get new troops quickly , the replacements rarely had enough training .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Although American units were typically able to secure fresh troops expeditiously, the substitutes seldom had sufficient instruction.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1452",
+      "original_sentence": "Although American units were usually able to get new troops quickly , the replacements rarely had enough training .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Although American units were usually able to get new troops quickly, the replacements were greenhorns.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1452",
+      "original_sentence": "Although American units were usually able to get new troops quickly , the replacements rarely had enough training .",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Although American units, getting new troops quickly, were usually able to do so, the replacements rarely had enough training.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1452",
+      "original_sentence": "Although American units were usually able to get new troops quickly , the replacements rarely had enough training .",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Although American units, who were always on the front lines, were usually able to get new troops quickly, the replacements rarely had enough training.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1452",
+      "original_sentence": "Although American units were usually able to get new troops quickly , the replacements rarely had enough training .",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Although American units were not unable to get new troops quickly, the replacements rarely had enough training.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "403",
+      "original_sentence": "He is a man whom I have trusted with all my investments.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "He is an individual whom I have entrusted with the entirety of my capital assets.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "403",
+      "original_sentence": "He is a man whom I have trusted with all my investments.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "He is a man who was trusted with all my investments by me.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "403",
+      "original_sentence": "He is a man whom I have trusted with all my investments.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "He is a man, who is also a friend, whom I have trusted with all my investments.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2517",
+      "original_sentence": "Short's unsolved murder and the details surrounding it have had caused many theories and public speculation.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Short's unresolved homicide and the particulars encompassing it have incited numerous theories and public conjectures.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2517",
+      "original_sentence": "Short's unsolved murder and the details surrounding it have had caused many theories and public speculation.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Many theories and public speculation have been caused by Short's unsolved murder and the details surrounding it.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2517",
+      "original_sentence": "Short's unsolved murder and the details surrounding it have had caused many theories and public speculation.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Short's unsolved murder, which remains a notorious case, and the details surrounding it have caused many theories and public speculation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2517",
+      "original_sentence": "Short's unsolved murder and the details surrounding it have had caused many theories and public speculation.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Short's unsolved murder and the details surrounding it have not failed to cause many theories and public speculation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2484",
+      "original_sentence": "Hyperoliids range from 1.5 to in body length.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Hyperoliids, which are a family of frogs, range from 1.5 to in body length.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2484",
+      "original_sentence": "Hyperoliids range from 1.5 to in body length.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Hyperoliids do not range from 1.5 to in body length.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "919",
+      "original_sentence": "In zoos, lions have been known to breed with tigers.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In zoological gardens, lions have been known to crossbreed with tigers.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "919",
+      "original_sentence": "In zoos, lions have been known to breed with tigers.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "In zoos, it has been known for lions to breed with tigers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "919",
+      "original_sentence": "In zoos, lions have been known to breed with tigers.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Lions have been known to breed with tigers, and this has happened in zoos.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "919",
+      "original_sentence": "In zoos, lions have been known to breed with tigers.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "In zoos, lions have not been unknown to breed with tigers.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2684",
+      "original_sentence": "The small commune formed only industrial and is residential today, the picturesque buildings mixed with modern buildings.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The diminutive commune coalesced as exclusively industrial and is currently residential, the scenic edifices intermingled with contemporary structures.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2684",
+      "original_sentence": "The small commune formed only industrial and is residential today, the picturesque buildings mixed with modern buildings.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "The small commune formed only industrial, and it is residential today, and the picturesque buildings are mixed with modern buildings.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2684",
+      "original_sentence": "The small commune formed only industrial and is residential today, the picturesque buildings mixed with modern buildings.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The small commune, which was built for a single purpose, formed only industrial and is residential today, the picturesque buildings mixed with modern buildings.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2684",
+      "original_sentence": "The small commune formed only industrial and is residential today, the picturesque buildings mixed with modern buildings.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The small commune did not not form only industrial and is residential today, the picturesque buildings mixed with modern buildings.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "749",
+      "original_sentence": "The protected area is part of the Terai-Duar savanna and grasslands ecoregion.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The preserved expanse is a component of the Terai-Duar savanna and grasslands ecoregion.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "749",
+      "original_sentence": "The protected area is part of the Terai-Duar savanna and grasslands ecoregion.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The Terai-Duar savanna and grasslands ecoregion is part of the protected area.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "749",
+      "original_sentence": "The protected area is part of the Terai-Duar savanna and grasslands ecoregion.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "The protected area is part of the Terai-Duar savanna, and it is part of the grasslands ecoregion.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "749",
+      "original_sentence": "The protected area is part of the Terai-Duar savanna and grasslands ecoregion.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The protected area, which is a national park, is part of the Terai-Duar savanna and grasslands ecoregion.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2754",
+      "original_sentence": "The belts are in the inner region of Earth 's magnetosphere.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The belts are in the interior expanse of Earth's magnetosphere.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2754",
+      "original_sentence": "The belts are in the inner region of Earth 's magnetosphere.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The inner region of Earth's magnetosphere is where the belts are.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2754",
+      "original_sentence": "The belts are in the inner region of Earth 's magnetosphere.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "The belts, being in the inner region of Earth's magnetosphere, are affected by it.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2754",
+      "original_sentence": "The belts are in the inner region of Earth 's magnetosphere.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The belts, which are a part of the Van Allen belts, are in the inner region of Earth's magnetosphere.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "669",
+      "original_sentence": "In many countries, drowning is one of the main causes of preventable death for children under 12 years old.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In a multitude of nations, submersion is a principal cause of avoidable mortality for children under the age of 12.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "669",
+      "original_sentence": "In many countries, drowning is one of the main causes of preventable death for children under 12 years old.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Drowning is one of the main causes of preventable death for children under 12 years old, and this is true in many countries.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "669",
+      "original_sentence": "In many countries, drowning is one of the main causes of preventable death for children under 12 years old.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "In many countries, drowning is not an insignificant cause of preventable death for children under 12 years old.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1049",
+      "original_sentence": "Pure aluminum is quite soft and lacking in strength.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Unalloyed aluminum is rather yielding and deficient in tensile strength.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1049",
+      "original_sentence": "Pure aluminum is quite soft and lacking in strength.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Pure aluminum, lacking in strength, is quite soft.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1049",
+      "original_sentence": "Pure aluminum is quite soft and lacking in strength.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Pure aluminum, which is a lightweight metal, is quite soft and lacking in strength.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1049",
+      "original_sentence": "Pure aluminum is quite soft and lacking in strength.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Pure aluminum is not hard and not strong.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1319",
+      "original_sentence": "Call and response is common in modern Western popular music.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Call and response is ubiquitous in contemporary Western popular music.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1319",
+      "original_sentence": "Call and response is common in modern Western popular music.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "In modern Western popular music, call and response is common.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1319",
+      "original_sentence": "Call and response is common in modern Western popular music.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Call and response is common, and it is in modern Western popular music.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1319",
+      "original_sentence": "Call and response is common in modern Western popular music.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Call and response, a musical pattern, is common in modern Western popular music.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1319",
+      "original_sentence": "Call and response is common in modern Western popular music.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Call and response is not uncommon in modern Western popular music.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "136",
+      "original_sentence": "George knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "George recognized his proficiency at engaging in concealment games and counseled Tina to take cover between the wall and the tree.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "136",
+      "original_sentence": "George knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "George knew he was good at playing hide and seek, and Tina was advised by him to hide between the wall and the tree.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "136",
+      "original_sentence": "George knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "George, knowing he was good at playing hide and seek, advised Tina to hide between the wall and the tree.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "136",
+      "original_sentence": "George knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "George knew he was good at playing hide and seek, so he advised Tina to hide between the wall and the tree.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "136",
+      "original_sentence": "George knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "George, a very clever boy, knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "136",
+      "original_sentence": "George knew he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "George did not not know he was good at playing hide and seek, and advised Tina to hide between the wall and the tree.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2355",
+      "original_sentence": "Crombie 's family announced on April 18 , 2015 that he had died suddenly three days earlier of a brain hemorrhage in New York City .",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Crombie's kin proclaimed on April 18, 2015 that he had expired abruptly three days prior from a cerebral hemorrhage in New York City.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2355",
+      "original_sentence": "Crombie 's family announced on April 18 , 2015 that he had died suddenly three days earlier of a brain hemorrhage in New York City .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "It was announced by Crombie's family on April 18, 2015 that he had died suddenly three days earlier of a brain hemorrhage in New York City.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2355",
+      "original_sentence": "Crombie 's family announced on April 18 , 2015 that he had died suddenly three days earlier of a brain hemorrhage in New York City .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Crombie's family announced on April 18, 2015, and at that time, he had died suddenly three days earlier of a brain hemorrhage in New York City.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2355",
+      "original_sentence": "Crombie 's family announced on April 18 , 2015 that he had died suddenly three days earlier of a brain hemorrhage in New York City .",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Crombie's family announced on April 18, 2015 that he had died suddenly, a tragic event, three days earlier of a brain hemorrhage in New York City.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2355",
+      "original_sentence": "Crombie 's family announced on April 18 , 2015 that he had died suddenly three days earlier of a brain hemorrhage in New York City .",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Crombie's family did not not announce on April 18, 2015 that he had died suddenly three days earlier.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2192",
+      "original_sentence": "Most species of the sea snakes are able to respire through the top of their skin .",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A majority of the sea snake species are capable of oxygenation via the uppermost stratum of their integument.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2192",
+      "original_sentence": "Most species of the sea snakes are able to respire through the top of their skin .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "The ability to respire through the top of their skin is had by most species of the sea snakes.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2192",
+      "original_sentence": "Most species of the sea snakes are able to respire through the top of their skin .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Most species of the sea snakes, being able to respire through their skin, are found in the sea.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2192",
+      "original_sentence": "Most species of the sea snakes are able to respire through the top of their skin .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Most species of the sea snakes are able to respire, and they do so through the top of their skin.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2192",
+      "original_sentence": "Most species of the sea snakes are able to respire through the top of their skin .",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Most species of the sea snakes, which are found in warm waters, are able to respire through the top of their skin.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2192",
+      "original_sentence": "Most species of the sea snakes are able to respire through the top of their skin .",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Most species of the sea snakes are not unable to respire through the top of their skin.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1906",
+      "original_sentence": "Each one of these classes can be developed into unique material properties because ceramics tend to be crystalline.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Each of these classifications can be evolved into peculiar material attributes since ceramics are inclined to be crystalline.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1906",
+      "original_sentence": "Each one of these classes can be developed into unique material properties because ceramics tend to be crystalline.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Unique material properties can be developed from each one of these classes because ceramics tend to be crystalline.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1906",
+      "original_sentence": "Each one of these classes can be developed into unique material properties because ceramics tend to be crystalline.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Each one of these classes, which are based on atomic structure, can be developed into unique material properties because ceramics tend to be crystalline.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1906",
+      "original_sentence": "Each one of these classes can be developed into unique material properties because ceramics tend to be crystalline.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Each one of these classes cannot not be developed into unique material properties, because ceramics tend to be crystalline.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The aquatic contest was conducted in the vast ocean because the organizers had declined to expend the requisite funds for a custom-built venue.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The swimming competition was held in the open sea because the organizers had a tight grip on their wallets.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Because the organizers had refused to spend the money for a specially constructed stadium, the swimming competition was held in the open sea.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "The swimming competition, held in the open sea, was due to the organizers refusing to spend money on a stadium.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The swimming competition was held in the open sea, which created a challenging environment, because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "820",
+      "original_sentence": "The swimming competition was held in the open sea because the organizers had refused to spend the money necessary for a specially constructed stadium.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The swimming competition was held in the open sea because the organizers were not prepared to spend the money necessary for a specially constructed stadium.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1981",
+      "original_sentence": "A nuclear meltdown may be part of a chain of disasters.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A nuclear meltdown might be a component of a sequence of cataclysms.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1981",
+      "original_sentence": "A nuclear meltdown may be part of a chain of disasters.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "A chain of disasters may include a nuclear meltdown.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1981",
+      "original_sentence": "A nuclear meltdown may be part of a chain of disasters.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "A nuclear meltdown, which is a severe event, may be part of a chain of disasters.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1981",
+      "original_sentence": "A nuclear meltdown may be part of a chain of disasters.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "A nuclear meltdown may not be an isolated incident, but part of a chain of disasters.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1292",
+      "original_sentence": "There should be multiple ways of sending emergency information so that if one does not work, the others might.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A plurality of methods for transmitting emergency information should exist so that if one is inoperable, the remaining ones might succeed.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1292",
+      "original_sentence": "There should be multiple ways of sending emergency information so that if one does not work, the others might.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Multiple ways of sending emergency information should be available so that if one does not work, the others might.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1292",
+      "original_sentence": "There should be multiple ways of sending emergency information so that if one does not work, the others might.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "There should be multiple ways of sending emergency information, which is critical during a crisis, so that if one does not work, the others might.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1292",
+      "original_sentence": "There should be multiple ways of sending emergency information so that if one does not work, the others might.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "There should not be just one way of sending emergency information so that if one does not work, the others might.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Birdsong passed away on June 4, 2019, owing to injuries incurred in a vehicular collision.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "On June 4, 2019, Birdsong was killed as a result of injuries sustained in a car crash.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Birdsong, who was a renowned musician, died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1518",
+      "original_sentence": "Birdsong died on June 4, 2019, as a result of injuries sustained in a car crash.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Birdsong did not survive the injuries sustained in a car crash on June 4, 2019.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "163",
+      "original_sentence": "Israelis must serve in the military.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Israelis are obligated to perform service in the armed forces.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "163",
+      "original_sentence": "Israelis must serve in the military.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Military service is a must for Israelis.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "163",
+      "original_sentence": "Israelis must serve in the military.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "Israelis, being required to serve, must do so in the military.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "163",
+      "original_sentence": "Israelis must serve in the military.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Israelis are not exempt from serving in the military.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1028",
+      "original_sentence": "The movie became very popular before it was released because of the title and because of many people talked about it on the Internet.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The motion picture became exceedingly renowned prior to its release due to its title and because a plethora of individuals spoke of it on the Internet.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1028",
+      "original_sentence": "The movie became very popular before it was released because of the title and because of many people talked about it on the Internet.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "The movie, becoming very popular before it was released, was because of the title and because of many people talked about it on the Internet.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1028",
+      "original_sentence": "The movie became very popular before it was released because of the title and because of many people talked about it on the Internet.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "The movie became very popular, and this was before it was released because of the title and because many people talked about it on the Internet.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1028",
+      "original_sentence": "The movie became very popular before it was released because of the title and because of many people talked about it on the Internet.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The movie became very popular before it was released because of the title and because of many people, who were fans of the director, talked about it on the Internet.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2509",
+      "original_sentence": "The boiling point of a liquid varies depending upon the surrounding environmental pressure.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The boiling point of a liquid fluctuates contingent on the ambient environmental pressure.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2509",
+      "original_sentence": "The boiling point of a liquid varies depending upon the surrounding environmental pressure.",
+      "original_prediction": "B2",
+      "cf_type": "restructure-participle",
+      "cf_sentence": "The boiling point of a liquid, varying depending upon the surrounding environmental pressure, is well known.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2509",
+      "original_sentence": "The boiling point of a liquid varies depending upon the surrounding environmental pressure.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The boiling point of a liquid, which is the temperature at which it turns to gas, varies depending upon the surrounding environmental pressure.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2509",
+      "original_sentence": "The boiling point of a liquid varies depending upon the surrounding environmental pressure.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The boiling point of a liquid does not not vary depending upon the surrounding environmental pressure.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2526",
+      "original_sentence": "Editors have so far released two platinum studio albums , and six in total , with several million combined sales .",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Editors have so far released two platinum studio albums, and six in total, with tons of combined sales.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2526",
+      "original_sentence": "Editors have so far released two platinum studio albums , and six in total , with several million combined sales .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "Two platinum studio albums have been released by Editors, and six in total, with several million combined sales.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2526",
+      "original_sentence": "Editors have so far released two platinum studio albums , and six in total , with several million combined sales .",
+      "original_prediction": "B2",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Editors have so far released two platinum studio albums, and they have released six in total, and their combined sales are several million.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2526",
+      "original_sentence": "Editors have so far released two platinum studio albums , and six in total , with several million combined sales .",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Editors have so far released two platinum studio albums, which is a major achievement, and six in total, with several million combined sales.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2526",
+      "original_sentence": "Editors have so far released two platinum studio albums , and six in total , with several million combined sales .",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Editors have not failed to release two platinum studio albums, and six in total, with several million combined sales.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "555",
+      "original_sentence": "The number of chromosomes is 40.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "The quantity of chromosomes totals 40.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "555",
+      "original_sentence": "The number of chromosomes is 40.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "40 is the number of chromosomes.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "555",
+      "original_sentence": "The number of chromosomes is 40.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "The number of chromosomes is 40, and this is a fixed amount.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "555",
+      "original_sentence": "The number of chromosomes is 40.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The number of chromosomes, which are found in the nucleus of a cell, is 40.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "555",
+      "original_sentence": "The number of chromosomes is 40.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The number of chromosomes is not not 40.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    }
+  ]
+}

@@ -3,25 +3,45 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
-from transformers import BertTokenizer, BertModel, BertForSequenceClassification, AdamW
+from transformers import BertTokenizer, BertModel, BertForSequenceClassification, AdamW, get_linear_schedule_with_warmup
 from tqdm import tqdm
 import os
 import numpy as np
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
 import pandas as pd
+import random
+from torch.cuda.amp import autocast, GradScaler
 
-# 1. Triplet Dataset (positive는 prediction이 같고, negative는 prediction이 다를 때만 사용)
+# 1. Triplet Dataset (모든 유효 트립렛 사용; 필수 키만 확인)
 class TripletDataset(Dataset):
-    def __init__(self, triplet_path, tokenizer, max_length=128):
+    def __init__(self, triplet_path, tokenizer, max_length=256):
         self.samples = []
         with open(triplet_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            # positive: original_prediction == positive_prediction
-            # negative: original_prediction != negative_prediction
-            self.samples = [item for item in data if item['original_prediction'] == item['positive_prediction'] and item['original_prediction'] != item['negative_prediction']]
+            # 유효성 필터: 필수 키 + 공백 아닌 텍스트 + (가능하면 라벨 일관성)
+            required_keys = {'anchor', 'positive', 'negative'}
+            filtered = []
+            for item in data:
+                if not required_keys.issubset(item.keys()):
+                    continue
+                a = str(item.get('anchor') or '').strip()
+                p = str(item.get('positive') or '').strip()
+                n = str(item.get('negative') or '').strip()
+                if not (a and p and n):
+                    continue
+                # 라벨 일관성 체크(있을 경우만)
+                al = item.get('anchor_label')
+                pl = item.get('positive_label')
+                nl = item.get('negative_label')
+                if (al is not None and pl is not None and al != pl):
+                    continue
+                if (al is not None and nl is not None and al == nl):
+                    continue
+                filtered.append(item)
+            self.samples = filtered
         self.tokenizer = tokenizer
         self.max_length = max_length
-        print(f"Filtered triplet dataset: {len(self.samples)} samples (pos pred==orig, neg pred!=orig)")
+        print(f"Filtered triplet dataset: {len(self.samples)} samples (non-empty, label-consistent)")
         
     def __len__(self):
         return len(self.samples)
@@ -50,7 +70,7 @@ class TripletDataset(Dataset):
 
 # 2. Classification Dataset (for downstream task)
 class ClassificationDataset(Dataset):
-    def __init__(self, data_path, tokenizer, max_length=128):
+    def __init__(self, data_path, tokenizer, max_length=256):
         self.samples = []
         df = pd.read_csv(data_path)
         for _, row in df.iterrows():
@@ -75,11 +95,12 @@ class ClassificationDataset(Dataset):
         }
 
 # 3. Contrastive Loss (margin-based)
-def contrastive_loss(anchor, positive, negative, margin=1.0):
-    """Cosine similarity 기반 margin loss"""
-    pos_sim = F.cosine_similarity(anchor, positive, dim=1)
-    neg_sim = F.cosine_similarity(anchor, negative, dim=1)
-    # anchor-positive는 1에 가깝게, anchor-negative는 0 또는 -1에 가깝게
+def contrastive_loss(anchor, positive, negative, margin=0.5):
+    anchor_n = F.normalize(anchor, p=2, dim=1)
+    positive_n = F.normalize(positive, p=2, dim=1)
+    negative_n = F.normalize(negative, p=2, dim=1)
+    pos_sim = F.cosine_similarity(anchor_n, positive_n, dim=1)
+    neg_sim = F.cosine_similarity(anchor_n, negative_n, dim=1)
     loss = F.relu(margin - pos_sim + neg_sim).mean()
     return loss
 
@@ -89,19 +110,27 @@ class JointBertModel(nn.Module):
         super().__init__()
         self.bert = BertModel.from_pretrained(model_name)
         hidden_size = self.bert.config.hidden_size
+        self.dropout = nn.Dropout(p=0.1)
         self.classifier = nn.Linear(hidden_size, num_labels)
         
     def forward(self, input_ids, attention_mask):
         outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
         cls_emb = outputs.last_hidden_state[:, 0, :]  # [CLS]
+        cls_emb = self.dropout(cls_emb)
         logits = self.classifier(cls_emb)
         return cls_emb, logits
 
 # 5. Joint Training loop
-def train_joint(model, triplet_loader, cls_loader, device, epochs=5, alpha=0.5, lr=2e-5, margin=1.0):
+def train_joint(model, triplet_loader, cls_loader, device, epochs=5, alpha=0.5, lr=2e-5, margin=0.5):
     optimizer = AdamW(model.parameters(), lr=lr)
     ce_loss_fn = nn.CrossEntropyLoss()
     model.to(device)
+    scaler = GradScaler(enabled=(device=='cuda'))
+
+    # 스케줄러 (warmup 10%)
+    total_steps = min(len(triplet_loader), len(cls_loader)) * epochs
+    warmup_steps = int(0.1 * total_steps) if total_steps > 0 else 0
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=warmup_steps, num_training_steps=total_steps)
     
     for epoch in range(epochs):
         model.train()
@@ -125,11 +154,11 @@ def train_joint(model, triplet_loader, cls_loader, device, epochs=5, alpha=0.5, 
             neg_ids = triplet_batch['neg_input_ids'].to(device)
             neg_mask = triplet_batch['neg_attention_mask'].to(device)
             
-            anchor_emb, _ = model(anchor_ids, anchor_mask)
-            pos_emb, _ = model(pos_ids, pos_mask)
-            neg_emb, _ = model(neg_ids, neg_mask)
-            
-            lcl = contrastive_loss(anchor_emb, pos_emb, neg_emb, margin=margin)
+            with autocast(enabled=(device=='cuda')):
+                anchor_emb, _ = model(anchor_ids, anchor_mask)
+                pos_emb, _ = model(pos_ids, pos_mask)
+                neg_emb, _ = model(neg_ids, neg_mask)
+                lcl = contrastive_loss(anchor_emb, pos_emb, neg_emb, margin=margin)
             
             # Classification batch (for CE loss)
             try:
@@ -142,15 +171,21 @@ def train_joint(model, triplet_loader, cls_loader, device, epochs=5, alpha=0.5, 
             attention_mask = cls_batch['attention_mask'].to(device)
             labels = cls_batch['label'].to(device)
             
-            _, logits = model(input_ids, attention_mask)
-            lce = ce_loss_fn(logits, labels)
+            with autocast(enabled=(device=='cuda')):
+                _, logits = model(input_ids, attention_mask)
+                lce = ce_loss_fn(logits, labels)
             
             # Joint loss
             loss = alpha * lcl + (1 - alpha) * lce
             
             optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
+            scaler.scale(loss).backward()
+            # gradient clipping
+            scaler.unscale_(optimizer)
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+            scaler.step(optimizer)
+            scaler.update()
+            scheduler.step()
             
             total_loss += loss.item()
         
@@ -181,18 +216,24 @@ def evaluate(model, loader, device):
     
     acc = accuracy_score(trues, preds)
     print(f'Test accuracy: {acc:.4f}')
-    print(classification_report(trues, preds))
     return acc
 
 def main():
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     print(f'Using device: {device}')
+    # 시드 고정
+    seed = 42
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if device == 'cuda':
+        torch.cuda.manual_seed_all(seed)
     
     # Load tokenizer
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     
-    # Load triplet data for contrastive learning
-    triplet_path = 'data/Loop/loop_1/triplets_expert_all.json'
+    # Load triplet data for contrastive learning (rules-based merged triplets)
+    triplet_path = 'data/Loop/triplets_loops123_from_rules.json'
     print(f'Loading triplet data from: {triplet_path}')
     
     # Create triplet dataset
@@ -203,8 +244,8 @@ def main():
     test_cls_dataset = ClassificationDataset('data/processed/test.csv', tokenizer)
     
     # Create data loaders
-    triplet_loader = DataLoader(triplet_dataset, batch_size=16, shuffle=True)
-    train_cls_loader = DataLoader(train_cls_dataset, batch_size=16, shuffle=True)
+    triplet_loader = DataLoader(triplet_dataset, batch_size=16, shuffle=True, drop_last=True)
+    train_cls_loader = DataLoader(train_cls_dataset, batch_size=16, shuffle=True, drop_last=True)
     test_cls_loader = DataLoader(test_cls_dataset, batch_size=32, shuffle=False)
     
     print(f'Triplet dataset size: {len(triplet_dataset)}')
@@ -216,7 +257,7 @@ def main():
     
     # Train
     print('Starting joint training...')
-    train_joint(model, triplet_loader, train_cls_loader, device, epochs=10, alpha=0.5, lr=2e-5, margin=1.0)
+    train_joint(model, triplet_loader, train_cls_loader, device, epochs=10, alpha=0.6, lr=2e-5, margin=0.5)
     
     # Test
     print('Loading best model and evaluating on test set...')
@@ -226,4 +267,6 @@ def main():
     print('Joint training and evaluation completed!')
 
 if __name__ == '__main__':
-    main() 
+    main()
+
+

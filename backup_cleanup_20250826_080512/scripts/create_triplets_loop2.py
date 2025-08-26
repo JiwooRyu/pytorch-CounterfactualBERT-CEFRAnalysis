@@ -18,10 +18,11 @@ def main():
     
     print("전문가 데이터 로딩 중...")
     expert_files = [
-        'data/Loop/loop_1/loop1_id1_clean.json',
-        'data/Loop/loop_1/loop1_id3_clean.json', 
-        'data/Loop/loop_1/loop1_id4_clean.json',
-        'data/Loop/loop_1/loop1_id5_clean.json'
+        'data/Loop/loop_2/loop2_id1_clean.json',
+        'data/Loop/loop_2/loop2_id2_clean.json',
+        'data/Loop/loop_2/loop2_id3_clean.json', 
+        'data/Loop/loop_2/loop2_id4_clean.json',
+        'data/Loop/loop_2/loop2_id5_clean.json'
     ]
     
     expert_data = []
@@ -33,7 +34,7 @@ def main():
     print(f"총 전문가 데이터: {len(expert_data)}개")
     
     print("Loop 데이터 로딩 중...")
-    loop_data = load_data('data/Loop/loop_1_data.json')
+    loop_data = load_data('data/Loop/loop_2/loop_2_data.json')
     print(f"Loop 데이터: {len(loop_data)}개")
     
     # 공통 ID 찾기
@@ -122,7 +123,7 @@ def main():
         for cf_type, count in cf_type_counts.items():
             print(f"  {cf_type}: {count}개")
         # 결과 저장
-        output_path = 'data/Loop/triplets_expert_all.json'
+        output_path = 'data/Loop/loop_2/triplets_loop2_all.json'
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(triplets, f, indent=2, ensure_ascii=False)
         print(f"\nTriplet 데이터가 {output_path}에 저장되었습니다.")
@@ -140,4 +141,4 @@ def main():
         print(f"Negative Label Flipped: {sample['negative_is_label_flipped']}")
 
 if __name__ == "__main__":
-    main() 
+    main()

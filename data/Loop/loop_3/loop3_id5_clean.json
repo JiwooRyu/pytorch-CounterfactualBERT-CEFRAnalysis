@@ -1,0 +1,481 @@
+{
+  "part1_selected_sentences": [
+    {
+      "original_id": "1495",
+      "original_sentence": "These plants are very simple : They lack an obvious stem or leaves.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "These plants are highly uncomplicated: They are devoid of a conspicuous stalk or foliage.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1683",
+      "original_sentence": "Numbers seven and eight on the list are of a different kind from the first six, and have generally not been considered by the other authors.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Numbers seven and eight on the list are not of a similar kind to the first six, and have generally not been considered by the other authors.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "696",
+      "original_sentence": "Passes are synced between iOS devices using iCloud, and OS X 10.8.2 and later also support opening passes to be sent to users' iOS devices.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Passes are synchronized across iOS devices via iCloud, and OS X 10.8.2 and subsequent versions likewise facilitate the opening of passes for transmission to users' iOS devices.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "696",
+      "original_sentence": "Passes are synced between iOS devices using iCloud, and OS X 10.8.2 and later also support opening passes to be sent to users' iOS devices.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Passes are synced between iOS devices using iCloud, and OS X 10.8.2 and later also support opening passes, and these passes are sent to users' iOS devices.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "87",
+      "original_sentence": "She is very good at teaching and she should be given much more credit than she receives.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "She is highly proficient in pedagogy and she ought to be afforded far greater recognition than she obtains.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "87",
+      "original_sentence": "She is very good at teaching and she should be given much more credit than she receives.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "She is very good at teaching, which is a difficult skill, and she should be given much more credit than she receives.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2669",
+      "original_sentence": "As a profession , medical illustration has a more recent history .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In a professional capacity, medical illustration possesses a more contemporary history.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2669",
+      "original_sentence": "As a profession , medical illustration has a more recent history .",
+      "original_prediction": "B1",
+      "cf_type": "restructure-passive",
+      "cf_sentence": "A more recent history is had by medical illustration as a profession.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2669",
+      "original_sentence": "As a profession , medical illustration has a more recent history .",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "As a profession, medical illustration does not have a lengthy history.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2491",
+      "original_sentence": "Many game artists are called upon to develop graphical treatments for the environments and elements in which role-playing games take place.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Many game artists are called upon to develop graphical treatments for the environments and elements in which role-playing games, a popular genre, take place.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2199",
+      "original_sentence": "Caramel sauce is made by mixing caramelized sugar with cream.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Caramelized sugar is amalgamated with cream to manufacture caramel sauce.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2199",
+      "original_sentence": "Caramel sauce is made by mixing caramelized sugar with cream.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Caramelized sugar is mixed with cream, and this is how caramel sauce is made.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1765",
+      "original_sentence": "In the knockout phase, teams play against each other over two legs on a home-and-away basis, except for the one-match final.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "In the knockout phase, teams, who have advanced from earlier rounds, play against each other over two legs on a home-and-away basis, except for the one-match final.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1765",
+      "original_sentence": "In the knockout phase, teams play against each other over two legs on a home-and-away basis, except for the one-match final.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "In the knockout phase, teams do not avoid playing over two legs on a home-and-away basis, except when it comes to the one-match final.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2235",
+      "original_sentence": "Farmer was diagnosed with esophageal cancer in the spring of 1970, which was attributed to her lifelong habit of heavy smoking.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Farmer was diagnosed with cancer in 1970, which was attributed to her habit of smoking.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "480",
+      "original_sentence": "Otherwise, companies in France was looking for graduated students with specialized skills, for jobs in key sectors.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In other circumstances, corporations in France sought recent graduates with specialized proficiencies, for positions in essential industries.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "541",
+      "original_sentence": "Perspective drawings have a horizon line, which is often implied.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Perspective drawings have a horizon line.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2269",
+      "original_sentence": "It is a close relative of the mourning and eared doves.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "It is a relative of the mourning and eared doves.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "424",
+      "original_sentence": "It can be used as a mordant.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "It is capable of being employed as a chemical fixative.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "424",
+      "original_sentence": "It can be used as a mordant.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "It can be used as a mordant, which is a substance used in dyeing.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "446",
+      "original_sentence": "Thin slices or strips of vegetables or seafood are dipped in the batter, then briefly deep-fried in hot oil.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Thin slices of vegetables or seafood are dipped in batter, then deep-fried in hot oil.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2617",
+      "original_sentence": "SIDS rates are higher in babies of mothers who smoke during pregnancy.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Sudden infant death syndrome rates are elevated in neonates born to mothers who engage in smoking during gestation.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2617",
+      "original_sentence": "SIDS rates are higher in babies of mothers who smoke during pregnancy.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "SIDS rates, a concerning statistic, are higher in babies of mothers who smoke during pregnancy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "16",
+      "original_sentence": "She kept in touch with all of her friends during the holiday so she always knew what everyone was up to.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "She kept in touch with all of her friends during the holiday, a time for relaxation, so she always knew what everyone was up to.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "521",
+      "original_sentence": "Medical testing for sexually transmitted infections is important for prevention.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "Medical testing for STIs is a big deal for prevention.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "521",
+      "original_sentence": "Medical testing for sexually transmitted infections is important for prevention.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Medical testing for infections is important for prevention.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2223",
+      "original_sentence": "These frogs do not have the adhesive toe disc cups found in the tree frogs.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "These frogs do not have the adhesive toe cups found in tree frogs.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2657",
+      "original_sentence": "The steppe region had long been inhabited by mounted nomads, and from the central steppes they could reach all areas of the Asian continent.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The steppe region had long been a home for mounted nomads, and from the central steppes they could reach all areas of the Asian continent.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "694",
+      "original_sentence": "Once boot options have been selected, GRUB loads the selected kernel into memory and passes control to the kernel.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Once boot options have been selected, GRUB loads the kernel into memory.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1",
+      "original_sentence": "Lucy cleaned up the chemistry equipment.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Lucy, who is a responsible student, cleaned up the chemistry equipment.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1208",
+      "original_sentence": "The atoms in metals have a strong attractive force between them.",
+      "original_prediction": "B2",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The atoms in metals, which are a type of chemical element, have a strong attractive force between them.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "255",
+      "original_sentence": "If it weren't so important, she would not keep reminding you to work on it.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "If it weren't such a big deal, she wouldn't keep hammering on about working on it.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "On several occasions, citizens in Australia have sought to abolish the monarchy.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Several times, people in Australia, who live under a constitutional monarchy, have wanted to remove it.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2305",
+      "original_sentence": "Several times people in Australia have wanted to remove the monarchy.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Several times, people in Australia have not refrained from wanting to remove the monarchy.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2462",
+      "original_sentence": "The park has been frequently closed to visitors because of sulphuric gas emissions.",
+      "original_prediction": "B2",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "The park has often been closed to visitors because of the bad smell.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "203",
+      "original_sentence": "We used worms on our fishing hooks.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "We utilized annelids on our fishing hooks.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2801",
+      "original_sentence": "With their long velar filaments deployed, Vampire Squid have been observed drifting along in the deep, black ocean currents.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "Vampire Squid have been observed drifting in the deep, black ocean currents.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "374",
+      "original_sentence": "Until recently, women were not allowed to vote in that country.",
+      "original_prediction": "B1",
+      "cf_type": "restructure-coordination",
+      "cf_sentence": "Women were not allowed to vote in that country, and this was true until recently.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "374",
+      "original_sentence": "Until recently, women were not allowed to vote in that country.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "Until recently, women, who are a majority of the population, were not allowed to vote in that country.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "215",
+      "original_sentence": "I called but you were busy and I didn't want to interrupt.",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "I called but you were not unoccupied, and I did not want to interrupt.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1325",
+      "original_sentence": "In most species, the female does most or all of the nest construction, though the male often helps.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "In a majority of species, the female handles a preponderance or the entirety of the nest fabrication, although the male frequently assists.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1325",
+      "original_sentence": "In most species, the female does most or all of the nest construction, though the male often helps.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "In most species, the female, who is the primary caregiver, does most or all of the nest construction, though the male often helps.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "907",
+      "original_sentence": "After World War II, the countries in Europe wanted to live peacefully together and help one another's economies.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "Subsequent to World War II, the nations in Europe sought to coexist harmoniously and assist their respective economies.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "907",
+      "original_sentence": "After World War II, the countries in Europe wanted to live peacefully together and help one another's economies.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "After World War II, the countries in Europe wanted to bury the hatchet and help one another's economies.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "907",
+      "original_sentence": "After World War II, the countries in Europe wanted to live peacefully together and help one another's economies.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "After World War II, a time of great destruction, the countries in Europe wanted to live peacefully together and help one another's economies.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2720",
+      "original_sentence": "Most tin whistles are in D , because they are often used in music with fiddles .",
+      "original_prediction": "B1",
+      "cf_type": "lexical-difficulty-substitution",
+      "cf_sentence": "A majority of tin whistles are in D, as they are frequently employed in music alongside fiddles.",
+      "cf_prediction": "B2",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "2720",
+      "original_sentence": "Most tin whistles are in D , because they are often used in music with fiddles .",
+      "original_prediction": "B1",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "Most tin whistles are not in a key other than D, because they are often used in music with fiddles.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1971",
+      "original_sentence": "The first recorded outbreak of chikungunya may have been in 1779.",
+      "original_prediction": "B2",
+      "cf_type": "delete-modifier",
+      "cf_sentence": "The first recorded outbreak may have been in 1779.",
+      "cf_prediction": "B1",
+      "is_label_flipped": true
+    },
+    {
+      "original_id": "1971",
+      "original_sentence": "The first recorded outbreak of chikungunya may have been in 1779.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "The first recorded outbreak of chikungunya may not have been before 1779.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "200",
+      "original_sentence": "No matter what anyone thinks, remember what you think is the right thing to do, and do it.",
+      "original_prediction": "B1",
+      "cf_type": "lexical-idiom",
+      "cf_sentence": "No matter what anyone thinks, trust your gut about the right thing to do, and follow through.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "1295",
+      "original_sentence": "The filming schedule was intended to last 138 days but grew to 160.",
+      "original_prediction": "B1",
+      "cf_type": "insert-clause",
+      "cf_sentence": "The filming schedule, which was very ambitious, was intended to last 138 days but grew to 160.",
+      "cf_prediction": "B1",
+      "is_label_flipped": false
+    },
+    {
+      "original_id": "2809",
+      "original_sentence": "This subfamily is widely distributed, and members are adapted to a wide variety of environments.",
+      "original_prediction": "B2",
+      "cf_type": "negation-complexity",
+      "cf_sentence": "This subfamily is not narrowly distributed, and its members are not unadapted to a wide variety of environments.",
+      "cf_prediction": "B2",
+      "is_label_flipped": false
+    }
+  ]
+}
